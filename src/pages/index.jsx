@@ -248,40 +248,29 @@ function Photos() {
 
 export default function Home({ articles }) {
   return (
-    <>
+    <><>
       <Head>
         <title>Samuel de Korte - Historian</title>
         <meta
           name="description"
-          content="I’m Samuel, a historian based in Utrecht, the Netherlands. I specialze in black American soldiers during the Second World War and Dutch soldiers during the Napoleonic wars."
-        />
+          content="My name is Samuel, a historian based in Utrecht, the Netherlands. I specialze in black American soldiers during the Second World War and Dutch soldiers during the Napoleonic wars." />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
-<<<<<<< HEAD
-          <><h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-      I write books about the past, the present and the future!
-    </h1><p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-        My name is Samuel de Korte. As a historian I specialize in black American soldiers during the Second World War and Dutch soldiers during the Napoleonic wars. Past projects include writing the history of the 614th Tank Destroyer Battalion, the first segregated combat unit to win the Distinguished Unit Citation. Currently I'm working on a translation of a Dutch officer that served with Napoleon in Russia in 1812 and a book about the Tuskegee Airmen.
-=======
-        <h1 className="text-4xl font-bold tracking-tight text-stone-800 dark:text-stone-100 sm:text-5xl">
-          Boeken.Ik schrijf ze.<br />
-          Systemen. Ik fix ze.
-        </h1>
-        <p className="mt-6 text-base text-stone-600 dark:text-stone-400">
-          Ik ben Samuel, een historicus annex schrijver annex tech god uit
-          Utrecht. I’m the founder and CEO of Planetaria, where we develop
-          technologies that empower regular people to explore space on their
-          own terms.
->>>>>>> 0e5492fb9e1dbc5955cb7c5dd29fec01a6a1c54e
-        </p>
-        <div className="mt-6 flex gap-6">
 
-        </div>
-      </div></>
-      </Container>
-      <Photos />
-      <Container className="mt-24 md:mt-28">
+          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+            I write books about the past, the present and the future!
+          </h1><p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            My name is Samuel de Korte. As a historian I specialize in black American soldiers during the Second World War and Dutch soldiers during the Napoleonic wars. Past projects include writing the history of the 614th Tank Destroyer Battalion, the first segregated combat unit to win the Distinguished Unit Citation. Currently I'm working on a translation of a Dutch officer that served with Napoleon in Russia in 1812 and a book about the Tuskegee Airmen.</p>
+           
+        
+            <div className="mt-6 flex gap-6">
+
+            </div>
+          
+          </div>
+     </Container></>
+    <Photos /><Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
             {articles.map((article) => (
@@ -293,8 +282,8 @@ export default function Home({ articles }) {
             <Resume />
           </div>
         </div>
-      </Container>
-    </>
+      </Container></>
+  
   )
 }
 
