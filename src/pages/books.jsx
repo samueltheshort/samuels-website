@@ -5,6 +5,8 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 
 import cover614th from '@/images/books/614th-tank-destroyer-battalion.jpg'
+import covertragedy from '@/images/books/tragedy-and-betrayal.jpg'
+import coverexecutie from '@/images/books/executie.jpg'
 
 const books = [
   {
@@ -14,19 +16,19 @@ const books = [
     link: { href: '#', label: 'bol.com' },
     image: cover614th,
   },
-  {
-    name: 'Executie aan de Meppelerstraatweg',
-    description:
-      'De Tweede Wereldoorlog was bijna afgelopen. Toch werden er op de vooravond van de bevrijding, op 31 maart…',
-    link: { href: '#', label: 'bol.com' },
-    image: cover614th,
-  },
-  {
+   {
     name: 'Tragedy & Betrayal in the Dutch Resistance',
     description:
       'On the night of 31 March 1945, five men were woken and taken from their cells in the city of Zwolle…',
     link: { href: '#', label: 'bol.com' },
-    image: cover614th,
+    image: covertragedy,
+  },
+   {
+    name: 'Executie aan de Meppelerstraatweg',
+    description:
+      'De Tweede Wereldoorlog was bijna afgelopen. Toch werden er op de vooravond van de bevrijding, op 31 maart…',
+    link: { href: '#', label: 'bol.com' },
+    image: coverexecutie,
   },
 ]
 
@@ -47,7 +49,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Boeken - Samwell the Short</title>
+        <title>Books - Samuel de Korte </title>
         <meta name="description" content={introText} />
       </Head>
       <SimpleLayout

@@ -39,12 +39,12 @@ function MailIcon(props) {
 
 export default function About() {
   const introText =
-    "I'm Samwell the Short. I live in Utrecht, where I design the future."
+    "I'm Samuel de Korte. I live in Utrecht. I'm study the past, present and the future."
 
   return (
     <>
       <Head>
-        <title>About - Samwell the Short</title>
+        <title>About - Samuel de Korte</title>
         <meta name="description" content={introText} />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -97,21 +97,21 @@ export default function About() {
               <SocialLink href="#" icon={TwitterIcon}>
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+              <SocialLink href="https://www.instagram.com/samuel.dekorte/" icon={InstagramIcon} className="mt-4">
                 Follow on Instagram
               </SocialLink>
               <SocialLink href="#" icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
               </SocialLink>
-              <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+              <SocialLink href="https://www.linkedin.com/in/samueldekorte/" icon={LinkedInIcon} className="mt-4">
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:samwell@planetaria.tech"
+                href="mailto:samueldekorte@gmail.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                samwell@planetaria.tech
+                samueldekorte@gmail.com
               </SocialLink>
             </ul>
           </div>
