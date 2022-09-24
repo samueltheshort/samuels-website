@@ -16,14 +16,14 @@ const books = [
     link: { href: '#', label: 'bol.com' },
     image: cover614th,
   },
-   {
+  {
     name: 'Tragedy & Betrayal in the Dutch Resistance',
     description:
       'On the night of 31 March 1945, five men were woken and taken from their cells in the city of Zwolle…',
     link: { href: '#', label: 'bol.com' },
     image: covertragedy,
   },
-   {
+  {
     name: 'Executie aan de Meppelerstraatweg',
     description:
       'De Tweede Wereldoorlog was bijna afgelopen. Toch werden er op de vooravond van de bevrijding, op 31 maart…',
@@ -62,14 +62,14 @@ export default function Projects() {
         >
           {books.map((book) => (
             <Card as="li" key={book.name} className="group">
-              <div className="relative z-10 flex h-60 overflow-hidden bg-gray-50 w-full items-center justify-center rounded-sm group-hover:bg-white duration-150 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+              <div className="relative z-10 flex h-60 w-full items-center justify-center overflow-hidden rounded-sm bg-gray-50 shadow-md shadow-stone-800/5 ring-1 ring-stone-900/5 duration-150 group-hover:bg-white dark:border dark:border-stone-700/50 dark:bg-stone-800 dark:ring-0">
                 <Image
-                    src={book.image}
-                    alt=""
-                    layout="responsive"
-                    className="h-full w-auto blur-2xl absolute top-0 -z-10 opacity-50"
-                    unoptimized
-                  />
+                  src={book.image}
+                  alt=""
+                  layout="responsive"
+                  className="absolute top-0 -z-10 h-full w-auto opacity-50 blur-2xl"
+                  unoptimized
+                />
                 <Image
                   src={book.image}
                   alt=""
@@ -78,11 +78,11 @@ export default function Projects() {
                   unoptimized
                 />
               </div>
-              <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
+              <h2 className="mt-6 text-base font-semibold text-stone-800 dark:text-stone-100">
                 <Card.Link href={book.link.href}>{book.name}</Card.Link>
               </h2>
               <Card.Description>{book.description}</Card.Description>
-              <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
+              <p className="relative z-10 mt-6 flex text-sm font-medium text-stone-400 transition group-hover:text-red-500 dark:text-stone-200">
                 <LinkIcon className="h-6 w-6 flex-none" />
                 <span className="ml-2">{book.link.label}</span>
               </p>
