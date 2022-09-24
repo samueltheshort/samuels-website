@@ -3,34 +3,30 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
 
-const projects = [
+import cover614th from '@/images/books/614th-tank-destroyer-battalion.jpg'
+
+const books = [
   {
     name: 'The 614th Tank Destroyer Battalion',
     description:
       'The 614th Tank Destroyer Battalion was activated on 25 July 1942 at Camp Carson, USA and, like many other…',
     link: { href: '#', label: 'bol.com' },
-    image: 'placeholder.png',
-    logo: logoPlanetaria,
+    image: cover614th,
   },
   {
     name: 'Executie aan de Meppelerstraatweg',
     description:
       'De Tweede Wereldoorlog was bijna afgelopen. Toch werden er op de vooravond van de bevrijding, op 31 maart…',
     link: { href: '#', label: 'bol.com' },
-    image: 'placeholder.png',
-    logo: logoAnimaginary,
+    image: cover614th,
   },
   {
     name: 'Tragedy & Betrayal in the Dutch Resistance',
     description:
       'On the night of 31 March 1945, five men were woken and taken from their cells in the city of Zwolle…',
     link: { href: '#', label: 'bol.com' },
-    image: 'placeholder.png',
-    logo: logoHelioStream,
+    image: cover614th,
   },
 ]
 
@@ -62,23 +58,31 @@ export default function Projects() {
           role="list"
           className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
         >
-          {projects.map((project) => (
-            <Card as="li" key={project.name}>
-              <div className="relative z-10 flex h-60 w-full items-center justify-center rounded-sm bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+          {books.map((book) => (
+            <Card as="li" key={book.name} className="group">
+              <div className="relative z-10 flex h-60 overflow-hidden bg-gray-50 w-full items-center justify-center rounded-sm group-hover:bg-white duration-150 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <Image
-                  src={project.logo}
+                    src={book.image}
+                    alt=""
+                    layout="responsive"
+                    className="h-full w-auto blur-2xl absolute top-0 -z-10 opacity-50"
+                    unoptimized
+                  />
+                <Image
+                  src={book.image}
                   alt=""
-                  className="h-8 w-8"
+                  layout="responsive"
+                  className="h-full w-auto"
                   unoptimized
                 />
               </div>
               <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                <Card.Link href={project.link.href}>{project.name}</Card.Link>
+                <Card.Link href={book.link.href}>{book.name}</Card.Link>
               </h2>
-              <Card.Description>{project.description}</Card.Description>
+              <Card.Description>{book.description}</Card.Description>
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
                 <LinkIcon className="h-6 w-6 flex-none" />
-                <span className="ml-2">{project.link.label}</span>
+                <span className="ml-2">{book.link.label}</span>
               </p>
             </Card>
           ))}
