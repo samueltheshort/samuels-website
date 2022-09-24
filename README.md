@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c13c6f22-0797-4547-a365-ec844ef8eb7a/deploy-status)](https://app.netlify.com/sites/samuels-website-beta/deploys)
+
+
 # Spotlight
 
 Spotlight is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
