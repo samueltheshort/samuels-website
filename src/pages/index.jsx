@@ -277,7 +277,7 @@ export default function Home({ articles }) {
               icon={TwitterIcon}
             />
             <SocialLink
-              href="https://instagram.com"
+              href="https://www.instagram.com/samuel.dekorte/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
@@ -287,7 +287,7 @@ export default function Home({ articles }) {
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/samueldekorte/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
