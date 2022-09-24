@@ -50,8 +50,12 @@ export default function Document() {
           type="application/feed+json"
           href={`${process.env.NEXT_PUBLIC_SITE_URL}/rss/feed.json`}
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap"
+          rel="stylesheet"
+        />
       </Head>
-      <body className="flex h-full flex-col bg-stone-50 dark:bg-black">
+      <body className="flex h-full flex-col bg-stone-50 font-['Source_Serif_Pro'] dark:bg-stone-900">
         <Main />
         <NextScript />
       </body>
