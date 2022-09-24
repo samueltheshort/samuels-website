@@ -44,7 +44,7 @@ function LinkIcon(props) {
 }
 
 export default function Projects() {
-  const introText = 'Hier ziet u gebundelde verzamelingen woorden.'
+  const introText = 'Below you will find my books.'
 
   return (
     <>
@@ -54,7 +54,7 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title={introText}
-        intro="Door de jaren heen bedacht ik veel woorden. Mooie woorden. Ik heb ze ook in zinnen achter elkaar geplaatst, en zowaar uitgebracht als boeken. Hieronder ziet u de boeken."
+        intro="Through the years I've written about various topics. These include the black American soldiers during the Second World War, Dutch soldiers during the Napoleonic wars, and the Dutch Resistance during the Second World War."
       >
         <ul
           role="list"
