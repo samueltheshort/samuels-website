@@ -145,13 +145,13 @@ function NavItem({ href, children }) {
         className={clsx(
           'relative block px-3 py-2 transition',
           isActive
-            ? 'text-teal-500 dark:text-teal-400'
-            : 'hover:text-teal-500 dark:hover:text-teal-400'
+            ? 'text-red-500 dark:text-red-400'
+            : 'hover:text-red-500 dark:hover:text-red-400'
         )}
       >
         {children}
         {isActive && (
-          <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0" />
+          <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-red-500/0 via-red-500/40 to-red-500/0 dark:from-red-400/0 dark:via-red-400/40 dark:to-red-400/0" />
         )}
       </Link>
     </li>
@@ -199,8 +199,8 @@ function ModeToggle() {
       className="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-stone-800/5 ring-1 ring-stone-900/5 backdrop-blur transition dark:bg-stone-800/90 dark:ring-white/10 dark:hover:ring-white/20"
       onClick={toggleMode}
     >
-      <SunIcon className="h-6 w-6 fill-stone-100 stroke-stone-500 transition group-hover:fill-stone-200 group-hover:stroke-stone-700 dark:hidden [@media(prefers-color-scheme:dark)]:fill-teal-50 [@media(prefers-color-scheme:dark)]:stroke-teal-500 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50 [@media(prefers-color-scheme:dark)]:group-hover:stroke-teal-600" />
-      <MoonIcon className="hidden h-6 w-6 fill-stone-700 stroke-stone-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-stone-400 [@media_not_(prefers-color-scheme:dark)]:fill-teal-400/10 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-500" />
+      <SunIcon className="h-6 w-6 fill-stone-100 stroke-stone-500 transition group-hover:fill-stone-200 group-hover:stroke-stone-700 dark:hidden [@media(prefers-color-scheme:dark)]:fill-red-50 [@media(prefers-color-scheme:dark)]:stroke-red-500 [@media(prefers-color-scheme:dark)]:group-hover:fill-red-50 [@media(prefers-color-scheme:dark)]:group-hover:stroke-red-600" />
+      <MoonIcon className="hidden h-6 w-6 fill-stone-700 stroke-stone-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-stone-400 [@media_not_(prefers-color-scheme:dark)]:fill-red-400/10 [@media_not_(prefers-color-scheme:dark)]:stroke-red-500" />
     </button>
   )
 }
