@@ -1,96 +1,34 @@
 import { ArticleLayout } from '@/components/ArticleLayout'
+import Catan from '@/images/photos/Catan.jpg'
 
 export const meta = {
-  author: 'Adam Wathan',
-  date: '2022-07-14',
-  title: 'Rewriting the cosmOS kernel in Rust',
+  author: 'Samuel de Korte',
+  date: '2022-10-01',
+  title: 'What a wonderful world we live in',
   description:
-    'When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language, but it’s been a while since I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.',
+    'Frequently technology is featured in the news and not always in a positive way. According to some people it would influence our lives too much. We would be too dependent on technology or it would make us anti-social. Personally, I doubt it, because technology allows us to be more connected than ever before. Happily, I’ll share some personal experiences.',
 }
 
 export default (props) => <ArticleLayout meta={meta} {...props} />
 
-When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language with a lot of benefits, but it’s been a while since I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.
+Frequently technology is featured in the news and not always in a positive way. According to some people it would influence our lives too much. We would be too dependent on technology or it would make us anti-social. Personally, I doubt it, because technology allows us to be more connected than ever before. Happily, I’ll share some personal experiences.
 
-```rust
-use ferris_says::say;
-use std::io::{stdout, BufWriter};
+<img 
+src={Catan}
+alt="An image of the Catan boardgame."
+layout="responsive"
+sizes="(min-width: 1024px) 32rem, 20rem"
+/> 
+*Catan (Source:Unsplash)*
 
-fn main() {
-    let stdout = stdout();
-    let message = String::from("Hello fellow hackers");
-    let width = message.chars().count();
 
-    let mut writer = BufWriter::new(stdout.lock());
-    say(message.as_bytes(), width, &mut writer).unwrap();
-}
-```
+
+## Catan Online
 
 I derive a large amount of my self-worth from whether or not Hacker News is impressed with the work I'm doing, so when I realized this, I cancelled all of our existing projects and started migrating everything to Rust immediately.
 
-## Sermone fata
+## Sharing information
+In the distant past, information was shared by sending messages. Information travelled with the speed of the carrier. According to the situation, this could go faster or slower. For example, think of the message about the victory at Marathon in 490 B.C. According to the legend, a soldier ran all the way from Marathon to Athens to report on the victory in battle. Later it became more common to send written messages, allowing a single person to carry over more than one message, but they still needed to be brought physically from one location to another. You still depended on the human middleman and the available transportation. Although technological advancements could transport the letters faster - for example, by bringing it somewhere by boat, train, or plane -, sharing information was much more rapid in the digital area. A middleman was no longer necessary and an email can go across the globe in less than a second. These are just examples, because there are plenty of other ways to get in contact with people and to feel connected. In my case, I was around a thousand kilometers distant from my family and friends, but I did not experience loneliness. 
 
-Lorem markdownum, bracchia in redibam! Terque unda puppi nec, linguae posterior
-in utraque respicere candidus Mimasque formae; quae conantem cervice. Parcite
-variatus, redolentia adeunt. Tyrioque dies, naufraga sua adit partibus celanda
-torquere temptata, erit maneat et ramos, [iam](#) ait dominari
-potitus! Tibi litora matremque fumantia condi radicibus opusque.
-
-Deus feram verumque, fecit, ira tamen, terras per alienae victum. Mutantur
-levitate quas ubi arcum ripas oculos abest. Adest [commissaque
-victae](#) in gemitus nectareis ire diva
-dotibus ora, et findi huic invenit; fatis? Fractaque dare superinposita
-nimiumque simulatoremque sanguine, at voce aestibus diu! Quid veterum hausit tu
-nil utinam paternos ima, commentaque.
-
-```c
-exbibyte_wins = gigahertz(3);
-grayscaleUtilityClient = control_uat;
-pcmciaHibernate = oop_virus_console(text_mountain);
-if (stateWaisFirewire >= -2) {
-    jfs = 647065 / ldapVrml(tutorialRestore, 85);
-    metal_runtime_parse = roomComputingResolution - toolbarUpload +
-            ipx_nvram_open;
-} else {
-    maximizeSidebar *= suffix_url(flatbed + 2, requirements_encoding_node +
-            only_qbe_media, minicomputer);
-}
-```
-
-Aere repetiti cognataque natus. Habebat vela solutis saepe munus nondum adhuc
-oscula nomina pignora corpus deserat.
-
-## Lethaei Pindumve me quae dinumerat Pavor
-
-Idem se saxa fata pollentibus geminos; quos pedibus. Est urnis Herses omnes nec
-divite: et ille illa furit sim verbis Cyllenius.
-
-1. Captus inpleverunt collo
-2. Nec nam placebant
-3. Siquos vulgus
-4. Dictis carissime fugae
-5. A tacitos nulla viginti
-
-Ungues fistula annoso, ille addit linoque motatque uberior verso
-[rubuerunt](#) confine desuetaque. _Sanguine_ anteit
-emerguntque expugnacior est pennas iniqui ecce **haeret** genus: peiora imagine
-fossas Cephisos formosa! Refugitque amata [refelli](#)
-supplex. Summa brevis vetuere tenebas, hostes vetantis, suppressit, arreptum
-regna. Postquam conpescit iuvenis habet corpus, et erratica, perdere, tot mota
-ars talis.
-
-```c
-digital.webcam_dual_frequency = webmasterMms;
-if (5 + language_standalone_google) {
-    cc_inbox_layout *= file_character;
-    task += p;
-    lockUnicode += enterprise_monochrome(tokenFunctionPersonal, keyVirtual,
-            adf);
-}
-windows_binary_esports(87734, array(restoreRomTopology, adRaw(407314),
-        dongleBashThumbnail), interpreter);
-```
-
-Sit volat naturam; motu Cancri. Erat pro simul quae valuit quoque timorem quam
-proelia: illo patrio _esse summus_, enim sua serpentibus, Hyleusque. Est coniuge
-recuso; refert Coroniden ignotos manat, adfectu.
+## The digital world
+Due to the covid-19 pandemic, digitalization has been pushed forward worldwide. Willingly or not, everything and everyone had to adapt. Work became different. Education became different. You needed to adapt. The whole of the Netherlands, if not the entire world, was hurled into the digital revolution. The result is that there are now more ways than ever before to keep in touch. Although the way of connecting might be different, because instead of gathering in a group in a physical location, we gather in a digital location, you can share stories immediately. Instead of telling them in person, you can share voice messages and stay informed of each other’s lives. You are still connected with other. Chatting, messaging, (video)calling, emailing, digital meetings, the options are endless. There is a digital word to explore and you can connect to the whole word. I’m curious to see what the future will bring! 
