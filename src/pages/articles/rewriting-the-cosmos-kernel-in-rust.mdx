@@ -1,5 +1,11 @@
 import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/future/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
 import Catan from '@/images/photos/Catan.jpg'
+
 
 export const meta = {
   author: 'Samuel de Korte',
@@ -13,22 +19,21 @@ export default (props) => <ArticleLayout meta={meta} {...props} />
 
 Frequently technology is featured in the news and not always in a positive way. According to some people it would influence our lives too much. We would be too dependent on technology or it would make us anti-social. Personally, I doubt it, because technology allows us to be more connected than ever before. Happily, I’ll share some personal experiences.
 
-<img 
-src={Catan}
-alt="An image of the Catan boardgame."
-layout="responsive"
-sizes="(min-width: 1024px) 32rem, 20rem"
-/> 
-*Catan (Source:Unsplash)*
-
-
+<Image
+                src={Catan}
+                alt="A photograph of the boardgame Catan."
+                sizes="(min-width: 720px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              />
 
 ## Catan Online
 
-I derive a large amount of my self-worth from whether or not Hacker News is impressed with the work I'm doing, so when I realized this, I cancelled all of our existing projects and started migrating everything to Rust immediately.
+For a while I lived in Italy and Portugal. Geographically, I was around a thousand kilometers removed from my friends. This distance made it impossible to visit each other in person. However, while each of us was in his own home, we spoke with each other through our phones and played the same game on our computers. One of my two friends then remarked that it was quite unusual, we were so far apart, yet it did not feel as such. And indeed, it’s remarkable, because our current technology allows us to be more connected with people than ever before.
 
 ## Sharing information
 In the distant past, information was shared by sending messages. Information travelled with the speed of the carrier. According to the situation, this could go faster or slower. For example, think of the message about the victory at Marathon in 490 B.C. According to the legend, a soldier ran all the way from Marathon to Athens to report on the victory in battle. Later it became more common to send written messages, allowing a single person to carry over more than one message, but they still needed to be brought physically from one location to another. You still depended on the human middleman and the available transportation. Although technological advancements could transport the letters faster - for example, by bringing it somewhere by boat, train, or plane -, sharing information was much more rapid in the digital area. A middleman was no longer necessary and an email can go across the globe in less than a second. These are just examples, because there are plenty of other ways to get in contact with people and to feel connected. In my case, I was around a thousand kilometers distant from my family and friends, but I did not experience loneliness. 
 
 ## The digital world
 Due to the covid-19 pandemic, digitalization has been pushed forward worldwide. Willingly or not, everything and everyone had to adapt. Work became different. Education became different. You needed to adapt. The whole of the Netherlands, if not the entire world, was hurled into the digital revolution. The result is that there are now more ways than ever before to keep in touch. Although the way of connecting might be different, because instead of gathering in a group in a physical location, we gather in a digital location, you can share stories immediately. Instead of telling them in person, you can share voice messages and stay informed of each other’s lives. You are still connected with other. Chatting, messaging, (video)calling, emailing, digital meetings, the options are endless. There is a digital word to explore and you can connect to the whole word. I’m curious to see what the future will bring! 
+
+
