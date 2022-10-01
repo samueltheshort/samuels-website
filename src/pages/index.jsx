@@ -153,7 +153,8 @@ function Photos() {
           >
             <Image
               src={image}
-              alt=""
+              alt="An image related to historical projects in which Samuel de Korte was involved."
+              layout="responsive"
               sizes="(min-width: 640px) 18rem, 11rem"
               className="absolute inset-0 h-full w-full object-cover"
             />

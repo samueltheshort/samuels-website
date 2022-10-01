@@ -53,7 +53,7 @@ export default function About() {
             <div className="max-w-xs px-2.5 lg:max-w-none">
               <Image
                 src={portraitImage}
-                alt=""
+                alt="A photograph of Samuel de Korte during a hike."
                 sizes="(min-width: 1024px) 32rem, 20rem"
                 className="aspect-square rotate-3 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
               />

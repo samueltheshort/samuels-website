@@ -65,14 +65,14 @@ export default function Projects() {
               <div className="relative z-10 flex h-60 w-full items-center justify-center overflow-hidden rounded-sm bg-gray-50 shadow-md shadow-stone-800/5 ring-1 ring-stone-900/5 duration-150 group-hover:bg-white dark:border dark:border-stone-700/50 dark:bg-stone-800 dark:ring-0">
                 <Image
                   src={book.image}
-                  alt=""
+                  alt="An image of the cover of the book."
                   layout="responsive"
                   className="absolute top-0 -z-10 h-full w-auto opacity-50 blur-2xl"
                   unoptimized
                 />
                 <Image
                   src={book.image}
-                  alt=""
+                  alt="An image of the cover of the book."
                   layout="responsive"
                   className="h-full w-auto"
                   unoptimized
