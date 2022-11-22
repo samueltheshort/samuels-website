@@ -1,0 +1,45 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/future/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+import Bourgogne from '@/images/photos/bourgogne.jpg'
+
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2022-11-22',
+  title: 'Review of Memoirs of Sergeant Bourgogne, 1812-1813 by Adrien Bourgogne',
+  description:
+    'In June 1812 Napoleon Bonaparte attacked Imperial Russia with his armies. More than half a million men and women were gathered for this operation. However, the invasion turned out different than Napoleon expected. After Napoleon had reached Moscow, it turned out that his supply lines were overstretched and his army was unprepared to spend the winter in Russia. He made the fatal decision to retreat. During this journey countless men and women lost their lives.'
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+In June 1812 Napoleon Bonaparte attacked Imperial Russia with his armies. More than half a million men and women were gathered for this operation. However, the invasion turned out different than Napoleon expected. After Napoleon had reached Moscow, it turned out that his supply lines were overstretched and his army was unprepared to spend the winter in Russia. He made the fatal decision to retreat. During this journey countless men and women lost their lives.
+
+<Image
+                src={Bourgogne}
+                alt="A drawing of Adrien Bourgogne."
+                sizes="(min-width: 720px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              />
+
+## A Historical Event
+
+Among the survivors, many quickly realized what a major historical event this had been. Sergeant Adrien Bourgogne (1785-1867), who served with the Imperial Guard, has written about this horrible journey. Together with Napoleon he went to Russia and finally reached Moscow, where he made himself comfortable in the scorched city. Finally, the order was given to retreat and together with his unit he started to travel westwards. 
+
+## Enduring Hardships
+
+In the beginning everything seemed to be alright, but quickly problems developed. Discipline lessened. Troops deserted or went plundering. There was too little food. To make matters even more complicated, the temperature started to drop. While enduring all these hardships and with the help of strangers and comrades, Bourgogne managed to survive the journey with the remnants of the French army. 
+
+## Published in 1853
+In 1813 Bourgogne, who had risen to the rank of sublieutenant, was made a prisoner of war and while in captivity, he realized what a remarkable event happened the previous year. From that moment, he started working on his memoir, but didn’t finish it. He returned to France after peace was declared and took over his father’s clothing store. It wasn’t until 1853 that he finally finished his book.
+
+## Available on Project Gutenberg
+In his memoir the terrible circumstances in which the men and women of the French army found themselves become obvious. Hunted by the enemy, suffering from the cold and hunger, they needed help from others and luck to survive. A kind passing stranger or a good friend could make a difference between life and death in terrible moments. One of the reasons why Bourgogne managed to survive was due to the help of his comrades. 
+
+[English](https://www.gutenberg.org/ebooks/59489)
+[French](https://www.gutenberg.org/ebooks/11176)
+
