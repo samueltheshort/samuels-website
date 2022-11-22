@@ -39,7 +39,7 @@ function MailIcon(props) {
 
 export default function About() {
   const introText =
-    "I'm Samuel de Korte. I live in Utrecht. I'm study the past, present and the future."
+    "I'm Samuel de Korte. I live in Utrecht. I study the past, present and the future."
 
   return (
     <>
