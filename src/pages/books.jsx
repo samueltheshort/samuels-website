@@ -13,21 +13,21 @@ const books = [
     name: 'The 614th Tank Destroyer Battalion',
     description:
       'The 614th Tank Destroyer Battalion was activated on 25 July 1942 at Camp Carson, USA and, like many other…',
-    link: { href: '#', label: 'bol.com' },
+    link: { href: 'https://www.amazon.com/614th-Tank-Destroyer-Battalion-Fighting/dp/1399008684', label: 'amazon.com' },  
     image: cover614th,
   },
   {
     name: 'Tragedy & Betrayal in the Dutch Resistance',
     description:
       'On the night of 31 March 1945, five men were woken and taken from their cells in the city of Zwolle…',
-    link: { href: '#', label: 'bol.com' },
+    link: { href: 'https://www.amazon.com/Tragedy-Betrayal-Dutch-Resistance-Samuel/dp/152678498X', label: 'amazon.com' },
     image: covertragedy,
   },
   {
     name: 'Executie aan de Meppelerstraatweg',
     description:
       'De Tweede Wereldoorlog was bijna afgelopen. Toch werden er op de vooravond van de bevrijding, op 31 maart…',
-    link: { href: '#', label: 'bol.com' },
+    link: { href: 'https://www.bol.com/nl/nl/p/executie-aan-de-meppelerstraatweg/9200000111454645/?s2a=#productTitle', label: 'bol.com' },
     image: coverexecutie,
   },
 ]

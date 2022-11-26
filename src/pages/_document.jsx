@@ -58,6 +58,9 @@ export default function Document() {
       <body className="flex h-full flex-col bg-stone-50 font-['Source_Serif_Pro'] dark:bg-stone-900">
         <Main />
         <NextScript />
+        <a title="GDPR-compliant Web Analytics" href="https://clicky.com/101388714"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+<script async src="//static.getclicky.com/101388714.js"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101388714ns.gif" /></p></noscript>
       </body>
     </Html>
   )
