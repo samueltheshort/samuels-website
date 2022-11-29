@@ -13,14 +13,14 @@ const books = [
     name: 'The 614th Tank Destroyer Battalion',
     description:
       'The 614th Tank Destroyer Battalion was activated on 25 July 1942 at Camp Carson, USA and, like many other…',
-    link: { href: 'https://www.amazon.com/614th-Tank-Destroyer-Battalion-Fighting/dp/1399008684', label: 'amazon.com' },  
+    link: { href: 'https://amzn.to/3EPDUcU', label: 'amazon.com' },  
     image: cover614th,
   },
   {
     name: 'Tragedy & Betrayal in the Dutch Resistance',
     description:
       'On the night of 31 March 1945, five men were woken and taken from their cells in the city of Zwolle…',
-    link: { href: 'https://www.amazon.com/Tragedy-Betrayal-Dutch-Resistance-Samuel/dp/152678498X', label: 'amazon.com' },
+    link: { href: 'https://amzn.to/3OZFtdf', label: 'amazon.com' },
     image: covertragedy,
   },
   {
@@ -44,7 +44,7 @@ function LinkIcon(props) {
 }
 
 export default function Projects() {
-  const introText = 'Below you will find my books.'
+  const introText = 'Below you will find my books. If you order one of my books through the links, I may be eligible for a small commission at no extra costs to you.'
 
   return (
     <>
