@@ -44,7 +44,7 @@ function LinkIcon(props) {
 }
 
 export default function Projects() {
-  const introText = 'Below you will find my books. If you order one of my books through the links, I may be eligible for a small commission at no extra costs to you.'
+  const introText = 'Below you will find my books.'
 
   return (
     <>
@@ -54,7 +54,7 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title={introText}
-        intro="Through the years I've written about various topics. These include the black American soldiers during the Second World War, Dutch soldiers during the Napoleonic wars, and the Dutch Resistance during the Second World War."
+        intro="Through the years I've written about various topics. These include the black American soldiers during the Second World War, Dutch soldiers during the Napoleonic wars, and the Dutch Resistance during the Second World War. If you order one of my books through the links, I may be eligible for a small commission at no extra costs to you."
       >
         <ul
           role="list"
