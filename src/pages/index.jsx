@@ -172,7 +172,7 @@ export default function Home({ articles }) {
         <title>Samuel de Korte - Historian</title>
         <meta
           name="description"
-          content="My name is Samuel, a historian based in Utrecht, the Netherlands. I specialze in black American soldiers during the Second World War and Dutch soldiers during the Napoleonic wars." />
+          content="My name is Samuel de Korte, a historian based in Utrecht, the Netherlands. I specialize in black American soldiers during the Second World War and Dutch soldiers during the Napoleonic wars." />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
