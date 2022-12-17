@@ -1,0 +1,38 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/future/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2022-12-17',
+  title: 'Review of Terror World by Cath Lauria',
+  description:
+    'Scientist Dizzie Drexler is sent out, together with a crew, to uncover an abandoned spaceship on a remote planet. The crew consists of a telepathic centaur, two thieves Grayson and Mason, and an alien bodyguard Divak. The expedition is funded by the secretive alien Ix-Nix-Six. Once there, horror ensues and zombies quickly appear.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+*Title: Terror World: A Zombicide Invader Novel  
+Author: Cath Lauria 
+Published: 2023*  
+
+## Thank you Netgalley and full disclosure
+Through Netgalley I was given the chance to read an advance copy in exchange for an honest review. For full disclosure, I have never played zombicide, the board game series that inspired these stories. With this in mind, I might not have been the audience that this book is targeting. That being said, if you are the audience that this book is aiming for, then you’re certainly in for a ride! The cover and title ‘Terror World’, already give an impression of what you can expect and the book delivers exactly. 
+
+## An Abandoned Spaceship on a Remote Planet
+Scientist Dizzie Drexler is sent out, together with a crew, to uncover an abandoned spaceship on a remote planet. The crew consists of a telepathic centaur, two thieves Grayson and Mason, and an alien bodyguard Divak. The expedition is funded by the secretive alien Ix-Nix-Six. Once there, horror ensues and zombies quickly appear.
+
+## Aimed at a Specific Audience
+This is the kind of story that you need to be looking for: people stranded on a remote planet, horror, zombies, science fiction. It’s written for fans of these board games. The story really gets underway about 2/5th of the book. Overall, it’s a satisfactory story. It is quite entertaining if this is a particular type of fiction you’re looking for. The story reads easily and there’s a diverse cast of characters. 
+
+## Personal Opinion
+There are references to the alien races featured in the board game zombicide invader, while also providing more background for several of the alien races and organizations involved. Some of the characters are more developed than others. Personally, I had hoped for more content from Mason, a cyborg. Each of his limbs has his own mind and there are even a few chapters written from the perspective of Lefty, his left arm. The only drawback is that I would have liked more closure from the ending. Several of the questions are left unanswered, although it could be the potential setup for a sequel. 
+
+Overall, I enjoyed reading the book. 
+  
+If you are considering buying the book, please use the link below. By ordering through the link below, I may be eligible for a small commission, at no additional costs to you.
+[amazon.com](https://amzn.to/3BIKlxD)
+
