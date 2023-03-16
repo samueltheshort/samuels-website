@@ -180,7 +180,7 @@ export default function Home({ articles }) {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
             I write books about the past, the present and the future!
           </h1><p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            My name is Samuel de Korte. As a historian I specialize in black American soldiers during the Second World War and Dutch soldiers during the Napoleonic wars. Past projects include writing the history of the 614th Tank Destroyer Battalion, the first segregated combat unit to win the Distinguished Unit Citation. Currently I'm working on a translation of a Dutch officer that served with Napoleon in Russia in 1812 and a book about the Tuskegee Airmen.</p>
+            My name is Samuel de Korte. As a historian I specialize in black American soldiers during the Second World War and Dutch soldiers during the Napoleonic wars. Past projects include writing the history of the 614th Tank Destroyer Battalion, the first segregated combat unit to win the Distinguished Unit Citation. Currently, I'm working on a translation of a Dutch officer that served with Napoleon in Russia in 1812, a book about the Tuskegee Airmen and a project about the 452nd Anti-Aircraft Artillery Battalion.</p>
            
         
             <div className="mt-6 flex gap-6">
