@@ -39,7 +39,7 @@ function MailIcon(props) {
 
 export default function About() {
   const introText =
-    "I'm Samuel de Korte. I live in Utrecht. I study the past, present and the future."
+    "I study the past, present and the future."
 
   return (
     <>
@@ -65,13 +65,13 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-stone-600 dark:text-stone-400">
               <p>
-                History is my passion! For as long as I've remembered, I've been an avid reader. In the past I used to buy many physical books, while I now frequently read them in a digital format.
+                My name is Samuel de Korte. History is my passion! For as long as I've remembered, I've been an avid reader. In the past I used to buy many physical books, while I now frequently read them in a digital format.
               </p>
               <p>
                 Besides history, I really love stories. These can be told through a variety of mediums. Indeed, books, but a great story can also be told or visualized through games, movies, or drawings. A particular genre that I enjoy is science-fiction and the promises that technology hold for the future. 
               </p>
               <p>
-                Currently I work as a Cloud Engineer. In my spare time I exercise or meet up with friends. Common activities include riding my bike through the local forests.
+                Currently, I work as a Cloud Engineer. In my spare time I exercise or meet up with friends. Common activities include riding my bike through the local forests.
               </p>
               <p>
                 Of course, I'm always open to suggestions, feedback, and comments. If you have a great idea for a book, reach out to me!
