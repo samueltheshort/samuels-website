@@ -1,0 +1,32 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/future/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+import chow from '@/images/photos/eatingchow.jpg'
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2023-04-16',
+  title: 'Film footage of the 614th Tank Destroyer Battalion',
+  description: 'The past year I’ve been working on several projects. One of these projects, at which I’ve hinted several times, is the translation of Carel Jacob Wagevier’s memoir. As an officer in the Dutch 125th Regiment of the Line he joined the Russian campaign of 1812. During this campaign he fought in combat and was eventually taken prisoner.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+In the National Archives and Records Administration is a movie clip of the 95th Infantry Division. In this movie clip there are segments showing the soldiers of the 614th Tank Destroyer Battalion. After a lot of research, I've managed to track down the appropriate reel and get it digitized. As far as I know, it's the only film footage showing soldiers of the 614th Tank Destroyer Battalion during the Second World War. 
+
+<Image
+                src={cover}
+                alt="a frame taken from the clip showing soldiers of the 614th Tank Destroyer Battalion eating chow."
+                sizes="(min-width: 500px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"             
+              />
+A still taken from the movie, showing soldiers of the 614th Tank Destroyer Battalion eating chow.
+
+The clip shows soldiers of the 614th Tank Destroyer Battalion lining a fox hole with straw, eating chow, digging a trench and guarding two reconnaissance M-20 Scout Cars. In between there is a fragment showing soldiers of the 95th Infantry Divsion to which the 614th Tank Destroyer Battalion was attached at that time. The movie was made on 30 November 1944 in France.
+
+You can watch it here: https://www.youtube.com/watch?v=y7JqLgQ4CKw
+
+
