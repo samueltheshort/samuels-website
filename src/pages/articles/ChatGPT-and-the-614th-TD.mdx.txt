@@ -4,7 +4,7 @@ import Image from 'next/future/image'
 import Head from 'next/head'
 import Link from 'next/link'
 import clsx from 'clsx'
-import 614 from '@/images/photos/614.jpg'
+import 614 from '@/images/614.jpg'
 
 export const meta = {
   author: 'Samuel de Korte',
