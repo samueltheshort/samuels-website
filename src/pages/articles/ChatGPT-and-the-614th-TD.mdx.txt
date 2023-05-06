@@ -1,0 +1,45 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/future/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+import 614 from '@/images/photos/614.jpg'
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2023-05-08',
+  title: 'ChatGPT and the 614th Tank Destroyer Battalion',
+  description:
+    'Recently Artificial Intelligence has been a lot in the news and as a Cloud Engineer, I frequently use it to help automate simple tasks in my work. Of course, I was also curious about the other options and thus I decided to ask it to teach me about the ‘614th Tank Destroyer Battalion’. Below you’ll find the article and my comments on it!',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+Recently Artificial Intelligence has been a lot in the news and as a Cloud Engineer, I frequently use it to help automate simple tasks in my work. Of course, I was also curious about the other options and thus I decided to ask it to teach me about the ‘614th Tank Destroyer Battalion’. Below you’ll find the article and my comments on it!
+
+## Putting ChatGPT to the test
+
+The following article has been created with the help of Artificial Intelligence, based upon the prompt ‘614th Tank Destroyer Battalion’:
+
+*The 614th Tank Destroyer Battalion was an American tank destroyer unit that fought in World War II. The unit was formed in 1941 and trained at Camp Polk in Louisiana. The battalion was equipped with M10 tank destroyers, which were designed to take out enemy tanks at long range.*  
+*The 614th Tank Destroyer Battalion saw combat in several major campaigns, including the Battle of the Bulge and the Rhineland campaign. The unit was known for its ability to take out enemy tanks and armored vehicles, and was credited with destroying dozens of enemy tanks during the war.*  
+*After the war, the 614th Tank Destroyer Battalion was deactivated and its members returned home. Today, the unit is remembered for its bravery and service during World War II, and for its role in helping to defeat the Axis powers.*  
+
+<Image
+                src={614}
+                alt="An image of a 3-inch gun of the 614th Tank Destroyer Battalion."
+                sizes="(min-width: 720px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              />
+
+At first glance, the article might seem like a decent summary of the battalion’s history, but once you dive deeper into the material, you discover a lot of errors. In that sense, it’s not unusual, because the article is a recreation of what the AI had at its disposal and not a historically accurate rendering of the historical past.  
+*The 614th Tank Destroyer Battalion was an American tank destroyer unit that fought in World War II. The unit was formed in 1941 and trained at Camp Polk in Louisiana. The battalion was equipped with M10 tank destroyers, which were designed to take out enemy tanks at long range.*  
+Indeed, the 614th Tank Destroyer Battalion was an American unit and it did fight in the Second World War. However, the battalion was activated on 25 July 2942 at Camp Carson, Colorado. The battalion was equipped with the towed 3-inch M5 Gun, not with the M10 gun motor carriage.   
+*The 614th Tank Destroyer Battalion saw combat in several major campaigns, including the Battle of the Bulge and the Rhineland campaign. The unit was known for its ability to take out enemy tanks and armored vehicles, and was credited with destroying dozens of enemy tanks during the war.*  
+Indeed, it fought in several major campaigns, including the Rhineland Campaign. However, it didn’t fight in the Battle of the Bugle. Likewise, the unit is mostly known for the Battle of Climbach, where Third Platoon, C Company, earned the Presidential Unit Citation. The 614th TD also fought in the Northern France, Ardennes-Alsace, and Central Europe campaigns.  
+*After the war, the 614th Tank Destroyer Battalion was deactivated and its members returned home. Today, the unit is remembered for its bravery and service during World War II, and for its role in helping to defeat the Axis powers.*  
+Naturally, once the war was over, many units were deactivated and their members returned home. The 614th TD did fight bravely, as is testified by the white soldiers they fought alongside, but is it still remembered for its service during the Second World War? The soldiers of the 103rd Infantry Division, to which the 614th TD was attached from December 1944 to May 1945 do indeed remember them, but outside of it, the 614th TD is relatively unknown. Several attempts are being made to change this, including (but not limited to!) sharing photographs or film clips of the movie, as well as articles in a variety of outlets.   
+At present, it looks like the field of AI will not yet make historians redundant. Indeed, AI can make the gathering of information easier. It can also be used to process large amounts of data. However, the closer you get to the source material, the more important human interactions and their appreciation become. People can lie, boast, misrepresent, diminish, exaggerate, remember, and misremember in the source material. As a historian, you need to judge, select and value sources, which is something that AI and automation cannot do. Thus, history will be one of the fields that will need human oversight for a long time to come. It’s good to know that we will not be redundant for a long time yet!   
+
+
