@@ -1,0 +1,47 @@
+
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/future/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+import TD614C from '@/images/614/photos/614thcolor.jpg'
+import TD614O from '@/images/614/photos/614thoriginal.jpg'
+
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2023-06-17',
+  title: 'Busy with projects: Colorizing historical photographs',
+  description:
+    'Currently, I’m working on a project related to the 452nd Anti-Aircraft Artillery Battalion. However, my interest has been captured by something else lately. I’ve been coloring historical images with Artificial Intelligence.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+Currently, I’m working on a project related to the 452nd Anti-Aircraft Artillery Battalion. However, my interest has been captured by something else lately. I’ve been coloring historical images with Artificial Intelligence.
+
+## Modern technology and history
+Artificial Intelligence has created quite a buzz recently. I’ve been following these developments keenly, not just out of professional interest, but also out of personal curiosity. Artificial Intelligence can be used for a variety of purposes and I’ve been thinking about possibilities for history. One of the uses of AI is to color historical images quickly. These images can then be shared with others to raise awareness or to spark interest.   
+Look at the two images below. In it, you will see a half-track of the 614th Tank Destroyer Battalion together with a few Black American soldiers. First I’ll show you the original image, in black-and-white, and then the same image, but colorized.  
+
+<Image
+                src={TD614O}
+                alt="An image of a half-track of the 614th Tank Destroyer Battalion. In front of the half-track are two soldiers of the 614th TD Bn."
+                sizes="(min-width: 720px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              />
+*(Photograph courtesy of  United States Army Heritage and Education Center.)*
+
+<Image
+                src={TD614C}
+                alt="An image of a half-track of the 614th Tank Destroyer Battalion. In front of the half-track are two soldiers of the 614th TD Bn."
+                sizes="(min-width: 720px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              />
+*(Photograph courtesy of  United States Army Heritage and Education Center.)*
+Do you see what a difference it makes?  
+Personally, color adds a lot of depth to an image. It’s more interesting and you can appreciate more details that would be harder to spot if the photograph was all in gray tones. Furthermore, it gives you a glimpse of what the past could have been like. It’s no longer an image, but a view of what the past could have been like as the people themselves have experienced it.   
+
+Are you also excited about seeing these photographs come to life? I’ve been posting a lot of colorized photographs on my Instagram account. Feel free to check them out "@samuel.dekorte" See you there!  
+
