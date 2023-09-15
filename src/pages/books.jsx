@@ -22,7 +22,7 @@ const books = [
     description:
       'In 1812 the French emperor Napoleon decided to invade Russia. For this purpose, he gathered an army of half a million men and women…',
     link: { href: 'https://www.amazon.com/Fighting-Napoleons-Army-Russia-Memoir/dp/1399089757', label: 'amazon.com' },  
-    image: cover614th,
+    image: coverwagevier,
   },
   {
     name: 'Tragedy & Betrayal in the Dutch Resistance',
