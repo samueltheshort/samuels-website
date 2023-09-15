@@ -7,6 +7,7 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 import cover614th from '@/images/books/614th-tank-destroyer-battalion.jpg'
 import covertragedy from '@/images/books/tragedy-and-betrayal.jpg'
 import coverexecutie from '@/images/books/executie.jpg'
+import coverwagevier from '@/images/books/Fighting-for-Napoleons-Army-in-Russia.jpg'
 
 const books = [
   {
@@ -14,6 +15,13 @@ const books = [
     description:
       'The 614th Tank Destroyer Battalion was activated on 25 July 1942 at Camp Carson, USA and, like many other…',
     link: { href: 'https://amzn.to/3EPDUcU', label: 'amazon.com' },  
+    image: cover614th,
+  },
+  {
+    name: "Fighting For Napoleon's Army in Russia",
+    description:
+      'In 1812 the French emperor Napoleon decided to invade Russia. For this purpose, he gathered an army of half a million men and women…',
+    link: { href: 'https://www.amazon.com/Fighting-Napoleons-Army-Russia-Memoir/dp/1399089757', label: 'amazon.com' },  
     image: cover614th,
   },
   {
