@@ -1,0 +1,47 @@
+
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/future/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+
+import bookcover from '@/images/books/Tuskegee-Airmen.jpg'
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2023-11-19',
+  title: 'Tuskegee Airmen book announced!',
+  description:
+    'With pride I can announce that I the book on the Tuskegee Airmen will appear in February 2024! The book deals with the history of the Tuskegee Airmen, which includes the 99th Fighter Squadron, the 332nd Fighter Group as well as the 477th Bombardment Group and the artillery liaison pilots.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+With pride I can announce that I the book on the Tuskegee Airmen will appear in February 2024! The book deals with the history of the Tuskegee Airmen, which includes the 99th Fighter Squadron, the 332nd Fighter Group, as well as the 477th Bombardment Group, and the artillery liaison pilots. The main adversary of these pilots was the German Luftwaffe, however, before these Black American pilots could even reach the front, they needed to overcome the prejudices of their white countrymen. However, these men endured the animosity of their fellow countrymen and endured the stresses of combat. They were an essential component in the desegregation of the United States Armed Forces.
+
+<Image
+                src={bookcover}
+                alt="Cover of the book, titled 'Tuskegee Airmen' by Samuel de Korte."
+                sizes="(min-width: 1000px)"
+                className="rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              />
+*Cover of the book 'Tuskegee Airmen' by Samuel de Korte (Pen and Sword)*  
+
+## Blurb 
+>During the Second World War, the Tuskegee Airmen had not one but two enemies to overcome: the German Luftwaffe and Jim Crow. In this book, the inspiring history of these men is recounted detailing the struggles the men faced at home and abroad.
+>
+>The Tuskegee Airmen were black American pilots who served in the Army Air Corps during the Second World War. However, before earning their wings, these men and women needed to prove themselves to their white countrymen. After all, the racism prevalent at the time meant that black Americans were deemed unsuitable for the demands of modern war.
+>
+>After completing their training and conducting their first combat missions, the real enemy was waiting for them: the Luftwaffe. As a result of their role escorting the bombers, as well as their bright red tails, the Tuskegee Airmen of 332nd Fighter Group earned the nickname the ‘Red Tails’. The units served with distinction in several fierce engagements, such as the 99th Fighter Squadron, who fought in the skies over Anzio on 27 and 28 January 1944, and the 332nd Fighter Group, who earned a Distinguished Unit Citation for its mission to Berlin on 24 March 1945.
+
+
+## Exciting Project
+Working on this book has been really exciting and I am grateful that I have been allowed to do so. One of my personal highlights was being invited to the unveiling of a monument dedicated to the 332nd Fighter Group at Ramitelli, the airbase from which this unit operated. I look forward to the publication!
+
+Pre-orders are already available!  
+Check out the links below  
+[Pen and Sword](https://www.pen-and-sword.co.uk/Tuskegee-Airmen-Hardback/p/24428) (UK)  
+[Casemate](https://www.casematepublishers.com/9781399043816/tuskegee-airmen/) (US)
+
+
