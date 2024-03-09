@@ -1,0 +1,45 @@
+
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/future/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+import bookcover from '@/images/books/tuskegee-airmen.jpg'
+import AAA452 from '@/images/photos/image-5.jpg'
+
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2024-03-09',
+  title: 'Busy with projects: Colorizing historical photographs',
+  description:
+    'It’s been a busy month! Many things have happened and there are two things I wish to highlight for you. First of all, my book on the Tuskegee Airmen appeared. Second, I’ve finished the manuscript of the 452nd Anti-Aircraft artillery Battalion. Read more about them below!',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+It’s been a busy month! Many things have happened and there are two things I wish to highlight for you. First of all, my book on the Tuskegee Airmen appeared. Second, I’ve finished the manuscript of the 452nd Anti-Aircraft Artillery Battalion. Read more about it below!
+
+<Image
+                src={bookcover}
+                alt="The cover of the book Tuskegee Airmen by Samuel de Korte."
+                sizes="(min-width: 720px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              />
+*(Photograph courtesy of Pen and Sword Publishers.)*  
+
+## Tuskegee Airmen: Dogfighting with the Luftwaffe and Jim Crow
+The book about the Tuskegee Airmen has appeared last month! It has been a joy to research these soldiers and to share their history. The Tuskegee Airmen have an interesting history, which includes with the 99th Fighter Squadron, and the 332nd Fighter Group and the 477th Bombardment Group. It’s been a really rewarding project and I’m grateful to Pen and Sword for allowing me to write this book.
+
+<Image
+                src={AAA452}
+                alt="A photograph of the 452nd Anti-Aircraft Artillery Battalion during the Second World War."
+                sizes="(min-width: 720px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              />
+*(Photograph courtesy of the National Archives and Records Administration.)*  
+
+## 452nd Anti-Aircraft Artillery (AAA) Battalion: Manuscript handed in.
+The other project I finished recently is my upcoming book about the 452nd AAA. It’s been a worthwhile project, because this unit deserves to be more widely known that it currently is. Most of its service in combat was when it was assigned to the XII Corps, Third US Army. The 452nd AAA didn’t fight as a single unit, but assigned platoons to white field artillery battalions. These artillery soldiers were all very glad for their support and more than once, the white soldiers remarked about the skill or dedication of the Black AAA soldiers. Credited with shooting down 67 11/12 enemy aircraft and 19 probables, the 452nd AAA is among the most lethal anti-aircraft battalions of the Second World War. Learn more about their history in my book, once it appears! Currently publication is scheduled for February 2025. 
+
