@@ -46,7 +46,7 @@ export default function ArticlesIndex({ articles }) {
       </Head>
       <SimpleLayout
         title="Writing on the past, present and future."
-        intro="Read about some of the projects I'm currently working on or thoughts that I wanted to share. Currently I am working on translating the memoirs of a Dutch officer that went with Napoleon to Russia in 1812 and a book about the Tuskegee Airmen."
+        intro="Read about some of the projects I'm currently working on or thoughts that I wanted to share. Currently I am working on a book about the 777th Field Artillery Battalion."
       >
         <div className="md:border-l md:border-stone-100 md:pl-6 md:dark:border-stone-700/40">
           <div className="flex max-w-3xl flex-col space-y-16">
