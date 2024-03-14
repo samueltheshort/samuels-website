@@ -8,6 +8,7 @@ import cover614th from '@/images/books/614th-tank-destroyer-battalion.jpg'
 import covertragedy from '@/images/books/tragedy-and-betrayal.jpg'
 import coverexecutie from '@/images/books/executie.jpg'
 import coverwagevier from '@/images/books/Fighting-for-Napoleons-Army-in-Russia.jpg'
+import coverTuskegee from '@/images/books/Tuskegee-Airmen.jpg'
 
 const books = [
   {
@@ -16,6 +17,13 @@ const books = [
       'The 614th Tank Destroyer Battalion was activated on 25 July 1942 at Camp Carson, USA and, like many other…',
     link: { href: 'https://amzn.to/3EPDUcU', label: 'amazon.com' },  
     image: cover614th,
+  },
+  {
+    name: 'The Tuskegee Airmen',
+    description:
+      'During the Second World War, the Tuskegee Airmen had not one but two enemies to overcome: the German Luftwaffe and Jim Crow.',
+    link: { href: 'https://amzn.to/3w16jfl', label: 'amazon.com' },  
+    image: coverTuskegee,
   },
   {
     name: "Fighting For Napoleon's Army in Russia",
