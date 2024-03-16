@@ -14,31 +14,36 @@ const books = [
   {
     name: 'The 614th Tank Destroyer Battalion',
     description:
-      'To be added. (Courtesy of United States Heritage and Education Command)',
+      'The 614th Tank Destroyer Battalion was activated on 25 July 1942 at Camp Carson, USA and, like many other…',
+    link: { href: 'https://amzn.to/3EPDUcU', label: 'amazon.com' },  
     image: td614im1,
   },
   {
-    name: 'The 614th Tank Destroyer Battalion',
+    name: 'The Tuskegee Airmen',
     description:
-      'To be added.',
+      'During the Second World War, the Tuskegee Airmen had not one but two enemies to overcome: the German Luftwaffe and Jim Crow.',
+    link: { href: 'https://amzn.to/3w16jfl', label: 'amazon.com' },  
     image: td614im2,
   },
   {
-    name: 'The 614th Tank Destroyer Battalion',
+    name: "Fighting For Napoleon's Army in Russia",
     description:
-      'To be added.',  
+      'In 1812 the French emperor Napoleon decided to invade Russia. For this purpose, he gathered an army of half a million men and women…',
+    link: { href: 'https://www.amazon.com/Fighting-Napoleons-Army-Russia-Memoir/dp/1399089757', label: 'amazon.com' },  
     image: td614im3,
   },
   {
-    name: 'The 614th Tank Destroyer Battalion',
+    name: 'Tragedy & Betrayal in the Dutch Resistance',
     description:
-      'To be added.',
+      'On the night of 31 March 1945, five men were woken and taken from their cells in the city of Zwolle…',
+    link: { href: 'https://amzn.to/3OZFtdf', label: 'amazon.com' },
     image: td614im4,
   },
   {
-    name: 'The 614th Tank Destroyer Battalion',
+    name: 'Executie aan de Meppelerstraatweg',
     description:
-      'To be added.',
+      'De Tweede Wereldoorlog was bijna afgelopen. Toch werden er op de vooravond van de bevrijding, op 31 maart…',
+    link: { href: 'https://www.bol.com/nl/nl/p/executie-aan-de-meppelerstraatweg/9200000111454645/?s2a=#productTitle', label: 'bol.com' },
     image: td614im5,
   },
 ]
@@ -55,7 +60,7 @@ function LinkIcon(props) {
 }
 
 export default function Projects() {
-  const introText = 'Below you will find images of the 614th Tank Destroyer Battalion.'
+  const introText = 'Below you will find my books.'
 
   return (
     <>
@@ -65,7 +70,7 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title={introText}
-        intro="Below you will find images of the 614th Tank Destroyer Battalion."
+        intro="Through the years I've written about various topics. These include the black American soldiers during the Second World War, Dutch soldiers during the Napoleonic wars, and the Dutch Resistance during the Second World War. If you order one of my books through the links, I may be eligible for a small commission at no extra costs to you."
       >
         <ul
           role="list"
@@ -76,20 +81,21 @@ export default function Projects() {
               <div className="relative z-10 flex h-60 w-full items-center justify-center overflow-hidden rounded-sm bg-gray-50 shadow-md shadow-stone-800/5 ring-1 ring-stone-900/5 duration-150 group-hover:bg-white dark:border dark:border-stone-700/50 dark:bg-stone-800 dark:ring-0">
                 <Image
                   src={book.image}
-                  alt="An image of the 614th Tank Destroyer Battalion."
+                  alt="An image of the cover of the book."
                   layout="responsive"
                   className="absolute top-0 -z-10 h-full w-auto opacity-50 blur-2xl"
                   unoptimized
                 />
                 <Image
                   src={book.image}
-                  alt="An image of the 614th Tank Destroyer Battalion."
+                  alt="An image of the cover of the book."
                   layout="responsive"
                   className="h-full w-auto"
                   unoptimized
                 />
               </div>
               <h2 className="mt-6 text-base font-semibold text-stone-800 dark:text-stone-100">
+                <Card.Link href={book.link.href}>{book.name}</Card.Link>
               </h2>
               <Card.Description>{book.description}</Card.Description>
               <p className="relative z-10 mt-6 flex text-sm font-medium text-stone-400 transition group-hover:text-red-500 dark:text-stone-200">
