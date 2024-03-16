@@ -14,7 +14,7 @@ const books = [
   {
     name: 'The 614th Tank Destroyer Battalion',
     description:
-      'To be added.',
+      'To be added. (Courtesy of United States Heritage and Education Command)',
     image: td614im1,
   },
   {
