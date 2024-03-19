@@ -13,6 +13,8 @@ import td614im4 from '@/images/photos/td61404.jpg'
 import td614im5 from '@/images/photos/td61405.jpg'
 import td614im6 from '@/images/photos/td61406.jpg'
 import td614im7 from '@/images/photos/td61407.jpg'
+import td614im8 from '@/images/photos/td61408.jpg'
+import td614im9 from '@/images/photos/td61409.jpg'
 
 const books = [
   {
@@ -20,6 +22,18 @@ const books = [
     description:
       'A three-inch M5 gun with crew of the 614th Tank Destroyer Battalion. (Courtesy of the United States Army Heritage and Education Center)',
     image: td614im1,
+  },
+  {
+    name: 'The 614th Tank Destroyer Battalion',
+    description:
+      'Soldiers of the 614th Tank Destroyer Battalion stand in front of a halftrack. (Courtesy of the United States Army Heritage and Education Center)',
+    image: td614im8,
+  },
+  {
+    name: 'The 614th Tank Destroyer Battalion',
+    description:
+      'Original Caption: "Members of the gun crew of a tank destroyer unit load their piece during practice firing, somewhere in England, before leaving for the real thing on the continent. Left to Right: Pfc. Aurbery Morris (Hobbsville, NC), Pfc. J. C. Heatem (Detroit, MI), Pfc. Robert B. Russell (Ashville, NC), 1st Lt. U.V. Watkins (Huntsville, TX), Pfc. Cebe Young (Ashville, NC), Pfc. James H. Mason (Williamston, NC). 614th Tank Destroyer Battalion, Burley, England." (Courtesy of the National Archives and Records Administration)',
+    image: td614im9,
   },
   {
     name: 'The 614th Tank Destroyer Battalion',
