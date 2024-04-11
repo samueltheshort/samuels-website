@@ -71,7 +71,7 @@ export default function About() {
                 Besides history, I really love stories. These can be told through a variety of mediums. Indeed, books, but a great story can also be told or visualized through games, movies, or drawings. A particular genre that I enjoy is science-fiction and the promises that technology hold for the future. 
               </p>
               <p>
-                Currently, I work as a Cloud Engineer. In my spare time I exercise or meet up with friends. Common activities include riding my bike through the local forests.
+                Currently, I work as a Automation Engineer. In my spare time I exercise or meet up with friends. Common activities include riding my bike through the local forests.
               </p>
               <p>
                 Of course, I'm always open to suggestions, feedback, and comments. If you have a great idea for a book, reach out to me!
