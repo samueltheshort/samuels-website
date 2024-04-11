@@ -1,6 +1,6 @@
 import Image from 'next/future/image'
 import Head from 'next/head'
-import { useState } from 'react'; // Import useState hook
+import { useState } from 'react' // Import useState hook
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 
@@ -46,14 +46,14 @@ const books = [
   {
     name: 'The 614th Tank Destroyer Battalion',
     description:
-    'Two enlisted men and an officer of the 614th Tank Destroyer Battalion. (Courtesy of the United States Army Heritage and Education Center)',
+      'Two enlisted men and an officer of the 614th Tank Destroyer Battalion. (Courtesy of the United States Army Heritage and Education Center)',
     image: td614im2,
     category: 'Tank Destroyers',
   },
   {
     name: 'The 614th Tank Destroyer Battalion',
     description:
-    'A soldier of the 614th Tank Destroyer Battalion poses with a round for the three-inch M5 gun. (Courtesy of the United States Army Heritage and Education Center)',
+      'A soldier of the 614th Tank Destroyer Battalion poses with a round for the three-inch M5 gun. (Courtesy of the United States Army Heritage and Education Center)',
     image: td614im3,
     category: 'Tank Destroyers',
   },
@@ -90,14 +90,14 @@ const books = [
     description:
       '1st section gun crew, Battery A, 593rd Field Artillery Battalion, 93rd Infantry Division, loads a 105mm howitzer and prepares to fire (Bougainville 16 April 1944). (Courtesy of National Archives and Records Administration.)',
     image: fa593,
-    category: 'Artillery', 
+    category: 'Artillery',
   },
   {
     name: 'Several soldiers of the 777th Field Artillery Battalion',
     description:
       'Soldiers of a Field Artillery Battalion near Ubach, Germany, sit in dugout near their gun waiting for firing orders. (Courtesy of National Archives and Records Administration.)',
     image: fa777,
-    category: 'Artillery', 
+    category: 'Artillery',
   },
   {
     name: 'John T. Fields, an armorer with the 332nd Fighter Group.',
@@ -137,11 +137,21 @@ const books = [
 ]
 
 export default function Projects() {
-  const introText = 'Images of Black American soldiers during the Second World War.'
-  const [category, setCategory] = useState('all'); // State to track selected category
+  const introText =
+    'Images of Black American soldiers during the Second World War.'
+  const [category, setCategory] = useState('All') // State to track selected category
 
   // Function to filter books based on category
-  const filteredBooks = category === 'all' ? books : books.filter(book => book.category === category);
+  const filteredBooks =
+    category === 'All'
+      ? books
+      : books.filter((book) => book.category === category)
+
+  const extractedCategories = books
+    .map((item) => item.category) // Extract categories from books array
+    .filter((value, index, self) => self.indexOf(value) === index) // Only keep the unique values
+
+  const allCategories = ['All', ...extractedCategories]
 
   return (
     <>
@@ -154,13 +164,17 @@ export default function Projects() {
         intro="During my research I've come across many images of Black American soldiers which I wanted to share with you. Feel free to take a look at the images below."
       >
         {/* Index box */}
-        <div className="flex justify-center mb-8">
-          <button className="mx-2" onClick={() => setCategory('all')}>All</button>
-          <button className="mx-2" onClick={() => setCategory('Artillery')}>Artillery</button>
-          <button className="mx-2" onClick={() => setCategory('Tanks')}>Tanks</button>
-          <button className="mx-2" onClick={() => setCategory('Air Force')}>Air Force</button>
-          <button className="mx-2" onClick={() => setCategory('Tank Destroyers')}>Tank Destroyers</button>
-          <button className="mx-2" onClick={() => setCategory('Coast Artillery')}>Coast Artillery/Anti-Aircraft Artillery</button>
+        <div className="mb-8 flex justify-center">
+          {allCategories.map((item) => (
+            <button
+              className={`mx-2 duration-150 hover:text-red-500 hover:dark:text-red-400 ${
+                item === category ? 'text-red-500 dark:text-red-400' : ''
+              }`}
+              onClick={() => setCategory(item)}
+            >
+              {item}
+            </button>
+          ))}
         </div>
         {/* Images */}
         <ul
@@ -185,11 +199,9 @@ export default function Projects() {
                   unoptimized
                 />
               </div>
-              <h2 className="mt-6 text-base font-semibold text-stone-800 dark:text-stone-100">
-              </h2>
+              <h2 className="mt-6 text-base font-semibold text-stone-800 dark:text-stone-100 " />
               <Card.Description>{book.description}</Card.Description>
-              <p className="relative z-10 mt-6 flex text-sm font-medium text-stone-400 transition group-hover:text-red-500 dark:text-stone-200">
-              </p>
+              <p className="relative z-10 mt-6 flex text-sm font-medium text-stone-400 transition group-hover:text-red-500 dark:text-stone-200" />
             </Card>
           ))}
         </ul>
@@ -197,5 +209,3 @@ export default function Projects() {
     </>
   )
 }
-
-
