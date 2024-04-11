@@ -74,7 +74,7 @@ export default function About() {
                 Currently, I work as a Automation Engineer. In my spare time I exercise or meet up with friends. Common activities include riding my bike through the local forests.
               </p>
               <p>
-                Of course, I'm always open to suggestions, feedback, and comments. If you have a great idea for a book, reach out to me!
+                Of course, I'm always open to suggestions, feedback, and comments. If you're interested in writing a review or if you have a great idea for a book, reach out to me!
               </p>
             </div>
           </div>
