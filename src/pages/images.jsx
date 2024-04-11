@@ -164,11 +164,13 @@ export default function Projects() {
         intro="During my research I've come across many images of Black American soldiers which I wanted to share with you. Feel free to take a look at the images below."
       >
         {/* Index box */}
-        <div className="mb-8 flex justify-center">
+        <div className="mb-8 flex flex-wrap justify-center">
           {allCategories.map((item) => (
             <button
-              className={`mx-2 duration-150 hover:text-red-500 hover:dark:text-red-400 ${
-                item === category ? 'text-red-500 dark:text-red-400' : ''
+              className={`m-2 p-2 duration-150 hover:text-red-500 hover:dark:text-red-400 ${
+                item === category
+                  ? 'border-b border-red-500 text-red-500 dark:border-red-400 dark:text-red-400'
+                  : ''
               }`}
               onClick={() => setCategory(item)}
             >
