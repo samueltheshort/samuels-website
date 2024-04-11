@@ -5,7 +5,7 @@ export default function Sources() {
   return (
     <>
       <Head>
-        <title>Sources - Your Website Name</title>
+        <title>Sources - Samuel de Korte</title>
         <meta name="description" content="Page for downloading sources" />
       </Head>
       <SimpleLayout
