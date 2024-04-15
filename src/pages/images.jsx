@@ -20,6 +20,11 @@ import bp76101 from '@/images/photos/bp76101.jpg'
 import ca76 from '@/images/photos/ca76.jpg'
 import aa452 from '@/images/photos/image-5.jpg'
 import fa777 from '@/images/photos/fa777.jpg'
+import ca7601 from '@/images/photos/ca7601.jpg'
+import ca7602 from '@/images/photos/ca7602.jpg'
+import ca7603 from '@/images/photos/ca7603.jpg'
+import ca7604 from '@/images/photos/ca7604.jpg'
+
 
 const books = [
   {
@@ -132,6 +137,34 @@ const books = [
     description:
       'A 40-mm Bofors gun of Battery A, 452nd Anti Aircraft Artillery Battalion. (Courtesy of National Archives and Records Administration.)',
     image: aa452,
+    category: 'Coast Artillery',
+  },
+  {
+    name: 'Soldiers of the the 76th Coast Artillery',
+    description:
+      'Original caption: First Sergeant James Sims of Los Angeles, who saw World War I, as a member of the 801st Pioneers, is shown here on his way to another war as top cutter of a Battery of C.A.A., which sailed on a transport from a Port of Embarkation in U.S. Sergeant Sims is telling Private John O. Stephens of Los Angeles how to handle a 45 in close quarters. Sims said Stephens is the brighest boy in his battery. August 1942. Battery A, 76th C.A.A. S.S. Mormaosea at Fort Mason, California, 9 August 1942. (Courtesy of the United States Army Heritage and Education Center)',
+    image: ca7601,
+    category: 'Coast Artillery',
+  },
+  {
+    name: 'Soldiers of the the 76th Coast Artillery',
+    description:
+      'To be added (Courtesy of the United States Army Heritage and Education Center)',
+    image: ca7602,
+    category: 'Coast Artillery',
+  },
+  {
+    name: 'Soldiers of the the 76th Coast Artillery',
+    description:
+      'To be added (Courtesy of the United States Army Heritage and Education Center)',
+    image: ca7603,
+    category: 'Coast Artillery',
+  },
+  {
+    name: 'Soldiers of the the 76th Coast Artillery',
+    description:
+      'To be added (Courtesy of the United States Army Heritage and Education Center)',
+    image: ca7604,
     category: 'Coast Artillery',
   },
 ]
