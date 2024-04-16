@@ -142,7 +142,7 @@ const books = [
   {
     name: 'Soldiers of the the 76th Coast Artillery',
     description:
-      'Original caption: First Sergeant James Sims of Los Angeles, who saw World War I, as a member of the 801st Pioneers, is shown here on his way to another war as top cutter of a Battery of C.A.A., which sailed on a transport from a Port of Embarkation in U.S. Sergeant Sims is telling Private John O. Stephens of Los Angeles how to handle a 45 in close quarters. Sims said Stephens is the brighest boy in his battery. August 1942. Battery A, 76th C.A.A. S.S. Mormaosea at Fort Mason, California, 9 August 1942. (Courtesy of the United States Army Heritage and Education Center)',
+      'Original caption: First Sergeant James Sims of Los Angeles, who saw World War I, as a member of the 801st Pioneers, is shown here on his way to another war as top cutter of a Battery of C.A.A., which sailed on a transport from a Port of Embarkation in U.S. Sergeant Sims is telling Private John O. Stephens of Los Angeles how to handle a 45 in close quarters. Sims said Stephens is the brighest boy in his battery. August 1942. Battery A, 76th C.A.A. S.S. Mormacsea at Fort Mason, California, 9 August 1942. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7601,
     category: 'Coast Artillery',
   },
