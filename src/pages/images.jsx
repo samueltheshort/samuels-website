@@ -149,21 +149,21 @@ const books = [
   {
     name: 'Soldiers of the the 76th Coast Artillery',
     description:
-      'To be added (Courtesy of the United States Army Heritage and Education Center)',
+      '"That pig sticker is so sharp it will slit a hair," says Pvt Wm Crook of Ripley, Tenn. He proves it too, with a hirsute speciment from the cranium of Pvt Theo Bean of Birmingham, Ala. The four soldiers are members of Hq. Co. of a C.A.A. unit. They sailed on the transport for overseas duty in the Pacific. They are not talking about slicing vegetables with these bayonets; they are eager to see Tokyo. Aboard a tranport from a Port of Embarkation in US. August 1942. Hq. Co. 76th C.A.A. SS Mormacsea at Fort Mason, Calif. August 9, 1942. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7602,
     category: 'Coast Artillery',
   },
   {
     name: 'Soldiers of the the 76th Coast Artillery',
     description:
-      'To be added (Courtesy of the United States Army Heritage and Education Center)',
+      'Another photograph of the same soldiers, where they are displaying their bayonets. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7603,
     category: 'Coast Artillery',
   },
   {
     name: 'Soldiers of the the 76th Coast Artillery',
     description:
-      'To be added (Courtesy of the United States Army Heritage and Education Center)',
+      'Original caption: Half an hour after the colored soldiers of a regimental headquarters battery of the C.A.A. marched aboard the transport, many of them were bedded down in their close quarters and snoring. The line next the camera, from bunk up, consists of: Pvt. Harrison Wyatt, Atlanta, Ga.; Technician Clarence L. Williams, Columbus, Ga.; Pvt. Bennie Simmons, Goulds, Fla.; Pvt. Patrick Williams, Wells Ferry, Ala.; Sgt. Clommie Watkins, Jackson, Tenn.; Sgt. Abi Stephens, Montgomery, Ala. Next row: Pvt. Willie Brown, Fort Meyers, Fla.; Pvt. William K. Watkins, Linden, Ala.; Pvt. Flenard Van, Pursglove, W.Va, Corp. John G. Thomas, Chicago, Ill. 76th C.A.A. SS Mormacsea at Fort Mason, Calif. Sunday night, August 9, 1942. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7604,
     category: 'Coast Artillery',
   },
