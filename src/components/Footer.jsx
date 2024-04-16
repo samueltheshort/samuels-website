@@ -24,6 +24,7 @@ export function Footer() {
                 <NavLink href="/about">About</NavLink>
                 <NavLink href="/books">Books</NavLink>
                 <NavLink href="/images">Images</NavLink>
+                <NavLink href="/films">Films</NavLink>
                 <NavLink href="/sources">Sources</NavLink>
                 <NavLink href="/articles">Blog</NavLink>
                 {/* <NavLink href="/speaking">Speaking</NavLink> */}
