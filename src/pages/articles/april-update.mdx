@@ -5,6 +5,7 @@ import Image from 'next/future/image'
 import Head from 'next/head'
 import Link from 'next/link'
 import clsx from 'clsx'
+import fuller from '@/images/photos/fuller01.jpg'
 
 export const meta = {
   author: 'Samuel de Korte',
@@ -16,4 +17,28 @@ export const meta = {
 
 export default (props) => <ArticleLayout meta={meta} {...props} />
 
-As a historian, I truly believe that history should be freely accessible. During my research about Black American soldiers during the Second World War, I came across various sources, which I had digitized and are now publicly available. The same goes for photographs, which I had digitized as part of my research, and which are now also available on my website. One of the things I've made available is the book *The Golden Cannon: A history of the 969th Field Artillery Battalion*. Feel free to check it out!
+<>
+As a historian, I truly believe that history should be freely accessible. During my research about Black American soldiers during the Second World War, I came across various sources, which I had digitized and are now publicly available. The same goes for photographs, which I had digitized as part of my research, and which are now also available on my website. One of the things I've made available is the book <em>The Golden Cannon: A history of the 969th Field Artillery Battalion</em>. Feel free to check it out [here](/sources)!
+
+## Update 18 April
+
+I've also uploaded several images of the 76th Coast Artillery Regiment, which can be viewed [here](/images), and included a letter from their chaplain, Luther M. Fuller, where he remarked on his service with the regiment and their hopes for the future.
+</>
+
+<Image
+                src={fuller}
+                alt="An image of Luther M. Fuller, clipped from an online newspaper."
+                sizes="(min-width: 720px) 42rem, 20rem"
+                className="aspect-full rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              /> *Luther M. Fuller. (The Guardian, 22 August 1942)*
+
+__Published in *The Guardian*, August 22, 1942.__  
+__THE SPIRIT OF THE 76th COAST ARTILLERY (AA)__  
+*By Chap. Luther M. Fuller*  
+*SAN FRANCISCO, CAL—Well Folks, here we are writing to you away out in Cool San Francisco, California, where it is common to see women wearing their fur coats in the month of August. This time we are writing, not about the 372nd Infantry of which we have been writing so long, but about a New Regiment, the 76th Coast Artillery Anti Aircraft which is two years old in this month, having been activated at Ft. Bragg, N. C., in August 1940. It is an all-Colored Regiment officered by white personnel, except the two Chaplains. We joined this Regimental after an eleven day journey from New York City through states in the deep south like the Hot Desert Sands of Utah, Arizona, and Nevada. On our way, we visited Denver, Colorado, Omaha, Nebraska, Chicago, Illinois, Salt Lake City, Uth and many other historic places.*  
+
+*The Spirit of the 76th Coast Artillery is one of Freedom and Democracy. Here we have no discrimination or segregation. The white Commissioned Officers and the Colored Chaplains eat in the same Mess Hall, at the same tables reserved for Officers, sleep in the same barracks, and use the same Shower Baths and washroom. Doesn’t it seem strange that white officers from states in the deep south like Mississippi, South and North Carolina, Georgia, and Tennessee should be sharing these privileges with Colored Officers? But it is a real fact, "believe it or not.” Of course, some of them may not like it but there is nothing they can do about it but to take it and like it. Our Commanding Officer is a native of California and will not tolerate any prejudice and discrimination in the 76th Coast Artillery.*  
+
+*I say that the Spirit of the 76th is one of Freedom, Yea, one of Freedom from the weights and shackles of race prejudice, discrimination, and damnable segregation at home and from dictatorship and slavery abroad. The men of our Regiment are anxious to go abroad to fight for Freedom and Democracy, Yea for Christian Democracy, they are not unmindful of the lack of Freedom at home. They are greatly imbued with the same Spirit of Freedom which gripped the hearts of the Revolutionary Patriots of 1776. The same spirit which caused Patrick Henry to say: "Give me Liberty or give me death!” They are well aware of the fact that they, more than any other race, have more to gain by a victory over the Axis Nations. For them, it will be victory over injustice, inequality race prejudice, segregation, and discrimination at home as well as a victory for Christian Democracy abroad.*  
+
+*The Spirit of the 76th Coast Artillery is one of Christianity. There are more real Christians in this regiment than we have found in any others with which we have come in contact. Practically in every Battery there u a Chorus or a Quartette and all delight in singing the songs of Zion and the deep and emotional Spirituals of the Colored Race. The continued cursing and swearing so prevalent in other regiments is conspicuously lacking in the 76th Coast Artillery. At our morning service last Sunday more than thirty soldiers came forward and gave their lives for Christ. It was a rare spectacle to behold in the Army. Real talent in our Regiment is plentiful. We have musicians, school teachers College men, poets, newspaper men, and writers in great numbers. The level of intelligence is very high. So, again we say, that the Spirit of the 76th Coast Artillery is one of real freedom, real liberty and real Christian Democracy.*  
