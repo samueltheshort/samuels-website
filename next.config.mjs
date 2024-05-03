@@ -2,6 +2,7 @@ import nextMDX from '@next/mdx';
 import remarkGfm from 'remark-gfm';
 import rehypePrism from '@mapbox/rehype-prism';
 import remarkToc from 'remark-toc';
+import remarkSlug from 'remark-slug';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -21,7 +22,8 @@ const withMDX = nextMDX({
   options: {
     remarkPlugins: [
       remarkGfm,
-      remarkToc, // Include remark-toc plugin for TOC generation
+      remarkToc,
+      remarkSlug, // Include remark-slug plugin
     ],
     rehypePlugins: [rehypePrism],
   },
