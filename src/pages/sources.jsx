@@ -21,6 +21,15 @@ export default function Sources() {
             The Golden Cannon: A history of the 969th Field Artillery Battalion (PDF). 
           </a>
         </div>
+        <div className="mt-8">
+          <a
+            href="/ComeOutFighting.pdf"
+            download="ComeOutFighting.pdf"
+            className="text-blue-500 hover:underline"
+          >
+            Come Out Fighting: The Epic Tale of the 761st Tank Battalion (PDF). 
+          </a>
+        </div>
       </SimpleLayout>
     </>
   );
