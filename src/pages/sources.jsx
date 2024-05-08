@@ -18,7 +18,7 @@ export default function Sources() {
             download="thegoldencannon.pdf"
             className="text-blue-500 hover:underline"
           >
-            The Golden Cannon: A history of the 969th Field Artillery Battalion (PDF). 
+            The Golden Cannon: A History of the 969th Field Artillery Battalion (PDF). 
           </a>
         </div>
         <div className="mt-8">
