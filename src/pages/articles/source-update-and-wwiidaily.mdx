@@ -1,0 +1,68 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/future/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+import shared from '@/images/photos/found01.jpg'
+import circled from '@/images/photos/found02.jpg'
+import found from '@/images/photos/found03.jpg'
+import otherimage from '@/images/photos/found04.jpg'
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2024-05-12',
+  title: 'May update: A fun surprise',
+  description:
+    "History is full of surprises and sometimes these surprises come when you least expect them.",
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+History is full of surprises and sometimes these surprises come when you least expect them. As some of you might know, every day I post something on Instagram about Black American soldiers during the Second World War. I also collaborate with people and interact with what they post. Recently @worldwarII_daily posted a photograph, which caught my eye. I've added it below. Perhaps you can also spot it.
+
+<Image
+                src={shared}
+                alt="Australian troops storm ashore in the first assault wave to hit Balikpapan on the southeast coast of oil-rich Borneo. Coast Guard Combat Photographer James L. Lonergan stands in the landing craft."
+                sizes="(min-width: 1000px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              />
+*(Courtesy of National Archives and Records Administration: NAID: 513227)*  
+
+If not, once you zoom in, you can see that the hands that the hands of the man wearing the life preserver are a different color than those of the surrounding people. He's the man in the red circle. I was intruiged and dug a bit deeper, where I found another photograph. It’s mostlikely made by James L. Lonergan, who is seen standing up with the camera in the first photograph. He's the man in the yellow circle.  
+
+<Image
+                src={circled}
+                alt="Australian troops storm ashore in the first assault wave to hit Balikpapan on the southeast coast of oil-rich Borneo. Coast Guard Combat Photographer James L. Lonergan stands in the landing craft."
+                sizes="(min-width: 1000px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              />
+*(Courtesy of National Archives and Records Administration: NAID: 513227)*  
+
+As you can see in the images below, the Coast Guardsman is a Black American.
+<Image
+                src={found}
+                alt="Coast Guardsmen Land Aussies in Balikpapan Invasion."
+                sizes="(min-width: 1000px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              />
+*(Courtesy of National Archives and Records Administration: NAID: 205584118)*  
+
+This is the original image that James L. Lonergan took, which you can see in the first photograph.  
+<Image
+                src={otherimage}
+                alt="Coast Guardsmen Land Aussies in Balikpapan Invasion."
+                sizes="(min-width: 1000px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              />
+*(Courtesy of National Archives and Records Administration: NAID: 205584118)*  
+Whereas the discovery of this image doesn’t alter the perception of history, it’s once more a confirmation that Black Americans were there and the contribution of Black Americans during the Second World War.  
+
+Interested in more from World War II Daily Postcast? You can find it [here](https://open.spotify.com/show/4DOxOOi0S3cxcMjms6Mq0M?si=6cYrANmoT4CXBsGrNGOAOA).  
+Interested in what @worldwarII_daily posts on Instagram? You can find it [here](https://www.instagram.com/worldwarii_daily?igsh=b2hxbzh1Z2lsaWox).
+
+## Update 8 May
+Another source has been added! It's the book <em>Come Out Fighting: The Epic Tale of the 761st Tank Battalion</em>. Feel free to check it out [here](/sources)!
+
+
+
