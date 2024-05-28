@@ -33,6 +33,7 @@ import ca7609 from '@/images/photos/ca7609.jpg'
 import ca7610 from '@/images/photos/ca7610.jpg'
 import ca7611 from '@/images/photos/ca7611.jpg'
 import ca7612 from '@/images/photos/ca7612.jpg'
+import fa999th01 from '@/images/photos/fa999th01.jpg'
 
 const images = [
   {
@@ -110,6 +111,13 @@ const images = [
     description:
       'Soldiers of a Field Artillery Battalion near Ubach, Germany, sit in dugout near their gun waiting for firing orders. (Courtesy of National Archives and Records Administration.)',
     image: fa777,
+    category: 'Artillery',
+  },
+  {
+    name: 'Soldiers of the 999th Field Artillery Battalion are about to fire another shell at a target.',
+    description:
+      'Another present from "Harlem to Hitler" is presented on behalf of the men of an artillery outfit which is firing at the barges in which the Germans are trying to escape across the River Seine. Montes-Gassicourt, France, August 20, 1944. The men are of the 999th Field Artillery Battalion, Battery A. (Courtesy of United States Army Heritage and Edication Center.)',
+    image: fa999th01,
     category: 'Artillery',
   },
   {
