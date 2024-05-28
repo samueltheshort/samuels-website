@@ -138,105 +138,105 @@ const images = [
     description:
       'A 3-inch anti-aircraft gun manned by soldiers of the 76th Coast Artillery on the firing range at Myrtle Beach, South Carolina. This photograph was taken by Harry R Price, the regimental commander. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca76,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
   {
     name: 'A 40-mm Bofors gun of the 452nd Anti Aircraft Artillery Battalion.',
     description:
       'A 40-mm Bofors gun of Battery A, 452nd Anti Aircraft Artillery Battalion. (Courtesy of National Archives and Records Administration.)',
     image: aa452,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
   {
     name: 'First Sergeant James Sims shows Private John Stephens his .45. Both are soldiers of the 76th CA.',
     description:
       'Original caption: First Sergeant James Sims of Los Angeles, who saw World War I, as a member of the 801st Pioneers, is shown here on his way to another war as top cutter of a Battery of C.A.A., which sailed on a transport from a Port of Embarkation in U.S. Sergeant Sims is telling Private John O. Stephens of Los Angeles how to handle a 45 in close quarters. Sims said Stephens is the brightest boy in his battery. August 1942. Battery A, 76th C.A.A. S.S. Mormacsea at Fort Mason, California, 9 August 1942. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7601,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
   {
     name: 'Soldiers of the 76th Coast Artillery',
     description:
       '"That pig sticker is so sharp it will slit a hair," says Pvt Wm Crook of Ripley, Tenn. He proves it too, with a hirsute speciment from the cranium of Pvt Theo Bean of Birmingham, Ala. The four soldiers are members of Hq. Co. of a C.A.A. unit. They sailed on the transport for overseas duty in the Pacific. They are not talking about slicing vegetables with these bayonets; they are eager to see Tokyo. Aboard a tranport from a Port of Embarkation in US. August 1942. Hq. Co. 76th C.A.A. SS Mormacsea at Fort Mason, Calif. August 9, 1942. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7602,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
   {
     name: 'Soldiers of the 76th Coast Artillery',
     description:
       'Another photograph of the same soldiers, where they are displaying their bayonets. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7603,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
   {
     name: 'Soldiers of the 76th Coast Artillery',
     description:
       'Original caption: Half an hour after the colored soldiers of a regimental headquarters battery of the C.A.A. marched aboard the transport, many of them were bedded down in their close quarters and snoring. The line next the camera, from bunk up, consists of: Pvt. Harrison Wyatt, Atlanta, Ga.; Technician Clarence L. Williams, Columbus, Ga.; Pvt. Bennie Simmons, Goulds, Fla.; Pvt. Patrick Williams, Wells Ferry, Ala.; Sgt. Clommie Watkins, Jackson, Tenn.; Sgt. Abi Stephens, Montgomery, Ala. Next row: Pvt. Willie Brown, Fort Meyers, Fla.; Pvt. William K. Watkins, Linden, Ala.; Pvt. Flenard Van, Pursglove, W.Va, Corp. John G. Thomas, Chicago, Ill. 76th C.A.A. SS Mormacsea at Fort Mason, Calif. Sunday night, August 9, 1942. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7604,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
   {
     name: 'Soldiers of the 76th Coast Artillery on board of the SS Mormacsea',
     description:
       'Original caption: "Down the hatch" Colored soldiers of a C.A.A. unit, few of whom ever were aboard a ship before, get acquinted with a new world aboard the transport as the line pauses on deck at the door of a hatch which leads below to the bunk tiers. A Port of Embarkation in U.S. 76th C.A.A. SS Mormacsea at Fort Mason, Calif. August 9, 1942 (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7605,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
   {
     name: 'Soldiers of the 76th Coast Artillery are playing blackjack',
     description:
       'Original caption: Members of A C.A.A. regimental band, atop their bunk section in the hold of a transport, are playing a little blackjack before turning in. Aboard a transport from a Port of Embarkation in U.S. 76th C.A.A. SS Mormacsea at Fort Mason, Calif. August 9, 1942 (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7606,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
   {
     name: 'Soldiers of the 76th or 77th Coast Artillery during a training exercise',
     description:
       'Original caption: C. D. nurse and defending medical troops pick up dead and wounded from the battle field, Ft. Moultrie, Charleston, S. C. Oct. 22, 1941. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7607,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
   {
     name: 'Soldiers of the 76th or 77th Coast Artillery during a training exercise',
     description:
       'Defending troops of Ft. Moultrie on the charge. C. D. Air raid exercises at Charleston, S. C. Oct. 22, 1941. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7608,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
   {
     name: 'Soldiers of the 76th or 77th Coast Artillery during a training exercise',
     description:
       'Soldiers at a charge after the parachutist have landed. C.D. Air raid exercises. Ft. Moultrie, Charleston, S. C. Oct. 22, 1941. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7609,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
   {
     name: 'Soldiers of the 76th or 77th Coast Artillery during a training exercise',
     description:
       'Original caption: Defending troops capture the enemy during C. D. air raids, Ft. Moultrie, Charleston, S. C. Oct 22, 1941. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7610,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
   {
     name: 'Soldiers of the 76th Coast Artillery stand next to a large searchlight',
     description:
       'Original caption: Pvt. Robert Byrd, Henry Johnson, John Hamlin, Battery E, 76th CAC (AA) at searchlight during C. D. air raids exercises. Fort Moultrie, Charleston, S. C. Oct. 22, 1941. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7611,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
   {
     name: 'Soldiers of Battery E the 76th Coast Artillery are lighting up the field during exercises',
     description:
       'Original caption: Searchlights lighting up first aid exercises on the field at Charleston, S. C., during the C. D. Air raid exercises. Oct. 22, 1941. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca7612,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
   {
     name: 'Battery B, 49th Coast Artillery, section 2, fires at Japanese positions on Bougainville',
     description:
       'Original caption: This 155mm rifle, operated by negro troops, is firing at Jap positions on Bougainville. The soldier at left prepares to sponge the breech. Bougainville. 4/16/44. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca4901,
-    category: 'Coast Artillery',
+    category: 'Artillery',
   },
 ]
 
