@@ -1,0 +1,59 @@
+
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/future/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+import madison1 from '@/images/photos/Madison1.jpg'
+import madison2 from '@/images/photos/madison2.jpg'
+
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2024-06-15',
+  title: 'Honoring First Lieutenant John M. Madison: Officer in the 92nd Infantry Division.',
+  description:
+   'On the website of the National Archives and Records Administration, there is a section devoted to images of Black Americans during the Second World War. If you scroll down a bit, you’ll see image 235, with the caption: “Brig. Gen. Robert N. Young, Commanding General of the Military District of Washington, assists Melba Rose, aged 2, daughter of Mrs. Rosie L. Madison,...in viewing the Silver Star posthumously awarded her father 1st Lt. John W. Madison, of the 92nd Infantry Division, who was killed in action in Italy...” Immediately, I was curious. What’s the story behind this image?',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+<>
+
+On the website of the National Archives and Records Administration, there is a section devoted to images of [Black Americans during the Second World War](https://www.archives.gov/research/african-americans/ww2-pictures). If you scroll down a bit, you’ll see image 235, with the caption: “Brig. Gen. Robert N. Young, Commanding General of the Military District of Washington, assists Melba Rose, aged 2, daughter of Mrs. Rosie L. Madison,...in viewing the Silver Star posthumously awarded her father 1st Lt. John W. Madison, of the 92nd Infantry Division, who was killed in action in Italy...” Immediately, I was curious. What’s the story behind this image?
+
+<Image
+                src={madison2}
+                alt=" Brigade General Robert N. Young, Commanding General of the Military District of Washington, assists Melba Rose, aged 2, daughter of Mrs. Rosie L. Madison,...in viewing the Silver Star posthumously awarded her father 1st Lt. John W. Madison, of the 92nd Infantry Division, who was killed in action in Italy..." 
+                sizes="(min-width: 720px) 42rem, 20rem"
+                className="aspect-full rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              /> * Image from National Archives and Records Administration: NAID: 535559.*
+
+
+## John M. Madison and his awards
+
+The photograph shows a Black woman and her daughter, while the white general on the left is holding the medal. It’s a tragic history, because Rosie’s husband and Melba’s father has been killed in combat, while serving with the 92nd Infantry Division. I’ve been digging a bit deeper and located the following newspaper photograph. 
+</>
+
+<Image
+                src={madison1}
+                alt="A newspaper clipping featuring the widow and daughter of James M. Madison receiving a medal."
+                sizes="(min-width: 720px) 42rem, 20rem"
+                className="aspect-full rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              /> * Image from The Michigan Chronicle, August 11, 1945.*
+
+
+The caption even has a typo, because it appears to be John Melvin Madison. His entry on [the American Battle Monuments Commission] (https://www.abmc.gov/decedent-search/madison%3Djohn) also lists him as John M. Madison.
+
+On the website of [The Hall of Valor Project](https://valor.militarytimes.com/hero/94036) I found the citation for his Silver Star. It gives some more information on the action for which he was decorated.
+
+>GENERAL ORDERS:
+>
+>Headquarters, 92d Infantry Division, General Orders No. 15 (April 22, 1945)
+>
+>CITATION:
+>
+>The President of the United States of America, authorized by Act of Congress July 9, 1918, takes pride in presenting the Silver Star (Posthumously) to First Lieutenant (Infantry) John Melvin Madison (ASN: 0-331261), United States Army, for gallantry in action while serving with the 370th Infantry Regiment, 92d Infantry Division, in action on 8 and 10 February 1945, in Italy. The company of which First Lieutenant Madison was a member had taken its objective against light enemy resistance. Immediately thereafter, the enemy subjected the position to terrific artillery and mortar fire which killed or wounded all officers except First Lieutenant Madison. Extremely heavy casualties and the loss of leadership disorganized the company and it sought to withdraw. First Lieutenant Madison quickly gathered the remaining fifteen men and, regardless of continuing enemy fire, put them into positions to hold the hill. By sheer personal courage and disregard for his own life, First Lieutenant Madison inspired his men to repel three separate enemy counterattacks aimed exclusively at their position. He withdrew only upon orders. Two days later, he captured seven enemy soldiers while leading his company in an attack routed through an extensive unmarked minefield. First Lieutenant Madison's outstanding bravery in a situation of extreme combat hazard exemplifies the gallant heroism of the American Soldier.
+
+While there’s still a lot to discover about the history of John M. Madison, the sources give more background to the photograph. First Lieutenant Madison served valiantly in combat and died in the service of his country. May he rest in peace. 
