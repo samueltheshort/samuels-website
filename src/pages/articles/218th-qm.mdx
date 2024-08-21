@@ -1,0 +1,61 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/future/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+import mapfp from '@/images/photos/mcr.jpg'
+import qm218 from '@/images/photos/218qmbn.jpg'
+
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2024-08-24',
+  title: 'An image of the 218th Quartermaster Battalion',
+  description:
+    'I am currently on a writing retreat in Italy and I’m focused on my project about the 777th Field Artillery Battalion. In between working on that project, I thought I’d take a small moment to share something with you.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+I’m currently on a writing retreat in Italy and I’m focused on my project about the 777th Field Artillery Battalion. In between working on that project, I thought I’d take a small moment to share something with you.  
+## Just a Photograph
+Let me show a photograph. It's an image from the Second World War. Look closely and take a moment to consider what you see.
+
+<Image
+                src={qm218}
+                alt="Black American soldiers are fueling jerricans."
+                sizes="(min-width: 200px)"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+                caption="Black American soldiers are fueling jerricans."                
+              />
+              <figcaption align = "center"><b>(Courtesy of United States Heritage and Education Center)</b></figcaption> 
+
+On the reverse of the photograph is written: “Huge tank truck discharge their cargo of gasoline into ‘jerricans’ lined up along the road at the 218th Quartermaster Battalion dump in Germany. This gas dump supplies fuel to the U.S. Ninth Army. 3/23/45. Wegberg, Germany.”  
+
+At first glance, it seems that it’s “just” another quartermaster battalion providing fuel for the advancing Allied armies. However, there’s a lot more going on here than you might think. Now, I’m guessing most of you have never heard of the 218th Quartermaster Battalion and that’s also fine. It was one of the many quartermaster units in the army at that time.  
+
+Likewise, “Ninth Army”, the location “Wegberg, Germany” and the date 23 March 1945, don’t mean much separate of each other. But when you think about it, this was right before Operation Flashpoint was launched. The advance of the US Ninth Army across the Rhine River, which plunged deeper into Germany and eventually sealed the Ruhr pocket.   
+
+<Image
+                src={mapfp}
+                alt="A map showing the advance of the US Ninth Army during Operation Flashpoint."
+                sizes="(min-width: 200px)"
+                className="rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+                caption="The advance of the US Ninth Army during Operation Flashpoint."
+                
+              />
+              <figcaption align = "center"><b>The advance of the US Ninth Army during Operation Flashpoint. (Original map is in the public domain)</b></figcaption> 
+
+## Operation Flashpoint
+Operation Flashpoint was part of the bigger Operation Plunder, which also included an airborne element: Operation Varsity. On 23 March 1945, the British Second Army, the US Ninth Army, and the British 6th Airborne and the American 17th Airborne Divisions, launched an attack together and crossed the Rhine River, which formed the last line of German resistance.  
+
+And it's due to these facts that this photo is significant. It’s not just text, another numerical designation for a unit, but a glimpse into the historical past. The 218th Quartermaster Battalion literally fueled the advance of the 30th, 35th, 79th Infantry Divisions and the 8th Armored Division! All their vehicles, all their tanks, and also the boats need fuel to operate.  
+
+It supplied some 294,000 gallons (1,112,911 liters) of gasoline to the Ninth Army each day. If this battalion hadn’t done its service, then the advance of the army would be stuck. Now, it’s just a small gear in a much bigger machine, but it was there and that’s what matters. This image is direct proof that they were there. 
+
+Now, their history is not the stuff of legends and that's okay. It’s just to show that there’s a lot more to history and a lot more to the Second World War than you might think. Black American soldiers were part of the United States Army during the Second World War and the work that they did, either at the front or behind it, helped the Allied armies win the war in.   
+
+If you’d like to see footage of the 79th Infantry Division crossing the Rhine River, which was in part made possible by the 218th Quartermaster Battalion, check out this video by my friend G.I.stories on [YouTube](https://www.youtube.com/watch?v=JO3mN7st0UY).  
+
+Want to help me with my research? Check out my [Patreon](https://www.patreon.com/samueldekorte). As a thank you, you’ll get a monthly postcard featuring Black American soldiers during the Second World War.   
