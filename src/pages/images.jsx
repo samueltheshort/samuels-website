@@ -103,7 +103,7 @@ const images = [
   {
       name: 'Soldiers of the 218th Quartermaster Battalion are fueling jerricans.',
       description:
-        'Soldiers of the 218th Quartermaster Battalion are fueling jerrycans. These cans were used to fuel the advance of the Ninth Army during Operation Flashpoint. Stamped: Wegberg, Germany / 23 March 1945. (Courtesy of the United States Army Heritage and Education Center)',
+        'Soldiers of the 218th Quartermaster Battalion are fueling jerrycans. These cans were used to fuel the advance of the Ninth Army during Operation Flashpoint. (Wegberg, Germany. 23 March 1945) (Courtesy of the United States Army Heritage and Education Center)',
       image: qm218,
       category: 'Tanks',
   },
