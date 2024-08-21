@@ -34,6 +34,7 @@ import ca7610 from '@/images/photos/ca7610.jpg'
 import ca7611 from '@/images/photos/ca7611.jpg'
 import ca7612 from '@/images/photos/ca7612.jpg'
 import fa999th01 from '@/images/photos/fa999th01.jpg'
+import qm218 from '@/images/photos/218qmbn.jpg'
 
 const images = [
   {
@@ -98,6 +99,13 @@ const images = [
       'A three inch M5 gun covered by camouflage netting. (Courtesy of the United States Army Heritage and Education Center)',
     image: td614im7,
     category: 'Tank Destroyers',
+  },
+  {
+      name: 'Soldiers of the 218th Quartermaster Battalion are fueling jerricans.',
+      description:
+        'Soldiers of the 218th Quartermaster Battalion are fueling jerrycans. These cans were used to fuel the advance of the Ninth Army during Operation Flashpoint. Stamped: Wegberg, Germany / 23 March 1945. (Courtesy of the United States Army Heritage and Education Center)',
+      image: qm218,
+      category: 'Tanks',
   },
   {
     name: 'A howitzer of the 593rd Field Artillery Battalion',
