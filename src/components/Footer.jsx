@@ -26,6 +26,7 @@ export function Footer() {
                 <NavLink href="/images">Images</NavLink>
                 <NavLink href="/films">Films</NavLink>
                 <NavLink href="/sources">Sources</NavLink>
+                <NavLink href="https://samueldekorte-shop.fourthwall.com/">Webshop</NavLink>
                 <NavLink href="/articles">Blog</NavLink>
                 {/* <NavLink href="/speaking">Speaking</NavLink> */}
                 {/* <NavLink href="/uses">Uses</NavLink> */}

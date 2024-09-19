@@ -128,6 +128,7 @@ function MobileNavigation(props) {
                 <MobileNavItem href="/films">Films</MobileNavItem>
                 <MobileNavItem href="/sources">Sources</MobileNavItem>
                 <MobileNavItem href="/articles">Blog</MobileNavItem>
+                <MobileNavItem href="https://samueldekorte-shop.fourthwall.com/">Webshop</MobileNavItem>
                 <MobileNavItem href="/about">About Samuel </MobileNavItem>
                 {/* <MobileNavItem href="/speaking">Speaking</MobileNavItem> */}
                 {/* <MobileNavItem href="/uses">Uses</MobileNavItem> */}
@@ -172,6 +173,7 @@ function DesktopNavigation(props) {
         <NavItem href="/images">Images</NavItem>
         <NavItem href="/films">Films</NavItem>
         <NavItem href="/sources">Sources</NavItem>
+        <NavItem href="https://samueldekorte-shop.fourthwall.com/">Webshop</NavItem>
         <NavItem href="/articles">Blog</NavItem>
       </ul>
     </nav>
