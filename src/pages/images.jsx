@@ -35,8 +35,17 @@ import ca7611 from '@/images/photos/ca7611.jpg'
 import ca7612 from '@/images/photos/ca7612.jpg'
 import fa999th01 from '@/images/photos/fa999th01.jpg'
 import qm218 from '@/images/photos/218qmbn.jpg'
+import fa578th from '@/images/photos/578thfagunjpg.jpg'
+
 
 const images = [
+  {
+    name: 'A shell is being loaded into an 8-inch howitzer of the 578th Field Artillery Battalion.',
+    description:
+      'A shell is being loaded into an 8-inch howitzer of the 578th Field Artillery Battalion (Bleialf, Germany, 9 February 1945). (Author collection.)',
+    image: fa578th,
+    category: 'Artillery',
+  },
   {
     name: 'The 614th Tank Destroyer Battalion',
     description:
