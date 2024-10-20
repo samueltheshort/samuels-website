@@ -36,6 +36,8 @@ import ca7612 from '@/images/photos/ca7612.jpg'
 import fa999th01 from '@/images/photos/fa999th01.jpg'
 import qm218 from '@/images/photos/218qmbn.jpg'
 import fa578th from '@/images/photos/578thfagunjpg.jpg'
+import cpdb6888thfr from '@/images/photos/cpdb6888th01.jpg'
+import cpdb6888thuk from '@/images/photos/cpdb6888th02.jpg'
 
 
 const images = [
@@ -262,6 +264,20 @@ const images = [
       'Original caption: This 155mm rifle, operated by negro troops, is firing at Jap positions on Bougainville. The soldier at left prepares to sponge the breech. Bougainville. 4/16/44. (Courtesy of the United States Army Heritage and Education Center)',
     image: ca4901,
     category: 'Artillery',
+  },
+  {
+    name: 'Major Charity Adams inspects the troops under her command.',
+    description:
+      'Somewhere in England, Maj. Charity E. Adams, Columbia, S.C., and Capt. Abbie N. Campbell, Tuskegee Institute, Tuskegee, Ala, during an inspection in February 1945. (Courtesy of NARA: NAID: 531249)',
+    image: cpdb6888thuk,
+    category: 'Women Army Corps',
+  },
+  {
+    name: 'Opening of the 6888th Central Postal Directory Battalion bar in France in 1945',
+    description:
+      "In Rouen, France, Second Lieutenant Freda le Beau (New Orleans, LA), post exchange officer, serves the first Coca Cola to Major Charity Adams (Columbia, South Carolina), at the grand opening of the WAC battalion's new snack bar. (Courtesy of NARA: NAID: 175539159)",
+    image: cpdb6888thfr,
+    category: 'Women Army Corps',
   },
 ]
 
