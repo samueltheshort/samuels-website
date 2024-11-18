@@ -1,0 +1,35 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/future/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+import helen from '@/images/photos/douglas.jpg'
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2024-11-18',
+  title: 'New Source Shared: Speech Helen Douglas',
+  description:
+    "Helen Gahagan Douglas, an ardent advocate for equality and justice, delivered a speech during World War II celebrating the vital contributions of Black American soldiers. Her speech is titled: “The Negro Soldier: A partial record of Negro devotion and heroism in the cause of freedom gathered from the files of the War and Navy Departments” and delivered in January 1946 before the House of Representatives. Her words highlight the courage and resilience of Black Americans in the fight against global tyranny.",
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+## Helen Gahagan Douglas and The Negro Soldier: Celebrating Black Contributions in WWII
+Helen Gahagan Douglas, an ardent advocate for equality and justice, delivered a speech during World War II celebrating the vital contributions of Black American soldiers. Her speech is titled: “The Negro Soldier: A partial record of Negro devotion and heroism in the cause of freedom gathered from the files of the War and Navy Departments” and delivered in January 1946 before the House of Representatives. Her words highlight the courage and resilience of Black Americans in the fight against global tyranny.
+
+<Image
+                src={helen}
+                alt="An image of Helen Gahagan Douglas taken around the year 1945."
+                sizes="(min-width: 1000px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              />
+*A photograph of Helen Gahagan Douglas, dated circa 1945. (Public Domain)*  
+The speech is well researched and serves as powerful reminders that Black American soldiers were not only instrumental on the battlefield but also represented the ideals of democracy and freedom. From the legendary Tuskegee Airmen in the skies to the brave infantrymen of the 92nd Infantry Division, Douglas emphasized how these men risked their lives for a country that had yet to grant them full equality. Other famous mentioned units are the 761st Tank Battalion, widely known as the "Black Panthers”, the 450th Anti-Aircraft Artillery Battalion, and the 614th Tank Destroyer Battalion. 
+## Stories of valor and courage
+These stories of valor and unity were meant to inspire both Black and white Americans to stand together. Douglas’s speech extended this mission, reinforcing the need for postwar recognition of civil rights. She called attention to the ongoing "Double Victory" campaign—a fight for victory over fascism abroad and racism at home—using the bravery of Black soldiers to challenge systemic discrimination.
+At a time when the military remained segregated, this message resonated deeply and several people wrote to her to congratulate her on her speech. Her words in the speech continue to remind us of the critical role Black Americans played in shaping history. 
+These days, for any reader wishing to get a broad overview of the contributions of Black American soldiers in the Second World War, this is an excellent place to start. Many units and individual stories of heroism are described. She also puts the participation of Black Americans in perspective compared to the efforts of Americans of other races.
+Eager to read the full speech of Helen Gahagan Douglas for yourself? Head on over to the [sources section](/sources) where you can download a copy of it.
+
