@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
@@ -22,6 +23,7 @@
     "feed": "^4.2.2",
     "focus-visible": "^5.2.0",
     "next": "12.2.5",
+    "next-sitemap": "^4.2.3",
     "postcss-focus-visible": "^6.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -37,3 +39,4 @@
     "remark-toc": "^9.0.0"
   }
 }
+
