@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://samueldekorte.com</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldekorte.com/about</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldekorte.com/articles</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://samueldekorte.com</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://samueldekorte.com/about</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://samueldekorte.com/articles</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
 <url><loc>https://samueldekorte.com/articles/218th-qm</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 <url><loc>https://samueldekorte.com/articles/6888th-central-postal-directory-battalion</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 <url><loc>https://samueldekorte.com/articles/Mack-Anderson</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
@@ -20,12 +20,12 @@
 <url><loc>https://samueldekorte.com/articles/patreon-update</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 <url><loc>https://samueldekorte.com/articles/photograph-578th-field-artillery-battalion</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 <url><loc>https://samueldekorte.com/articles/plans-2024</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldekorte.com/articles/review-bourgogne</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldekorte.com/articles/review-coignet</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldekorte.com/articles/review-dunwich</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldekorte.com/articles/review-karman-line</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldekorte.com/articles/review-life-among-humans</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldekorte.com/articles/review-terror-world</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://samueldekorte.com/articles/review-bourgogne</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://samueldekorte.com/articles/review-coignet</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://samueldekorte.com/articles/review-dunwich</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://samueldekorte.com/articles/review-karman-line</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://samueldekorte.com/articles/review-life-among-humans</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://samueldekorte.com/articles/review-terror-world</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
 <url><loc>https://samueldekorte.com/articles/source-update-and-wwiidaily</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 <url><loc>https://samueldekorte.com/articles/the-focus-for-2023</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 <url><loc>https://samueldekorte.com/articles/three-black-americans</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
@@ -33,8 +33,8 @@
 <url><loc>https://samueldekorte.com/articles/updates-about-projects</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 <url><loc>https://samueldekorte.com/articles/wagevier-memoirs</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 <url><loc>https://samueldekorte.com/articles/what-a-wonderful-world</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldekorte.com/books</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldekorte.com/films</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldekorte.com/images</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://samueldekorte.com/sources</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://samueldekorte.com/books</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://samueldekorte.com/films</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://samueldekorte.com/images</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://samueldekorte.com/sources</loc><lastmod>2024-11-25T07:53:30.382Z</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
 </urlset>
