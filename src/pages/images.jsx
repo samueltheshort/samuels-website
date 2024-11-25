@@ -38,6 +38,7 @@ import qm218 from '@/images/photos/218qmbn.jpg'
 import fa578th from '@/images/photos/578thfagunjpg.jpg'
 import cpdb6888thfr from '@/images/photos/cpdb6888th01.jpg'
 import cpdb6888thuk from '@/images/photos/cpdb6888th02.jpg'
+import bp76103 from '@/images/photos/bp76103.jpg'
 
 
 const images = [
@@ -158,6 +159,13 @@ const images = [
     description:
       'A M4 Sherman tank of the 761st Tank Battalion. (Courtesy of National Archives and Records Administration.)',
     image: bp76101,
+    category: 'Tanks',
+  },
+  {
+    name: 'A M4 Sherman tank of the 761st Tank Battalion is crossing a Bailey Bridge in France',
+    description:
+      'A M4 Sherman tank of the 761st Tank Battalion is crossing a Bailey Bridge in France on their way to the frontline (9 November 1944). (Courtesy of National Archives and Records Administration.)',
+    image: bp76103,
     category: 'Tanks',
   },
   {
