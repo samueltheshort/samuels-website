@@ -185,24 +185,34 @@ export default function Home({ articles }) {
             <div className="mt-6 flex gap-6">
 
             </div>
-            <div className="flex justify-center gap-6 mt-6">
-  <Button className="w-full sm:w-auto" as="a" href="https://www.samueldekorte.com/books">
-    Learn More About My Books
-  </Button>
-  <Button className="w-full sm:w-auto" as="a" href="https://www.samueldekorte.com/sources">
-    Read Historical Sources
-  </Button>
-  <Button className="w-full sm:w-auto" as="a" href="https://www.samueldekorte.com/images">
-    View Historical Images
-  </Button>
-  <Button className="w-full sm:w-auto" as="a" href="https://www.samueldekorte.com/films">
-    View Historical Footage
-  </Button>
-  <Button className="w-full sm:w-auto" as="a" href="https://www.samueldekorte.com/articles">
-    Check Out my Blog
-  </Button>
-</div>
-          </div>
+              <div className="flex justify-center gap-6 mt-6">
+                <a href="https://www.samueldekorte.com/books" className="w-full sm:w-auto">
+                  <Button className="w-full sm:w-auto">
+                    Learn More About My Books
+                  </Button>
+                </a>
+                <a href="https://www.samueldekorte.com/sources" className="w-full sm:w-auto">
+                  <Button className="w-full sm:w-auto">
+                    Read Historical Sources
+                  </Button>
+                </a>
+                <a href="https://www.samueldekorte.com/images" className="w-full sm:w-auto">
+                  <Button className="w-full sm:w-auto">
+                    View Historical Images
+                  </Button>
+                </a>
+                <a href="https://www.samueldekorte.com/films" className="w-full sm:w-auto">
+                  <Button className="w-full sm:w-auto">
+                    View Historical Footage
+                  </Button>
+                </a>
+                <a href="https://www.samueldekorte.com/articles" className="w-full sm:w-auto">
+                  <Button className="w-full sm:w-auto">
+                    Check Out My Blog
+                  </Button>
+                </a>
+              </div>
+            </div>
      </Container></>
     <Photos /><Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
