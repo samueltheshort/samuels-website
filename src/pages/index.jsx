@@ -172,21 +172,36 @@ export default function Home({ articles }) {
         <title>Samuel de Korte - Historian</title>
         <meta
           name="description"
-          content="My name is Samuel de Korte. As a historian I specialize in black American soldiers during the Second World War and Dutch soldiers during the Napoleonic wars." />
+          content="My name is Samuel de Korte.m Samuel de Korte, a historian specializing in Black American soldiers during World War II and Dutch soldiers in the Napoleonic Wars. My past work includes writing about the 614th Tank Destroyer Battalion, the first segregated combat unit to receive the Distinguished Unit Citation. I’ve also translated the memoirs of a Dutch officer who served with Napoleon in Russia in 1812, authored a book on the Tuskegee Airmen, and have a forthcoming book on the 452nd Anti-Aircraft Artillery Battalion. The book is scheduled to appear in February 2025. Currently, I'm writing about the 777th Field Artillery Battalion." />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
-
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            I write books about the past, the present and the future!
-          </h1><p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            My name is Samuel de Korte. As a historian I specialize in black American soldiers during the Second World War and Dutch soldiers during the Napoleonic wars. Past projects include writing the history of the 614th Tank Destroyer Battalion, the first segregated combat unit to win the Distinguished Unit Citation. I translated the memoirs of a Dutch officer that served with Napoleon in Russia in 1812 and I wrote a book about the Tuskegee Airmen. In 2025 a book about the 452nd Anti-Aircraft Artillery Battalion will appear. Currently I am working on a book about the 777th Field Artillery Battalion.</p>
-           
-        
+          <div className="hero-section text-center">
+   <h1 className="text-5xl font-bold text-black">Uncovering the history of Black American soldiers during the Second World War, one unit at a time!</h1>
+</div>
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            My name is Samuel de Korte. I'm a historian specializing in Black American soldiers during World War II and Dutch soldiers in the Napoleonic Wars. My past work includes writing about the 614th Tank Destroyer Battalion, the first segregated combat unit to receive the Distinguished Unit Citation. I’ve also translated the memoirs of a Dutch officer who served with Napoleon in Russia in 1812, authored a book on the Tuskegee Airmen, and have a forthcoming book on the 452nd Anti-Aircraft Artillery Battalion. The book is scheduled to appear in February 2025. Currently, I'm writing about the 777th Field Artillery Battalion.</p>
+   
             <div className="mt-6 flex gap-6">
 
             </div>
-          
+            <div className="flex justify-center gap-6 mt-6">
+  <Button className="w-full sm:w-auto" as="a" href="https://www.samueldekorte.com/books">
+    Learn More About My Books
+  </Button>
+  <Button className="w-full sm:w-auto" as="a" href="https://www.samueldekorte.com/sources">
+    Read Historical Sources
+  </Button>
+  <Button className="w-full sm:w-auto" as="a" href="https://www.samueldekorte.com/images">
+    View Historical Images
+  </Button>
+  <Button className="w-full sm:w-auto" as="a" href="https://www.samueldekorte.com/films">
+    View Historical Footage
+  </Button>
+  <Button className="w-full sm:w-auto" as="a" href="https://www.samueldekorte.com/articles">
+    Check Out my Blog
+  </Button>
+</div>
           </div>
      </Container></>
     <Photos /><Container className="mt-24 md:mt-28">

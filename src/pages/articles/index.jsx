@@ -45,7 +45,7 @@ export default function ArticlesIndex({ articles }) {
         />
       </Head>
       <SimpleLayout
-        title="Writing on the past, present and future."
+        title="Uncovering the history of Black American soldiers during the Second World War, one unit at a time!"
         intro="Read about some of the projects I'm currently working on or thoughts that I wanted to share. Currently I am working on a book about the 777th Field Artillery Battalion."
       >
         <div className="md:border-l md:border-stone-100 md:pl-6 md:dark:border-stone-700/40">

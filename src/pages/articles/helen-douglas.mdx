@@ -6,6 +6,7 @@ import Link from 'next/link'
 import clsx from 'clsx'
 import helen from '@/images/photos/douglas.jpg'
 
+
 export const meta = {
   author: 'Samuel de Korte',
   date: '2024-11-18',
@@ -14,7 +15,21 @@ export const meta = {
     "Helen Gahagan Douglas, an ardent advocate for equality and justice, delivered a speech during World War II celebrating the vital contributions of Black American soldiers. Her speech is titled: “The Negro Soldier: A partial record of Negro devotion and heroism in the cause of freedom gathered from the files of the War and Navy Departments” and delivered in January 1946 before the House of Representatives. Her words highlight the courage and resilience of Black Americans in the fight against global tyranny.",
 }
 
-export default (props) => <ArticleLayout meta={meta} {...props} />
+
+export default (props) => (
+  <>
+    {/* Head Section for SEO */}
+    <Head>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      <link rel="canonical" href="https://www.samueldekorte.com/articles/helen-douglas" />
+    </Head>
+
+    {/* Article Layout */}
+    <ArticleLayout meta={meta} {...props} />
+  </>
+)
+
 
 ## Helen Gahagan Douglas and The Negro Soldier: Celebrating Black Contributions in WWII
 Helen Gahagan Douglas, an ardent advocate for equality and justice, delivered a speech during World War II celebrating the vital contributions of Black American soldiers. Her speech is titled: “The Negro Soldier: A partial record of Negro devotion and heroism in the cause of freedom gathered from the files of the War and Navy Departments” and delivered in January 1946 before the House of Representatives. Her words highlight the courage and resilience of Black Americans in the fight against global tyranny.
