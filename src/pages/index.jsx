@@ -2,7 +2,8 @@ import Image from 'next/image'
 import Head from 'next/head'
 import Link from 'next/link'
 import clsx from 'clsx'
-
+import { useEffect, useState } from 'react'
+import { useRouter } from 'next/router'
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
@@ -166,13 +167,24 @@ function Photos() {
 }
 
 export default function Home({ articles }) {
+  const [isMounted, setIsMounted] = useState(false)
+  const router = useRouter()
+
+  useEffect(() => {
+    setIsMounted(true)
+  }, [])
+
+  if (!isMounted) {
+    return <p>Loading...</p>
+  }
+
   return (
     <><>
       <Head>
         <title>Samuel de Korte - Historian</title>
         <meta
           name="description"
-          content="I’m Samuel de Korte. I wrote about Black American soldiers during World War II, including the 614th Tank Destroyer Battalion, the Tuskegee Airmen, and the 452nd Anti-Aircraft Artillery Battalion." />
+          content="I'm Samuel de Korte. I'm a historian and I write about Black American soldiers during World War II." />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
