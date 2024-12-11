@@ -1,0 +1,53 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+import td614 from '@/images/photos/td61401.jpg'
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2024-12-11',
+  title: 'The 614th Tank Destroyer Battalion: Heroic Black American soldiers during World War II',
+  description:
+    "The 614th Tank Destroyer Battalion is one of the most outstanding Black American units to serve during World War II. Formed during an era of segregation in the U.S. Army, this battalion proved that valor, skill, and determination knew no racial boundaries. Their extraordinary accomplishments on the battlefield helped pave the way for the eventual desegregation of the military and solidified their place in the annals of African American military history.",
+}
+
+export default (props) => (
+  <>
+    {/* Head Section for SEO */}
+    <Head>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      <link rel="canonical" href="https://www.samueldekorte.com/articles/the-614th-tank-destroyer-battalion" />
+    </Head>
+
+    {/* Article Layout */}
+    <ArticleLayout meta={meta} {...props} />
+  </>
+)
+
+The 614th Tank Destroyer Battalion: Heroes of World War II
+
+The 614th Tank Destroyer Battalion is one of the most outstanding Black American units to serve during World War II. Formed during an era of segregation in the U.S. Army, this battalion proved that valor, skill, and determination knew no racial boundaries. Their extraordinary accomplishments on the battlefield helped pave the way for the eventual desegregation of the military and solidified their place in the annals of African American military history. 
+
+<Image
+                src={td614}
+                alt="An image of soldiers of the 614th Tank Destroyer Battalion standing around a three inch gun. The image is taken in the year 1945."
+                sizes="(min-width: 1000px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+              />
+*A photograph of the 614th Tank Destroyer Battalion and their primary weapon: the 3-inch gun. (1945) (Courtesy of United States Army Heritage and Education Center)*  
+
+Activated in 1942, the 614th Tank Destroyer Battalion was part of the U.S. Army’s broader strategy to counter the formidable German tank forces. The unit trained extensively in anti-tank warfare, mastering the use of their towed anti-tank guns. By 1944, they were deployed to Europe. 
+
+### The Battle of Climbach
+The battalion’s defining moment came during its advance through Nazi-occupied Europe. On December 14, 1944, in the town of Climbach, France, the 614th achieved a remarkable victory against a heavily fortified German position. During this engagement, First Lieutenant Charles L. Thomas, the commander of Company C, displayed extraordinary heroism. Leading Third Platoon during the engagement, he deployed his guns on the reverse slope outside of town. Despite his injuries, he continued to lead his soldiers, until another officer was present to take over. His actions initially earned him the Distinguished Service Cross. Later this was upgraded to the Medal of Honor, which was awarded posthumously in 1997.
+For its performance, Third Platoon, Company C, the 614th Tank Destroyer Battalion became the first Black American unit to receive the Distinguished Unit Citation. This recognition was a testament to their tactical expertise, discipline, and unyielding courage under fire.
+### Black and white soldiers 
+
+Their story, however, goes beyond battlefield heroism. As participants in the “Double Victory” campaign, the men of the 614th fought not only against fascism abroad but also against the systemic racism and discrimination that pervaded the U.S. society. Their success challenged prevailing prejudices and played a significant role in shaping the postwar push for racial equality. Many white soldiers of the 103rd Infantry Division, to which the 614th Tank Destroyer Battalion had been attached for most of their combat career, came home with changed ideas of race and equality.
+The 614th Tank Destroyer Battalion’s legacy endures today, as a symbol of excellence, sacrifice, and patriotism. Their contributions to World War II demonstrated the critical role of Black American soldiers in the Allied victory and inspired the eventual desegregation of the U.S. armed forces in 1948. Today, their story reminds us of the resilience and bravery of those who fought for a nation that did not fully recognize their worth—a powerful testament to their enduring fight for equality.
+
+### More Images Available
+If you wish to see more photographs of the 614th Tank Destroyer Battalion, check out my [image section](/images) where you can view them.  
