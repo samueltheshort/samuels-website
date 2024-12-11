@@ -167,81 +167,59 @@ function Photos() {
 }
 
 export default function Home({ articles }) {
-  const [isMounted, setIsMounted] = useState(false)
-  const router = useRouter()
+  const [isMounted, setIsMounted] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
-    setIsMounted(true)
-  }, [])
+    setIsMounted(true);
+  }, []);
 
   if (!isMounted) {
-    return <p>Loading...</p>
+    return <p>Loading...</p>;
   }
 
   return (
-    <><>
+    <>
       <Head>
         <title>Samuel de Korte - Historian</title>
         <meta
           name="description"
-          content="I'm Samuel de Korte. I'm a historian and I write about Black American soldiers during World War II." />
-      </Head>
+          content="I'm Samuel de Korte. I'm a historian and I write about Black American soldiers during World War II."
+        />
+      </Head> {/* This closing tag was missing */}
       <Container className="mt-9">
         <div className="max-w-2xl">
           <div className="hero-section text-center">
-   <h1 className="text-5xl font-bold text-black">Uncovering the history of Black American soldiers during the Second World War, one unit at a time!</h1>
-</div>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            My name is Samuel de Korte. I'm a historian specializing in Black American soldiers during World War II and Dutch soldiers in the Napoleonic Wars. My past work includes writing about the 614th Tank Destroyer Battalion, the first segregated combat unit to receive the Distinguished Unit Citation. I’ve also translated the memoirs of a Dutch officer who served with Napoleon in Russia in 1812, authored a book on the Tuskegee Airmen, and have a forthcoming book on the 452nd Anti-Aircraft Artillery Battalion. The book is scheduled to appear in February 2025. Currently, I'm writing about the 777th Field Artillery Battalion.</p>
-   
-            <div className="mt-6 flex gap-6">
-
-            </div>
-              <div className="flex flex-wrap justify-center gap-6 mt-6">
-                <a href="https://www.samueldekorte.com/books" className="w-full sm:w-auto">
-                  <Button className="w-full sm:w-auto">
-                    Learn More About My Books
-                  </Button>
-                </a>
-                <a href="https://www.samueldekorte.com/sources" className="w-full sm:w-auto">
-                  <Button className="w-full sm:w-auto">
-                    Read Historical Sources
-                  </Button>
-                </a>
-                <a href="https://www.samueldekorte.com/images" className="w-full sm:w-auto">
-                  <Button className="w-full sm:w-auto">
-                    View Historical Images
-                  </Button>
-                </a>
-                <a href="https://www.samueldekorte.com/films" className="w-full sm:w-auto">
-                  <Button className="w-full sm:w-auto">
-                    View Historical Footage
-                  </Button>
-                </a>
-                <a href="https://www.samueldekorte.com/articles" className="w-full sm:w-auto">
-                  <Button className="w-full sm:w-auto">
-                    Check Out My Blog
-                  </Button>
-                </a>
-              </div>
-            </div>
-     </Container></>
-    <Photos /><Container className="mt-24 md:mt-28">
-        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          <div className="flex flex-col gap-16">
-            {articles.map((article) => (
-              <Article key={article.slug} article={article} />
-            ))}
+            <h1 className="text-5xl font-bold text-black">
+              Uncovering the history of Black American soldiers during the Second World War, one unit at a time!
+            </h1>
           </div>
-          <div className="space-y-10 lg:pl-16 xl:pl-24">
-            {/* <Newsletter /> */}
-            
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            My name is Samuel de Korte. I'm a historian specializing in Black American soldiers during World War II and Dutch soldiers in the Napoleonic Wars. My past work includes writing about the 614th Tank Destroyer Battalion, the first segregated combat unit to receive the Distinguished Unit Citation. I’ve also translated the memoirs of a Dutch officer who served with Napoleon in Russia in 1812, authored a book on the Tuskegee Airmen, and have a forthcoming book on the 452nd Anti-Aircraft Artillery Battalion. The book is scheduled to appear in February 2025. Currently, I'm writing about the 777th Field Artillery Battalion.
+          </p>
+          <div className="mt-6 flex gap-6"></div>
+          <div className="flex flex-wrap justify-center gap-6 mt-6">
+            <a href="https://www.samueldekorte.com/books" className="w-full sm:w-auto">
+              <Button className="w-full sm:w-auto">Learn More About My Books</Button>
+            </a>
+            <a href="https://www.samueldekorte.com/sources" className="w-full sm:w-auto">
+              <Button className="w-full sm:w-auto">Read Historical Sources</Button>
+            </a>
+            <a href="https://www.samueldekorte.com/images" className="w-full sm:w-auto">
+              <Button className="w-full sm:w-auto">View Historical Images</Button>
+            </a>
+            <a href="https://www.samueldekorte.com/films" className="w-full sm:w-auto">
+              <Button className="w-full sm:w-auto">View Historical Footage</Button>
+            </a>
+            <a href="https://www.samueldekorte.com/articles" className="w-full sm:w-auto">
+              <Button className="w-full sm:w-auto">Check Out My Blog</Button>
+            </a>
           </div>
         </div>
-      </Container></>
-  
+      </Container>
+    </>
   )
-}
+}  
 
 export async function getStaticProps() {
   if (process.env.NODE_ENV === 'production') {
