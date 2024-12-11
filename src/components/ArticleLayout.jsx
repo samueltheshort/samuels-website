@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import { useRouter } from 'next/router'
+import Head from 'next/head';
+import { useRouter } from 'next/router';
 
-import { Container } from '@/components/Container'
-import { formatDate } from '@/lib/formatDate'
-import { Prose } from '@/components/Prose'
+import { Container } from '@/components/Container';
+import { formatDate } from '@/lib/formatDate';
+import { Prose } from '@/components/Prose';
 
 function ArrowLeftIcon(props) {
   return (
@@ -15,7 +15,7 @@ function ArrowLeftIcon(props) {
         strokeLinejoin="round"
       />
     </svg>
-  )
+  );
 }
 
 export function ArticleLayout({
@@ -24,10 +24,11 @@ export function ArticleLayout({
   isRssFeed = false,
   previousPathname,
 }) {
-  let router = useRouter()
+  // Guarded useRouter usage
+  const router = typeof window !== 'undefined' ? useRouter() : null;
 
   if (isRssFeed) {
-    return children
+    return children;
   }
 
   return (
@@ -39,7 +40,7 @@ export function ArticleLayout({
       <Container className="mt-16 lg:mt-32">
         <div className="xl:relative">
           <div className="mx-auto max-w-2xl">
-            {previousPathname && (
+            {previousPathname && router && (
               <button
                 type="button"
                 onClick={() => router.back()}

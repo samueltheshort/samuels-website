@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { useRouter } from 'next/router' // Import useRouter directly
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
@@ -16,7 +17,8 @@ function usePrevious(value) {
   return ref.current
 }
 
-export default function App({ Component, pageProps, router }) {
+export default function App({ Component, pageProps }) { // Remove router from props
+  const router = useRouter() // Use the hook to get the router
   let previousPathname = usePrevious(router.pathname)
 
   return (
