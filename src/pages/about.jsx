@@ -1,4 +1,4 @@
-import Image from 'next/future/image'
+import Image from 'next/image'
 import Head from 'next/head'
 import Link from 'next/link'
 import clsx from 'clsx'
@@ -8,6 +8,7 @@ import {
   TwitterIcon,
   InstagramIcon,
   GitHubIcon,
+  FacebookIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
@@ -87,6 +88,14 @@ export default function About() {
                 className="mt-4"
               >
                 Follow on Instagram
+              </SocialLink>
+
+              <SocialLink
+                href="https://www.facebook.com/samuel.dekorte/"
+                icon={FacebookIcon}
+                className="mt-4"
+              >
+                Follow on Facebook
               </SocialLink>
               
               <SocialLink

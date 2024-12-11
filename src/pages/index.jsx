@@ -1,4 +1,4 @@
-import Image from 'next/future/image'
+import Image from 'next/image'
 import Head from 'next/head'
 import Link from 'next/link'
 import clsx from 'clsx'
@@ -172,7 +172,7 @@ export default function Home({ articles }) {
         <title>Samuel de Korte - Historian</title>
         <meta
           name="description"
-          content="My name is Samuel de Korte.m Samuel de Korte, a historian specializing in Black American soldiers during World War II and Dutch soldiers in the Napoleonic Wars. My past work includes writing about the 614th Tank Destroyer Battalion, the first segregated combat unit to receive the Distinguished Unit Citation. I’ve also translated the memoirs of a Dutch officer who served with Napoleon in Russia in 1812, authored a book on the Tuskegee Airmen, and have a forthcoming book on the 452nd Anti-Aircraft Artillery Battalion. The book is scheduled to appear in February 2025. Currently, I'm writing about the 777th Field Artillery Battalion." />
+          content="I’m Samuel de Korte. I wrote about Black American soldiers during World War II, including the 614th Tank Destroyer Battalion, the Tuskegee Airmen, and the 452nd Anti-Aircraft Artillery Battalion." />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
@@ -185,7 +185,7 @@ export default function Home({ articles }) {
             <div className="mt-6 flex gap-6">
 
             </div>
-              <div className="flex justify-center gap-6 mt-6">
+              <div className="flex flex-wrap justify-center gap-6 mt-6">
                 <a href="https://www.samueldekorte.com/books" className="w-full sm:w-auto">
                   <Button className="w-full sm:w-auto">
                     Learn More About My Books

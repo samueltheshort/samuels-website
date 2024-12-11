@@ -15,6 +15,14 @@ export function InstagramIcon(props) {
   )
 }
 
+export function FacebookIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24h11.5v-9.293h-3.128v-3.62h3.128v-2.67c0-4.274 2.55-6.693 6.481-6.693 1.888 0 3.51.14 3.975.204v4.27h-2.728c-2.136 0-2.547 1.016-2.547 2.474v3.357h4.273l-.554 3.62h-3.719V24h7.396c.732 0 1.325-.593 1.325-1.325V1.325C24 .593 23.407 0 22.675 0z" />
+    </svg>
+  )
+}
+
 export function GitHubIcon(props) {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>

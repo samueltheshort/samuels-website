@@ -19,8 +19,8 @@ export function Footer() {
       <Container.Outer>
         <div className="border-t border-stone-100 pt-10 pb-16 dark:border-stone-700/40">
           <Container.Inner>
-            <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
-              <div className="flex gap-6 text-sm font-medium text-stone-800 dark:text-stone-200">
+            <div className="flex flex-col items-center justify-between gap-6 sm:flex-row sm:justify-between">
+              <div className="flex flex-wrap justify-center gap-6 text-sm font-medium text-stone-800 dark:text-stone-200">
                 <NavLink href="/about">About</NavLink>
                 <NavLink href="/books">Books</NavLink>
                 <NavLink href="/images">Images</NavLink>
@@ -28,6 +28,9 @@ export function Footer() {
                 <NavLink href="/sources">Sources</NavLink>
                 <NavLink href="https://samueldekorte-shop.fourthwall.com/">Webshop</NavLink>
                 <NavLink href="/articles">Blog</NavLink>
+                <NavLink href="https://www.instagram.com/samuel.dekorte/">Instagram</NavLink>
+                <NavLink href="https://www.facebook.com/samuel.dekorte/">Facebook</NavLink>
+                <NavLink href="mailto:contact@samueldekorte.com/">contact@samueldekorte.com</NavLink>
                 {/* <NavLink href="/speaking">Speaking</NavLink> */}
                 {/* <NavLink href="/uses">Uses</NavLink> */}
               </div>
