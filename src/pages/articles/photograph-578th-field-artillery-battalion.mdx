@@ -16,7 +16,19 @@ export const meta = {
     'Recently I bought a photograph of the 578th Field Artillery Battalion.',
 }
 
-export default (props) => <ArticleLayout meta={meta} {...props} />
+export default (props) => (
+  <>
+    {/* Head Section for SEO */}
+    <Head>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      <link rel="canonical" href="https://www.samueldekorte.com/articles/photograph-578th-field-artillery-battalion" />
+    </Head>
+
+    {/* Article Layout */}
+    <ArticleLayout meta={meta} {...props} />
+  </>
+)
 
 Recently I have set up a Patreon and I use this money for historical research. Part of this research is the acquisition of items, which I then share with you. An example is the image below, of the 578th Field Artillery Battalion. I have shared this image with my patreons first, before sharing it here. 
 

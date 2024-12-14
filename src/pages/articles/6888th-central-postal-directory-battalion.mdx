@@ -16,7 +16,19 @@ export const meta = {
     'The 6888th Central Postal Directory Battalion holds a unique place in American military history as the only all-Black, all-female unit deployed during World War II. The battalion was comprised of 855 women, many of whom were members of the Women’s Army Corps (WAC). They faced not only the challenges of military service but also the pervasive racism and sexism of the era. Their primary mission was to sort and deliver mail, which was backlogged due to the war. The unit was stationed in Birmingham, England, where they quickly went to work, processing over 17 million pieces of mail during their deployment.',
 }
 
-export default (props) => <ArticleLayout meta={meta} {...props} />
+export default (props) => (
+  <>
+    {/* Head Section for SEO */}
+    <Head>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      <link rel="canonical" href="https://www.samueldekorte.com/articles/6888th-central-postal-directory-battalion" />
+    </Head>
+
+    {/* Article Layout */}
+    <ArticleLayout meta={meta} {...props} />
+  </>
+)
 
 <Image
                 src={cpdb6888thfr}
