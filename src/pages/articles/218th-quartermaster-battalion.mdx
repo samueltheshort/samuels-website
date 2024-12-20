@@ -16,7 +16,19 @@ export const meta = {
     'I am currently on a writing retreat in Italy and I’m focused on my project about the 777th Field Artillery Battalion. In between working on that project, I thought I’d take a small moment to share something with you.',
 }
 
-export default (props) => <ArticleLayout meta={meta} {...props} />
+export default (props) => (
+  <>
+    {/* Head Section for SEO */}
+    <Head>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      <link rel="canonical" href="https://www.samueldekorte.com/articles/218th-quartermaster-battalion" />
+    </Head>
+
+    {/* Article Layout */}
+    <ArticleLayout meta={meta} {...props} />
+  </>
+)
 
 I’m currently on a writing retreat in Italy and I’m focused on my project about the 777th Field Artillery Battalion. In between working on that project, I thought I’d take a small moment to share something with you.  
 ## Just a Photograph
