@@ -103,6 +103,7 @@ export default function About() {
                       src={arlesterbrown}
                       alt="Dr. Arlester Brown, 599th Quartermaster Laundry Battalion"
                       className="rounded-lg"
+                      layout="intrinsic"
                       />
                       <p className="mt-2 text-sm text-gray-600">
                       Dr. Arlester Brown served in the 599th Quartermaster Laundry Battalion, providing critical support during WWII. As he said it: "I'm just glad we won the war."
