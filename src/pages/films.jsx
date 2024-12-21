@@ -31,6 +31,10 @@ export default function Films() {
       <Head>
         <title>Sources - Samuel de Korte</title>
         <meta name="description" content="Page for watching films" />
+        <link
+          rel="canonical"
+          href="https://www.samueldekorte.com/films"
+        />
       </Head>
       <SimpleLayout
         title="Films"

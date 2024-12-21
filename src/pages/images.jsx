@@ -312,6 +312,10 @@ export default function Projects() {
       <Head>
         <title>Images - Samuel de Korte </title>
         <meta name="description" content={introText} />
+        <link
+          rel="canonical"
+          href="https://www.samueldekorte.com/images"
+        />
       </Head>
       <SimpleLayout
         title={introText}

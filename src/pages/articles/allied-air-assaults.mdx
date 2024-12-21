@@ -16,7 +16,19 @@ export const meta = {
     'In the movie Jugend by filmmaker Alessandro Pepe about the SS-division Hitlerjugend the relationship with a SS soldier and his girlfriend at home is examined. The twist at the end of the film is -spoiler alert- that his girlfriend has already died in an Allied bombardment. In this article we will examine the mentioned numbers to see if these are correct and what the consequences of this are.',
 }
 
-export default (props) => <ArticleLayout meta={meta} {...props} />
+export default (props) => (
+  <>
+    {/* Head Section for SEO */}
+    <Head>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      <link rel="canonical" href="https://www.samueldekorte.com/articles/allied-air-assaults" />
+    </Head>
+
+    {/* Article Layout */}
+    <ArticleLayout meta={meta} {...props} />
+  </>
+)
 
 *[This article appeared previously in Dutch [here](https://www.historien.nl/geallieerde-luchtaanvallen-in-film-jugend-van-van-alessandro-pepe/). It has been translated and adapted into the current form.]*  
 

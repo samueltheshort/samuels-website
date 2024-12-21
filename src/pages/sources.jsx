@@ -7,6 +7,10 @@ export default function Sources() {
       <Head>
         <title>Sources - Samuel de Korte</title>
         <meta name="description" content="Page for downloading sources" />
+        <link
+          rel="canonical"
+          href="https://www.samueldekorte.com/sources"
+        />
       </Head>
       <SimpleLayout
         title="Sources"

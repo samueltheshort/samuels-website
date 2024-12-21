@@ -67,6 +67,10 @@ export default function Projects() {
       <Head>
         <title>Books - Samuel de Korte </title>
         <meta name="description" content={introText} />
+        <link
+          rel="canonical"
+          href="https://www.samueldekorte.com/books"
+        />
       </Head>
       <SimpleLayout
         title={introText}

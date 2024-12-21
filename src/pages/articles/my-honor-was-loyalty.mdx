@@ -17,9 +17,21 @@ export const meta = {
     'In various media, a skewed perception of the SS is given. This twisted projection of the past can have different consequences, which again influence other media. But where does this representation come from and what is the role of historians in this process?',
 }
 
-export default (props) => <ArticleLayout meta={meta} {...props} />
+export default (props) => (
+  <>
+    {/* Head Section for SEO */}
+    <Head>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      <link rel="canonical" href="https://www.samueldekorte.com/articles/my-honor-was-loyalty" />
+    </Head>
 
-*[This article appeared previously in Dutch: https://www.historien.nl/kurowski/. It’s been translated and adapted into the current form. Netflix also removed the film My Honor was Loyalty in March 2021.]*  
+    {/* Article Layout */}
+    <ArticleLayout meta={meta} {...props} />
+  </>
+)
+
+*[This article appeared previously in Dutch [here](https://www.historien.nl/kurowski/). It’s been translated and adapted into the current form. Netflix also removed the film My Honor was Loyalty in March 2021.]*  
 
 In various media, a skewed perception of the SS is given. This twisted projection of the past can have different consequences, which again influence other media. But where does this representation come from and what is the role of historians in this process?   
 
