@@ -4,13 +4,8 @@ import Link from 'next/link'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import {
-  TwitterIcon,
-  InstagramIcon,
-  GitHubIcon,
-  FacebookIcon,
-  LinkedInIcon,
-} from '@/components/SocialIcons'
+import arlesterbrown from '@/images/photos/arlesterbrown.jpg'
+import louisbrown from '@/images/photos/louisbrown.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -39,18 +34,52 @@ function MailIcon(props) {
 
 export default function About() {
   const introText =
-    "Throughout my research, I've been fortunate enough to meet with several World War II veterans or to honor the memory of Black American soldiers during World War II."
+    "Honoring Black American World War II veterans."
 
   return (
     <>
       <Head>
-        <title>About - Samuel de Korte</title>
-        <meta name="description" content={introText} />
+        {/* Basic Meta Tags */}
+        <title>Black American WWII Veterans - Honoring Their Legacy</title>
+        <meta
+          name="description"
+          content="Discover the heroic stories of Black American WWII veterans, including Dr. Arlester Brown and Louis Brown, and their invaluable contributions."
+        />
+        <link
+          rel="canonical"
+          href="https://www.samueldekorte.com/veterans"
+        />
+        <meta name="keywords" content="Black American WWII veterans, World War II history, Allied efforts, Black soldiers, Black American veterans, African American veterans" />
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="Black American WWII Veterans - Honoring Their Legacy" />
+        <meta
+          property="og:description"
+          content="Discover the heroic stories of Black American WWII veterans, including Dr. Arlester Brown and Louis Brown, and their invaluable contributions."
+        />
+        <meta property="og:image" content="https://www.samueldekorte.com/images/photos/arlesterbrown.jpg" />
+        <meta property="og:url" content="https://www.samueldekorte.com/veterans" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Black American WWII Veterans - Honoring Their Legacy" />
+        <meta
+          name="twitter:description"
+          content="Discover the heroic stories of Black American WWII veterans, including Dr. Arlester Brown and Louis Brown, and their invaluable contributions."
+        />
+        <meta name="twitter:image" content="https://www.samueldekorte.com/images/photos/arlesterbrown.jpg" />
+
+        {/* Additional SEO Enhancements */}
+        <meta name="robots" content="index, follow" />
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Container className="mt-16 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-20">
             <div className="max-w-xs px-2.5 lg:max-w-none">
+
             </div>
           </div>
           <div className="lg:order-first lg:row-span-2">
@@ -58,37 +87,41 @@ export default function About() {
               {introText}
             </h1>
             <div className="mt-6 space-y-7 text-base text-stone-600 dark:text-stone-400">
-              <p>
-                PLACE HOLDER
-              </p>
+                <p className="mt-4">
+                    Through my research, I've been fortunate enough to meet several Black American veterans. Their contributions to the Allied efforts remain a testament to the courage of Black American soldiers. Want to learn more or share your own story about Black American WWII veterans? Email me your story!
+                </p>
+                <SocialLink
+                  href="mailto:contact@samueldekorte.com"
+                  icon={MailIcon}
+                  className="mt-4"
+                  >
+                  contact@samueldekorte.com
+                </SocialLink>
+                  <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2">
+                  <div>
+                      <Image
+                      src={arlesterbrown}
+                      alt="Dr. Arlester Brown, 599th Quartermaster Laundry Battalion"
+                      className="rounded-lg"
+                      />
+                      <p className="mt-2 text-sm text-gray-600">
+                      Dr. Arlester Brown served in the 599th Quartermaster Laundry Battalion, providing critical support during WWII. As he said it: "I'm just glad we won the war."
+                      </p>
+                  </div>
+                  <div>
+                     <Image
+                      src={louisbrown}
+                      alt="Louis Brown, 4036th Quartermaster Truck Company"
+                      className="rounded-lg"
+                      />
+                      <p className="mt-2 text-sm text-gray-600">
+                      Louis Brown was part of the 4036th Quartermaster Truck Company, ensuring vital supplies reached the frontlines.
+                      </p>
+                    </div>
+                   </div>
             </div>
           </div>
           <div className="lg:pl-20">
-            <ul role="list">
-              
-              <SocialLink
-                href="https://www.instagram.com/samuel.dekorte/"
-                icon={InstagramIcon}
-                className="mt-4"
-              >
-                Follow on Instagram
-              </SocialLink>
-
-              <SocialLink
-                href="https://www.facebook.com/samuel.dekorte/"
-                icon={FacebookIcon}
-                className="mt-4"
-              >
-                Follow on Facebook
-              </SocialLink>
-              <SocialLink
-                href="mailto:contact@samueldekorte.com"
-                icon={MailIcon}
-                className="mt-8 border-t border-stone-100 pt-8 dark:border-stone-700/40"
-              >
-                contact@samueldekorte.com
-              </SocialLink>
-            </ul>
           </div>
         </div>
       </Container>
