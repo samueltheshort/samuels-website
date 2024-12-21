@@ -39,8 +39,8 @@ module.exports = {
     // Default for all other paths
     return {
       loc: path,
-      changefreq: 'monthly',
-      priority: 0.5,
+      changefreq: 'weekly',
+      priority: 0.9,
     };
   },
   robotsTxtOptions: {
