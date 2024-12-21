@@ -22,6 +22,7 @@ export function Footer() {
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row sm:justify-between">
               <div className="flex flex-wrap justify-center gap-6 text-sm font-medium text-stone-800 dark:text-stone-200">
                 <NavLink href="/about">About</NavLink>
+                <NavLink href="/veterans">Veterans</NavLink>
                 <NavLink href="/books">Books</NavLink>
                 <NavLink href="/images">Images</NavLink>
                 <NavLink href="/films">Films</NavLink>
