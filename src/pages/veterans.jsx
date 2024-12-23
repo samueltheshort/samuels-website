@@ -134,6 +134,7 @@ export default function About() {
                       width={250}  // Adjust this value as needed
                       height={200} // Adjust this value as needed
                       objectFit="contain"
+                      loading="lazy"
                       />
                       <p className="mt-2 text-sm text-gray-600">
                       Lawrence Johnson served in the 614th Tank Destroyer Battalion and this photograph is included in the book "The 614th Tank Destroyer Battalion: Fighting on Both Fronts".  (Courtesy of Lawrence Johnson family)
