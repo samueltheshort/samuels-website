@@ -6,6 +6,7 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import arlesterbrown from '@/images/photos/arlesterbrown.jpg'
 import louisbrown from '@/images/photos/louisbrown.jpg'
+import lawrencejohnson from '@/images/photos/lawrencejohnson1945.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -118,8 +119,23 @@ export default function About() {
                       <p className="mt-2 text-sm text-gray-600">
                       Louis Brown was part of the 4036th Quartermaster Truck Company, ensuring vital supplies reached the frontlines.
                       </p>
-                    </div>
-                   </div>
+                  </div>
+                  </div>
+                  <p className="mt-4">
+                  By including photographs in history books, we gain a deeper understanding of individuals and their stories, allowing us to connect more personally with the past. My research has led me to engage with the families of World War II veterans, enabling me to honor their sacrifices and keep their memories alive. 
+                  </p>
+                  <Image
+                      src={lawrencejohnson}
+                      alt="Lawrence Johnson, 614th Tank Destroyer Battalion"
+                      className="rounded-lg"
+                      layout="intrinsic"
+                      width={250}  // Adjust this value as needed
+                      height={200} // Adjust this value as needed
+                      objectFit="contain"
+                      />
+                      <p className="mt-2 text-sm text-gray-600">
+                      Lawrence Johnson served in the 614th Tank Destroyer Battalion. This image is included in the book "The 614th Tank Destroyer Battalion: Fighting on Both Fronts".  (Courtesy of Lawrence Johnson family)
+                      </p>
             </div>
           </div>
           <div className="lg:pl-20">
