@@ -124,6 +124,8 @@ export default function About() {
                   <p className="mt-4">
                   By including photographs in history books, we gain a deeper understanding of individuals and their stories, allowing us to connect more personally with the past. My research has led me to engage with the families of World War II veterans, enabling me to honor their sacrifices and keep their memories alive. 
                   </p>
+                  <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2">
+                  <div>
                   <Image
                       src={lawrencejohnson}
                       alt="Lawrence Johnson, 614th Tank Destroyer Battalion"
@@ -136,6 +138,8 @@ export default function About() {
                       <p className="mt-2 text-sm text-gray-600">
                       Lawrence Johnson served in the 614th Tank Destroyer Battalion. This image is included in the book "The 614th Tank Destroyer Battalion: Fighting on Both Fronts".  (Courtesy of Lawrence Johnson family)
                       </p>
+                  </div>    
+                </div>    
             </div>
           </div>
           <div className="lg:pl-20">
