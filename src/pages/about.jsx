@@ -81,6 +81,13 @@ export default function About() {
           </div>
           <div className="lg:pl-20">
             <ul role="list">
+              <SocialLink
+                href="mailto:contact@samueldekorte.com"
+                icon={MailIcon}
+                className="mt-8 border-t border-stone-100 pt-8 dark:border-stone-700/40"
+              >
+                contact@samueldekorte.com
+              </SocialLink>
               
               <SocialLink
                 href="https://www.instagram.com/samuel.dekorte/"
@@ -104,13 +111,6 @@ export default function About() {
                 className="mt-4"
               >
                 Follow on LinkedIn
-              </SocialLink>
-              <SocialLink
-                href="mailto:contact@samueldekorte.com"
-                icon={MailIcon}
-                className="mt-8 border-t border-stone-100 pt-8 dark:border-stone-700/40"
-              >
-                contact@samueldekorte.com
               </SocialLink>
             </ul>
           </div>
