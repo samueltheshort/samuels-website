@@ -4,41 +4,45 @@ import { useState } from 'react' // Import useState hook
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 
-import td614im1 from '@/images/photos/td61401.jpg'
-import td614im2 from '@/images/photos/td61402.jpg'
-import td614im3 from '@/images/photos/td61403.jpg'
-import td614im4 from '@/images/photos/td61404.jpg'
-import td614im5 from '@/images/photos/td61405.jpg'
-import td614im6 from '@/images/photos/td61406.jpg'
-import td614im7 from '@/images/photos/td61407.jpg'
-import td614im8 from '@/images/photos/td61408.jpg'
-import td614im9 from '@/images/photos/td61409.jpg'
-import fa593 from '@/images/photos/fa593.jpg'
-import davis from '@/images/photos/davis.jpg'
-import armorer from '@/images/photos/fg332.jpg'
-import bp76101 from '@/images/photos/bp76101.jpg'
-import ca76 from '@/images/photos/ca76.jpg'
-import aa452 from '@/images/photos/image-5.jpg'
-import fa777 from '@/images/photos/fa777.jpg'
-import ca4901 from '@/images/photos/ca4901.jpg'
-import ca7601 from '@/images/photos/ca7601.jpg'
-import ca7602 from '@/images/photos/ca7602.jpg'
-import ca7603 from '@/images/photos/ca7603.jpg'
-import ca7604 from '@/images/photos/ca7604.jpg'
-import ca7605 from '@/images/photos/ca7605.jpg'
-import ca7606 from '@/images/photos/ca7606.jpg'
-import ca7607 from '@/images/photos/ca7607.jpg'
-import ca7608 from '@/images/photos/ca7608.jpg'
-import ca7609 from '@/images/photos/ca7609.jpg'
-import ca7610 from '@/images/photos/ca7610.jpg'
-import ca7611 from '@/images/photos/ca7611.jpg'
-import ca7612 from '@/images/photos/ca7612.jpg'
-import fa999th01 from '@/images/photos/fa999th01.jpg'
-import qm218 from '@/images/photos/218qmbn.jpg'
-import fa578th from '@/images/photos/578thfagunjpg.jpg'
-import cpdb6888thfr from '@/images/photos/cpdb6888th01.jpg'
-import cpdb6888thuk from '@/images/photos/cpdb6888th02.jpg'
-import bp76103 from '@/images/photos/bp76103.jpg'
+import td614im1 from '@/images/database/td61401.jpg'
+import td614im2 from '@/images/database/td61402.jpg'
+import td614im3 from '@/images/database/td61403.jpg'
+import td614im4 from '@/images/database/td61404.jpg'
+import td614im5 from '@/images/database/td61405.jpg'
+import td614im6 from '@/images/database/td61406.jpg'
+import td614im7 from '@/images/database/td61407.jpg'
+import td614im8 from '@/images/database/td61408.jpg'
+import td614im9 from '@/images/database/td61409.jpg'
+import fa593 from '@/images/database/fa593.jpg'
+import davis from '@/images/database/davis.jpg'
+import armorer from '@/images/database/fg332.jpg'
+import bp76101 from '@/images/database/bp76101.jpg'
+import ca76 from '@/images/database/ca76.jpg'
+import aa452 from '@/images/database/image-5.jpg'
+import fa777 from '@/images/database/fa777.jpg'
+import ca4901 from '@/images/database/ca4901.jpg'
+import ca7601 from '@/images/database/ca7601.jpg'
+import ca7602 from '@/images/database/ca7602.jpg'
+import ca7603 from '@/images/database/ca7603.jpg'
+import ca7604 from '@/images/database/ca7604.jpg'
+import ca7605 from '@/images/database/ca7605.jpg'
+import ca7606 from '@/images/database/ca7606.jpg'
+import ca7607 from '@/images/database/ca7607.jpg'
+import ca7608 from '@/images/database/ca7608.jpg'
+import ca7609 from '@/images/database/ca7609.jpg'
+import ca7610 from '@/images/database/ca7610.jpg'
+import ca7611 from '@/images/database/ca7611.jpg'
+import ca7612 from '@/images/database/ca7612.jpg'
+import fa999th01 from '@/images/database/fa999th01.jpg'
+import qm218 from '@/images/database/218qmbn.jpg'
+import fa578th from '@/images/database/578thfagunjpg.jpg'
+import cpdb6888thfr from '@/images/database/cpdb6888th01.jpg'
+import cpdb6888thuk from '@/images/database/cpdb6888th02.jpg'
+import bp76103 from '@/images/database/bp76103.jpg'
+import tb75801 from '@/images/database/tb75801.jpg'
+import tb75802 from '@/images/database/tb75802.jpg'
+import tb78401 from '@/images/database/tb78401.jpg'
+import ir2401 from '@/images/database/ir2401.jpg'
 
 
 const images = [
@@ -122,9 +126,23 @@ const images = [
   {
     name: 'A howitzer of the 593rd Field Artillery Battalion',
     description:
-      '1st section gun crew, Battery A, 593rd Field Artillery Battalion, 93rd Infantry Division, loads a 105mm howitzer and prepares to fire (Bougainville 16 April 1944). (Courtesy of National Archives and Records Administration.)',
+      '1st section gun crew, Battery A, 593rd Field Artillery Battalion, 93rd Infantry Division, loads a 105mm howitzer and prepares to fire (Bougainville 16 April 1944). (Courtesy of National Archives and Records Administration: SC 364570.)',
     image: fa593,
     category: 'Artillery',
+  },
+  {
+    name: 'A light tank with Black American trainees.',
+    description:
+      'Pfc. Dewey McClain, Jacksonville, Fla., Pvt. Hulet MacHenry, Salina, Kan., and Pfc. Lester Baker, Alexandria, La. Armored School Det., Replacement & Training Command. (Naples area, Italy, 1 March, 1945.) (National Archives and Records Administration: SC 364368.)',
+    image: tb75801,
+    category: 'Tanks',
+  },
+  {
+    name: 'Company B, the 784th Tank Battalion',
+    description:
+      'Before moving on to the next objective, the remaining tanks of the Byrne Task Force are serviced by their crews. The soldiers are of Company B, 784th Tank Battalion. (Sevelen, Germany. 5 March, 1945.) (National Archives and Records Administration: SC 336785.)',
+    image: tb78401,
+    category: 'Tanks',
   },
   {
     name: 'Several soldiers of the 777th Field Artillery Battalion',
@@ -132,6 +150,20 @@ const images = [
       'Soldiers of a Field Artillery Battalion near Ubach, Germany, sit in dugout near their gun waiting for firing orders. (Courtesy of National Archives and Records Administration.)',
     image: fa777,
     category: 'Artillery',
+  },
+  {
+    name: 'Soldiers of the 24th Infantry Regiment man a 37mm gun.',
+    description:
+      'Soldiers of the 24th Infantry Regiment in New Georgia man a 37mm gun used for beach against the enemy. (15 October, 1943.) (Courtesy of National Archives and Records Administration: SC 329679.)',
+    image: ir2401,
+    category: 'Infantry',
+  },
+  {
+    name: 'Members of the 758th Light Tank Bn. (Colored) fire their 75mm howitzer.',
+    description:
+      'Members of the 758th Tank Battalion fire their 75mm howitzer in support of infantry movements on the Fifth Army front. (4 April, 1945.) (National Archives and Records Administration: SC 329839.)',
+    image: tb75802,
+    category: 'Tanks',
   },
   {
     name: 'Soldiers of the 999th Field Artillery Battalion are about to fire another shell at a target.',
@@ -291,83 +323,69 @@ const images = [
 
 
 export default function Projects() {
-  const introText =
-    'Images of Black American soldiers during the Second World War.'
+  const introText = 'Images of Black American soldiers during the Second World War.'
   const [category, setCategory] = useState('All') // State to track selected category
+  const [search, setSearch] = useState('') // State for search query
 
-  // Function to filter images based on category
-  const filteredimages =
-    category === 'All'
-      ? images
-      : images.filter((images) => images.category === category)
+  // Filter images based on category and search query
+  const filteredImages = images.filter((image) => {
+    const matchesCategory = category === 'All' || image.category === category
+    const matchesSearch = image.name.toLowerCase().includes(search.toLowerCase()) || image.description.toLowerCase().includes(search.toLowerCase())
+    return matchesCategory && matchesSearch
+  })
 
-  const extractedCategories = images
-    .map((item) => item.category) // Extract categories from images array
-    .filter((value, index, self) => self.indexOf(value) === index) // Only keep the unique values
-
+  const extractedCategories = images.map((item) => item.category).filter((value, index, self) => self.indexOf(value) === index)
   const allCategories = ['All', ...extractedCategories]
 
   return (
     <>
       <Head>
-        <title>Images - Samuel de Korte </title>
+        <title>Images - Samuel de Korte</title>
         <meta name="description" content={introText} />
-        <link
-          rel="canonical"
-          href="https://www.samueldekorte.com/images"
-        />
+        <link rel="canonical" href="https://www.samueldekorte.com/images" />
       </Head>
       <SimpleLayout
         title={introText}
         intro="During my research I've come across many images of Black American soldiers which I wanted to share with you. Feel free to take a look at the images below."
       >
-        {/* Index box */}
+        {/* Search bar */}
+        <div className="mb-4 flex justify-center">
+          <input
+            type="text"
+            placeholder="Search images..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="border rounded-md px-4 py-2 w-full max-w-md"
+          />
+        </div>
+        {/* Category filter */}
         <div className="mb-8 flex flex-wrap justify-center">
           {allCategories.map((item) => (
             <button
-              className={`m-2 p-2 duration-150 hover:text-red-500 hover:dark:text-red-400 ${
-                item === category
-                  ? 'border-b border-red-500 text-red-500 dark:border-red-400 dark:text-red-400'
-                  : ''
-              }`}
+              key={item}
               onClick={() => setCategory(item)}
+              className={`px-4 py-2 m-1 rounded-md ${category === item ? 'bg-blue-600 text-white' : 'bg-gray-200'}`}
             >
               {item}
             </button>
           ))}
         </div>
-        {/* Images */}
-        <ul
-          role="list"
-          className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
-        >
-          {filteredimages.map((images, index) => (
-            <Card as="li" key={index} className="group">
-              <div className="relative z-10 flex h-60 w-full items-center justify-center overflow-hidden rounded-sm bg-gray-50 shadow-md shadow-stone-800/5 ring-1 ring-stone-900/5 duration-150 group-hover:bg-white dark:border dark:border-stone-700/50 dark:bg-stone-800 dark:ring-0">
-                <Image
-                  src={images.image}
-                  alt={`An image of ${images.name}`}
-                  layout="responsive"
-                  className="absolute top-0 -z-10 h-full w-auto opacity-50 blur-2xl"
-                  unoptimized
-                />
-                <Image
-                  src={images.image}
-                  alt={`An image of ${images.name}`}
-                  layout="responsive"
-                  className="h-full w-auto"
-                  unoptimized
-                />
-              </div>
-              <h2 className="mt-6 text-base font-semibold text-stone-800 dark:text-stone-100 " />
-              <Card.Description>{images.description}</Card.Description>
-              <p className="relative z-10 mt-6 flex text-sm font-medium text-stone-400 transition group-hover:text-red-500 dark:text-stone-200" />
+        {/* Lazy loaded images */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {filteredImages.map((image, index) => (
+            <Card key={index}>
+              <Image
+                src={image.image}
+                alt={image.name}
+                loading="lazy" // Lazy loading
+                className="rounded-md"
+              />
+              <h3 className="mt-2 font-semibold">{image.name}</h3>
+              <p className="text-sm text-gray-600">{image.description}</p>
             </Card>
           ))}
-        </ul>
+        </div>
       </SimpleLayout>
     </>
   )
 }
-
-

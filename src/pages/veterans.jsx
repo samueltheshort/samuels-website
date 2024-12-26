@@ -7,6 +7,8 @@ import { Container } from '@/components/Container'
 import arlesterbrown from '@/images/photos/arlesterbrown.jpg'
 import louisbrown from '@/images/photos/louisbrown.jpg'
 import lawrencejohnson from '@/images/photos/lawrencejohnson1945.jpg'
+import staffordrimes from '@/images/photos/staffordrimes.jpg'
+
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -105,6 +107,7 @@ export default function About() {
                       alt="Dr. Arlester Brown, 599th Quartermaster Laundry Battalion"
                       className="rounded-lg"
                       layout="intrinsic"
+                      loading="lazy"
                       />
                       <p className="mt-2 text-sm text-gray-600">
                       Dr. Arlester Brown served in the 599th Quartermaster Laundry Battalion, providing critical support during WWII. As he said it: "I'm just glad we won the war."
@@ -115,6 +118,7 @@ export default function About() {
                       src={louisbrown}
                       alt="Louis Brown, 4036th Quartermaster Truck Company"
                       className="rounded-lg"
+                      loading="lazy"
                       />
                       <p className="mt-2 text-sm text-gray-600">
                       Louis Brown was part of the 4036th Quartermaster Truck Company, ensuring vital supplies reached the frontlines.
@@ -139,6 +143,21 @@ export default function About() {
                       <p className="mt-2 text-sm text-gray-600">
                       Lawrence Johnson served in the 614th Tank Destroyer Battalion and this photograph is included in the book "The 614th Tank Destroyer Battalion: Fighting on Both Fronts".  (Courtesy of Lawrence Johnson family)
                       </p>
+                  </div>
+                  <div>
+                  <Image
+                    src={staffordrimes}
+                    alt="Stafford Rimes, 452nd Anti-Aircraft Artillery Battalion"
+                    className="rounded-lg"
+                    layout="intrinsic"
+                    width={250}  // Adjust this value as needed
+                    height={200} // Adjust this value as needed
+                    objectFit="contain"
+                    loading="lazy"
+                  />
+                    <p className="mt-2 text-sm text-gray-600">
+                     Stafford Rimes served in the 452nd Anti-Aircraft Artillery Battalion and he was killed in action on 21 November 1944. This photograph is included in the book "The 452nd Anti-Aircraft Artillery Battalion: Destroyers of the Luftwaffe and Jim Crow".  (Courtesy of Stafford Rimes family)
+                    </p>  
                   </div>    
                 </div>    
             </div>
