@@ -39,6 +39,7 @@ import fa578th from '@/images/database/578thfagunjpg.jpg'
 import cpdb6888thfr from '@/images/database/cpdb6888th01.jpg'
 import cpdb6888thuk from '@/images/database/cpdb6888th02.jpg'
 import cpdb6888th03 from '@/images/database/cpdb6888th03.jpg'
+import cpdb6888th04 from '@/images/database/cpdb6888th04.jpg'
 import bp76103 from '@/images/database/bp76103.jpg'
 import tb75801 from '@/images/database/tb75801.jpg'
 import tb75802 from '@/images/database/tb75802.jpg'
@@ -323,8 +324,15 @@ const images = [
   {
     name: 'Photograph of the 6888th Central Postal Directory Battalion in Scotland.',
     description:
-      'Derived from original caption: As a Scottish piper instructs Pfc. Edith Gaskill, Arlington, Va., in the art of playing bagpipes, Pvt. Marie McKinney, Washington, D.C., examines his kilt. The Wacs are members of the first Black all-Wac postal unit to arrive in the European theater of operations. The unit will handle the Army Postal Directory Service for the entire theater. U.S. Army port, Greenock, Scotland in February 1945. (Courtesy of NARA: NAID: 175539147)',
+      'As a Scottish piper instructs Pfc. Edith Gaskill, Arlington, Va., in the art of playing bagpipes, Pvt. Marie McKinney, Washington, D.C., examines his kilt. The Wacs are members of the first Black all-Wac postal unit to arrive in the European theater of operations. The unit will handle the Army Postal Directory Service for the entire theater. U.S. Army port, Greenock, Scotland in February 1945. (Courtesy of NARA: NAID: 175539147)',
     image: cpdb6888th03,
+    category: 'Women Army Corps',
+  },
+  {
+    name: 'Photograph of the Charity Adams and her company at Fort Des Moines, Iowa.',
+    description:
+      "WAAC Capt. Charity Adams of Columbia, S.C., who was commissioned from the first officer candidate class, and the first of her group to receive a commission, drills her company on the drill ground at the first Waac Training Center, Fort Des Moines, Iowa. (May 1943) Note: At that time the WAC (Women's Army Corps) was known as the WAAC (Women's Army Auxiliary) (Courtesy of NARA: NAID: 531334)",
+    image: cpdb6888th04,
     category: 'Women Army Corps',
   },
 ]
