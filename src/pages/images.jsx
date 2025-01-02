@@ -38,6 +38,7 @@ import qm218 from '@/images/database/218qmbn.jpg'
 import fa578th from '@/images/database/578thfagunjpg.jpg'
 import cpdb6888thfr from '@/images/database/cpdb6888th01.jpg'
 import cpdb6888thuk from '@/images/database/cpdb6888th02.jpg'
+import cpdb6888th03 from '@/images/database/cpdb6888th03.jpg'
 import bp76103 from '@/images/database/bp76103.jpg'
 import tb75801 from '@/images/database/tb75801.jpg'
 import tb75802 from '@/images/database/tb75802.jpg'
@@ -317,6 +318,13 @@ const images = [
     description:
       "In Rouen, France, Second Lieutenant Freda le Beau (New Orleans, LA), post exchange officer, serves the first Coca Cola to Major Charity Adams (Columbia, South Carolina), at the grand opening of the WAC battalion's new snack bar. (Courtesy of NARA: NAID: 175539159)",
     image: cpdb6888thfr,
+    category: 'Women Army Corps',
+  },
+  {
+    name: 'Photograph of the 6888th Central Postal Directory Battalion in Scotland.',
+    description:
+      'Derived from original caption: As a Scottish piper instructs Pfc. Edith Gaskill, Arlington, Va., in the art of playing bagpipes, Pvt. Marie McKinney, Washington, D.C., examines his kilt. The Wacs are members of the first Black all-Wac postal unit to arrive in the European theater of operations. The unit will handle the Army Postal Directory Service for the entire theater. U.S. Army port, Greenock, Scotland in February 1945. (Courtesy of NARA: NAID: 175539147)',
+    image: cpdb6888th03,
     category: 'Women Army Corps',
   },
 ]
