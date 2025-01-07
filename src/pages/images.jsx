@@ -40,11 +40,13 @@ import cpdb6888thfr from '@/images/database/cpdb6888th01.jpg'
 import cpdb6888thuk from '@/images/database/cpdb6888th02.jpg'
 import cpdb6888th03 from '@/images/database/cpdb6888th03.jpg'
 import cpdb6888th04 from '@/images/database/cpdb6888th04.jpg'
+import cpdb6888th05 from '@/images/database/cpdb6888th05.jpg'
 import bp76103 from '@/images/database/bp76103.jpg'
 import tb75801 from '@/images/database/tb75801.jpg'
 import tb75802 from '@/images/database/tb75802.jpg'
 import tb78401 from '@/images/database/tb78401.jpg'
 import ir2401 from '@/images/database/ir2401.jpg'
+import ae82701 from '@/images/database/ae82701.jpg'
 
 
 const images = [
@@ -331,12 +333,24 @@ const images = [
   {
     name: 'Photograph of the Charity Adams and her company at Fort Des Moines, Iowa.',
     description:
-      "WAAC Capt. Charity Adams of Columbia, S.C., who was commissioned from the first officer candidate class, and the first of her group to receive a commission, drills her company on the drill ground at the first Waac Training Center, Fort Des Moines, Iowa. (May 1943) Note: At that time the WAC (Women's Army Corps) was known as the WAAC (Women's Army Auxiliary) (Courtesy of NARA: NAID: 531334)",
+      "WAAC Capt. Charity Adams of Columbia, S.C., who was commissioned from the first officer candidate class, and the first of her group to receive a commission, drills her company on the drill ground at the first Waac Training Center, Fort Des Moines, Iowa. (May 1943) Note: At that time the WAC (Women's Army Corps) was known as the WAAC (Women's Army Auxiliary Corps). (Courtesy of NARA: NAID: 531334)",
     image: cpdb6888th04,
     category: 'Women Army Corps',
   },
+  {
+    name: 'A photograph of a Black American wedding in Rouen, France (1945).',
+    description:
+      "Chaplain William T. Green reads the benediction services at the marriage ceremonies of Private First Class Florence A. Collins, a WAC of the 6888th Postal Directory Battalion, to Corporal William A. Johnson of the 1696th Labor Supervision Company. This is the 5th African American marriage to be performed in the European Theatre of Operation. A similar image appeared in The Michigan Chronicle, 6 October 1945. Note, the newspaper article gives the name William H. Johnson of the 169th Labor Supervision Company and mentions it's the first Black American marriage. (Courtesy of Ike Skelton Combined Arms Research Library: SC 210939)",
+    image: cpdb6888th05,
+    category: 'Women Army Corps',
+  },
+  {
+    name: 'A photograph of three Black American soldiers in a halftrack in England. (2 March 1943)',
+    description:
+      "Derived from original caption: Although the main job for the members of the 827th Engineers, is to construct an airport they still have to keep in trim for fighting. L to R: Private James Bryand, Sergeant Will L. Scott, Private First Class Dan Smith, and Corporal Woodrow George. This image also appeared in the Jackson Advocate of 4 September 1943, which alludes to an invasion of Germany. However, in September 1943, the Normandy landings were far in the future. (Courtesy of Ike Skelton Combined Arms Research Library: SC 174587)",
+    image: ae82701,
+  },
 ]
-
 
 export default function Projects() {
   const introText = 'Images of Black American soldiers during the Second World War.'
