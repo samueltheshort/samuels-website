@@ -19,7 +19,19 @@ export const meta = {
     'As a historian, you can sometimes be surprised by history. The photograph below is one of such surprises for me, which shows Mack B. Anderson (16 March 1920 – 20 May 1974) of the 823rd Engineer Aviation Battalion. In this article, I will explain why this photograph is so significant.',
 }
 
-export default (props) => <ArticleLayout meta={meta} {...props} />
+export default (props) => (
+  <>
+    {/* Head Section for SEO */}
+    <Head>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      <link rel="canonical" href="https://www.samueldekorte.com/articles/mack-anderson" />
+    </Head>
+
+    {/* Article Layout */}
+    <ArticleLayout meta={meta} {...props} />
+  </>
+)
 
 As a historian, you can sometimes be surprised by history. The photograph below is one of such surprises for me, which shows Mack B. Anderson (16 March 1920 – 20 May 1974) of the 823rd Engineer Aviation Battalion. In this article, I will explain why this photograph is so significant.  
 

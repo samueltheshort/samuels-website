@@ -186,7 +186,8 @@ export default function Home({ articles }) {
           name="description"
           content="I'm Samuel de Korte. I'm a historian and I write about Black American soldiers during World War II."
         />
-      </Head> {/* This closing tag was missing */}
+        <link rel="canonical" href="https://www.samueldekorte.com/" />
+      </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <div className="hero-section text-center">

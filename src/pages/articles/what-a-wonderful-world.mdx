@@ -15,7 +15,19 @@ export const meta = {
     'Frequently technology is featured in the news and not always in a positive way. According to some people it would influence our lives too much. We would be too dependent on technology or it would make us anti-social. Personally, I doubt it, because technology allows us to be more connected than ever before. Happily, I’ll share some personal experiences.',
 }
 
-export default (props) => <ArticleLayout meta={meta} {...props} />
+export default (props) => (
+  <>
+    {/* Head Section for SEO */}
+    <Head>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      <link rel="canonical" href="https://www.samueldekorte.com/articles/what-a-wonderful-world" />
+    </Head>
+
+    {/* Article Layout */}
+    <ArticleLayout meta={meta} {...props} />
+  </>
+)
 
 Frequently technology is featured in the news and not always in a positive way. According to some people it would influence our lives too much. We would be too dependent on technology or it would make us anti-social. Personally, I doubt it, because technology allows us to be more connected than ever before. Happily, I’ll share some personal experiences.
 
