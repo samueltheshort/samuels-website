@@ -1,34 +1,27 @@
 const fs = require('fs');
 const path = require('path');
-const glob = require('glob');
 
+// Define the website URL
 const websiteUrl = 'https://samueldekorte.com';
 
-const extractImages = () => {
-  const files = glob.sync('./pages/**/*.js'); // Adjust the path as needed to cover your pages
-  const images = [];
+// Manually specify image paths and descriptions, matching your `Images.jsx` file
+const images = [
+  {
+    name: 'The 614th Tank Destroyer Battalion',
+    description: 'A three-inch M5 gun with crew of the 614th Tank Destroyer Battalion. (Courtesy of the United States Army Heritage and Education Center)',
+    image: '/images/database/td61401.jpg', // Relative image path from public directory
+    category: 'Tank Destroyers',
+  },
+  {
+    name: 'The 614th Tank Destroyer Battalion',
+    description: 'Soldiers of the 614th Tank Destroyer Battalion stand in front of a halftrack. (Courtesy of the United States Army Heritage and Education Center)',
+    image: '/images/database/td61408.jpg', // Corrected image path
+    category: 'Tank Destroyers',
+  },
+];
 
-  files.forEach((file) => {
-    const content = fs.readFileSync(file, 'utf8');
-    const matches = [...content.matchAll(/<Image\s+[^>]*src={(.*?)}/g)];
-
-    matches.forEach((match) => {
-      const srcMatch = match[1]?.replace(/['"`]/g, '').trim();
-      const altMatch = content.match(/alt="([^"]*)"/);
-      if (srcMatch) {
-        images.push({
-          loc: `${websiteUrl}${srcMatch}`, // Convert to full URL
-          caption: altMatch ? altMatch[1] : '',
-        });
-      }
-    });
-  });
-
-  return images;
-};
-
+// Generate the image sitemap
 const generateImageSitemap = () => {
-  const images = extractImages();
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   ${images
@@ -37,19 +30,18 @@ const generateImageSitemap = () => {
   <url>
     <loc>${websiteUrl}</loc>
     <image:image>
-      <image:loc>${img.loc}</image:loc>
-      <image:caption>${img.caption}</image:caption>
+      <image:loc>${websiteUrl}${img.image}</image:loc>
+      <image:caption>${img.description}</image:caption>
     </image:image>
-  </url>
-  `
+  </url>`
     )
     .join('')}
 </urlset>`;
 
-  // Write the image sitemap to the public folder
-  fs.writeFileSync(path.join(__dirname, 'public/sitemap-images.xml'), sitemap, 'utf8');
+  // Write the sitemap to the public directory
+  fs.writeFileSync(path.join(__dirname, '../public/sitemap-images.xml'), sitemap, 'utf8');
   console.log('✅ Image sitemap created successfully!');
 };
 
-// Run the image sitemap generation
+// Call the function to generate the sitemap
 generateImageSitemap();

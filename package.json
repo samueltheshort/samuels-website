@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node generateImageSitemap.js",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "next-sitemap" 
+    "postbuild": "next-sitemap && node generateImageSitemap.js"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
