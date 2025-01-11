@@ -43,6 +43,13 @@ module.exports = {
       priority: 0.9,
     };
   },
+  additionalPaths: async (config) => [
+    {
+      loc: '/sitemap-images.xml', // Custom sitemap path
+      changefreq: 'monthly',
+      priority: 0.5,
+    },
+  ],
   robotsTxtOptions: {
     additionalSitemaps: [
       'https://samueldekorte.com/sitemap-0.xml',
