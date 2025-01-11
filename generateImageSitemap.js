@@ -18,7 +18,58 @@ const images = [
     image: '/images/database/td61408.jpg', // Corrected image path
     category: 'Tank Destroyers',
   },
+  {
+    name: 'The 614th Tank Destroyer Battalion',
+    description:
+      'Original Caption: "Members of the gun crew of a tank destroyer unit load their piece during practice firing, somewhere in England, before leaving for the real thing on the continent. Left to Right: Pfc. Aurbery Morris (Hobbsville, NC), Pfc. J. C. Heatem (Detroit, MI), Pfc. Robert B. Russell (Ashville, NC), 1st Lt. U.V. Watkins (Huntsville, TX), Pfc. Cebe Young (Ashville, NC), Pfc. James H. Mason (Williamston, NC). 614th Tank Destroyer Battalion, Burley, England." (Courtesy of the National Archives and Records Administration)',
+    image: '/images/database/td61409.jpg',
+    category: 'Tank Destroyers',
+    },
+    {
+      name: 'The 614th Tank Destroyer Battalion',
+      description:
+        'Two enlisted men and an officer of the 614th Tank Destroyer Battalion. (Courtesy of the United States Army Heritage and Education Center)',
+      image: '/images/database/td61402.jpg',
+      category: 'Tank Destroyers',
+    },
+    {
+      name: 'The 614th Tank Destroyer Battalion',
+      description:
+        'A soldier of the 614th Tank Destroyer Battalion poses with a round for the three-inch M5 gun. (Courtesy of the United States Army Heritage and Education Center)',
+      image: '/images/database/td61403.jpg',
+      category: 'Tank Destroyers',
+    },
+    {
+      name: 'The 614th Tank Destroyer Battalion',
+      description:
+        'Charlie Rattler, of Third Platoon, C Company, the 614th Tank Destroyer Battalion sitting on the ground. (Courtesy of the United States Army Heritage and Education Center)',
+      image: '/images/database/td61404.jpg',
+      category: 'Tank Destroyers',
+    },
+    {
+      name: 'The 614th Tank Destroyer Battalion',
+      description:
+        'Charlie Rattler, of Third Platoon, C Company, the 614th Tank Destroyer Battalion smokes a ciragette and poses for the camera. (Courtesy of the United States Army Heritage and Education Center)',
+      image: '/images/database/td61405.jpg',
+      category: 'Tank Destroyers',
+    },
+    {
+      name: 'The 614th Tank Destroyer Battalion',
+      description:
+        'Charlie Rattler, of Third Platoon, C Company, the 614th Tank Destroyer Battalion together with another soldier in a foxhole. (Courtesy of the United States Army Heritage and Education Center)',
+      image: '/images/database/td61406.jpg',
+      category: 'Tank Destroyers',
+    },
+    {
+      name: 'The 614th Tank Destroyer Battalion',
+      description:
+        'A three inch M5 gun covered by camouflage netting. (Courtesy of the United States Army Heritage and Education Center)',
+        image: '/images/database/td61407.jpg',
+      category: 'Tank Destroyers',
+    },
 ];
+
+
 
 // Generate the image sitemap
 const generateImageSitemap = () => {
