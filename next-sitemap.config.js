@@ -3,11 +3,7 @@ module.exports = {
   generateRobotsTxt: true,
   sitemapSize: 7000,
   changefreq: 'daily',
-  priority: 0.7, // Default priority
-  additionalSitemaps: [
-    'https://samueldekorte.com/sitemap-0.xml',
-    'https://samueldekorte.com/sitemap-images.xml',
-  ],
+  priority: 0.7, // Default priority for all pages
   transform: async (config, path) => {
     // Define specific priorities and changefreqs for paths
     if (path === '/') {
@@ -43,17 +39,10 @@ module.exports = {
       priority: 0.9,
     };
   },
-  additionalPaths: async (config) => [
-    {
-      loc: '/sitemap-images.xml', // Custom sitemap path
-      changefreq: 'monthly',
-      priority: 0.5,
-    },
-  ],
   robotsTxtOptions: {
     additionalSitemaps: [
       'https://samueldekorte.com/sitemap-0.xml',
-      'https://samueldekorte.com/sitemap-images.xml',
+      'https://samueldekorte.com/sitemap-images.xml', // Reference to the image sitemap
     ],
   },
 };
