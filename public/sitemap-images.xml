@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  
+    
+  <url>
+    <loc>https://samueldekorte.com</loc>
+    <image:image>
+      <image:loc>https://samueldekorte.com/images/database/td61401.jpg</image:loc>
+      <image:caption>A three-inch M5 gun with crew of the 614th Tank Destroyer Battalion. (Courtesy of the United States Army Heritage and Education Center)</image:caption>
+    </image:image>
+  </url>  
+  <url>
+    <loc>https://samueldekorte.com</loc>
+    <image:image>
+      <image:loc>https://samueldekorte.com/images/database/td61408.jpg</image:loc>
+      <image:caption>Soldiers of the 614th Tank Destroyer Battalion stand in front of a halftrack. (Courtesy of the United States Army Heritage and Education Center)</image:caption>
+    </image:image>
+  </url>
 </urlset>

@@ -38,8 +38,12 @@ const generateImageSitemap = () => {
     .join('')}
 </urlset>`;
 
+  // Use absolute path with path.resolve to avoid any relative path issues
+  const sitemapPath = path.resolve(__dirname, 'public/sitemap-images.xml');
+  console.log('Writing sitemap to:', sitemapPath); // Verify path
+
   // Write the sitemap to the public directory
-  fs.writeFileSync(path.join(__dirname, '../public/sitemap-images.xml'), sitemap, 'utf8');
+  fs.writeFileSync(sitemapPath, sitemap, 'utf8');
   console.log('✅ Image sitemap created successfully!');
 };
 
