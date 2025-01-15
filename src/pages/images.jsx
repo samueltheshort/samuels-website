@@ -70,6 +70,7 @@ export default function Gallery({ images }) {
                       alt={altText}
                       width={500}
                       height={500}
+                      unoptimized
                       className="object-cover w-full h-full"
                     />
                     <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
