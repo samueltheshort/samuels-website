@@ -11,6 +11,9 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
+  images: {
+    domains: ['localhost', '127.0.0.1'], // Allow images from both localhost and 127.0.0.1
+  },
 };
 
 const withMDX = nextMDX({
