@@ -12,7 +12,7 @@ const nextConfig = {
     scrollRestoration: true,
   },
   images: {
-    domains: ['localhost', '127.0.0.1'], // Allow images from both localhost and 127.0.0.1
+    domains: ['localhost', '127.0.0.1', 'samueldekorte.com'], // Allow images from both localhost and 127.0.0.1
   },
 };
 
