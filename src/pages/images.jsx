@@ -4,20 +4,13 @@ import { useState } from 'react';
 import { SimpleLayout } from '@/components/SimpleLayout';
 import { Card } from '@/components/Card';
 
-// Import images directly
-import tankdestroyerbattalion61401 from '@/images/database/614th-tank-destroyer-battalion-01.jpg';
-import tankdestroyerbattalion61402 from '@/images/database/614th-tank-destroyer-battalion-02.jpg';
-import tankdestroyerbattalion61403 from '@/images/database/614th-tank-destroyer-battalion-03.jpg';
-import tankdestroyerbattalion61404 from '@/images/database/614th-tank-destroyer-battalion-04.jpg';
-import fieldartillerybattalion57801 from '@/images/database/578th-field-artillery-battalion-01.jpg';
-
-
-const imageData = [
+// Export the imageData array
+export const imageData = [
   {
     id: 1,
     name: 'A shell is being loaded into an 8-inch howitzer.',
     description: 'A shell is being loaded into an 8-inch gun of Battery C, 578th Field Artillery Battalion near Bleialf, Germany.',
-    image: fieldartillerybattalion57801,
+    image: '578th-field-artillery-battalion-01.jpg',
     category: 'Artillery',
     source: 'Author collection',
     date: '9 February 1945',
@@ -26,7 +19,7 @@ const imageData = [
     id: 2,
     name: 'The 614th Tank Destroyer Battalion',
     description: 'A three-inch M5 gun with the crew of the 614th Tank Destroyer Battalion.',
-    image: tankdestroyerbattalion61401,
+    image: '614th-tank-destroyer-battalion-01.jpg',
     category: 'Tank Destroyers',
     source: 'United States Army Heritage and Education Center.',
     date: '1945',
@@ -35,7 +28,7 @@ const imageData = [
     id: 3,
     name: 'The 614th Tank Destroyer Battalion',
     description: 'An officer and two enlisted men of the 614th Tank Destroyer Battalion.',
-    image: tankdestroyerbattalion61402,
+    image: '614th-tank-destroyer-battalion-02.jpg',
     category: 'Tank Destroyers',
     source: 'United States Army Heritage and Education Center.',
     date: '1945',
@@ -44,7 +37,7 @@ const imageData = [
     id: 4,
     name: 'A soldier of the 614th Tank Destroyer Battalion',
     description: 'A soldier of the 614th Tank Destroyer Battalion poses with a round for the M3 anti-tank gun.',
-    image: tankdestroyerbattalion61403,
+    image: '614th-tank-destroyer-battalion-03.jpg',
     category: 'Tank Destroyers',
     source: 'United States Army Heritage and Education Center.',
     date: '1945',
@@ -53,14 +46,26 @@ const imageData = [
     id: 5,
     name: 'Charlie Rattler of the 614th Tank Destroyer Battalion',
     description: 'Charlie Rattler, Third Platoon, Company C, the 614th Tank Destroyer Battalion sits on the ground with a bazooka.',
-    image: tankdestroyerbattalion61404,
+    image: '614th-tank-destroyer-battalion-04.jpg',
     category: 'Tank Destroyers',
     source: 'United States Army Heritage and Education Center.',
     date: '1945',
   },
-  // Add more images as needed...
+  {
+    id: 30,
+    name: 'An armed halftrack of the 827th Engineers Aviation Battalion.',
+    description: 'Derived from original caption: Although the main job for the members of the 827th Engineers, is to construct an airport they still have to keep in trim for fighting. L to R: Private James Bryand, Sergeant Will L. Scott, Private First Class Dan Smith, and Corporal Woodrow George. This image also appeared in the Jackson Advocate of 4 September 1943, which alludes to an invasion of Germany. However, in September 1943, the Normandy landings were far in the future.',
+    image: '827th-engineers-aviation-battalion-01.jpg',
+    category: 'Engineers',
+    source: 'Ike Skelton Combined Arms Research Library: SC 174587.',
+    date: '1943',
+  },
 ];
 
+// Export imageData as a module
+module.exports = { imageData };
+
+// Main component
 export default function Gallery() {
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState('All');
@@ -80,14 +85,14 @@ export default function Gallery() {
     "@context": "http://schema.org",
     "@type": "ImageObject",
     "name": image.name,
-    "contentUrl": `https://www.samueldekorte.com/images/${image.name.toLowerCase().replace(/\s+/g, '-')}.jpg`, // Consider static paths
+    "contentUrl": `https://www.samueldekorte.com/images/${image.name.toLowerCase().replace(/\s+/g, '-')}.jpg`,
     "creator": {
       "@type": "Person",
       "name": "Samuel de Korte"
     },
     "datePublished": image.date,
     "description": image.description,
-    "image": `https://www.samueldekorte.com/images/${image.name.toLowerCase().replace(/\s+/g, '-')}.jpg`, // Ensure this path is correct
+    "image": `https://www.samueldekorte.com/images/${image.name.toLowerCase().replace(/\s+/g, '-')}.jpg`,
     "publisher": {
       "@type": "Organization",
       "name": "Samuel de Korte History"
@@ -97,7 +102,7 @@ export default function Gallery() {
   return (
     <>
       <Head>
-      <title>Image Gallery - WWII Historical Images of Black American Soldiers | Samuel de Korte</title>
+        <title>Image Gallery - WWII Historical Images of Black American Soldiers | Samuel de Korte</title>
         <meta property="og:title" content="Image Gallery - Black American Soldiers" />
         <meta name="description" content="Explore a curated gallery showcasing the contributions of Black American soldiers during World War II with historical images and stories." />
         <meta name="robots" content="index, follow" />
@@ -122,6 +127,7 @@ export default function Gallery() {
             "url": "https://www.samueldekorte.com/gallery"
           })}
         </script>
+
         {/* Meta Tags for Social Sharing */}
         <meta property="og:image" content={`https://www.samueldekorte.com/images/${filteredImages[0]?.name.toLowerCase().replace(/\s+/g, '-')}.jpg`} />
         <meta property="og:image:alt" content={filteredImages[0]?.name} />
@@ -150,9 +156,7 @@ export default function Gallery() {
             <button
               key={cat}
               onClick={() => setCategory(cat)}
-              className={`px-4 py-2 m-1 rounded-md ${
-                category === cat ? 'bg-blue-600 text-white' : 'bg-gray-200'
-              }`}
+              className={`px-4 py-2 m-1 rounded-md ${category === cat ? 'bg-blue-600 text-white' : 'bg-gray-200'}`}
             >
               {cat}
             </button>
@@ -164,7 +168,7 @@ export default function Gallery() {
           {filteredImages.map((image) => (
             <Card key={image.id}>
               <Image
-                src={image.image}
+                src={`/images/${image.image}`}  // Updated path
                 alt={`Historical image showing ${image.name} of Black American soldiers during WWII`}
                 width={400}
                 height={300}

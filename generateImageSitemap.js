@@ -1,37 +1,48 @@
-// generateImageSitemap.js
 const fs = require('fs');
 const path = require('path');
-const { imageData } = require('./imageData.js');
 
-// Define the website URL
-const websiteUrl = 'https://samueldekorte.com';
+const { imageData } = require('./imageData');
 
-// Generate the image sitemap
-const generateImageSitemap = () => {
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  ${imageData
-    .map(
-      (img) => `  
-  <url>
-    <loc>${websiteUrl}</loc>
-    <image:image>
-      <image:loc>${websiteUrl}${img.image}</image:loc>
-      <image:caption>${img.description}</image:caption>
-    </image:image>
-  </url>`
-    )
-    .join('')}
-</urlset>`;
+// Define the location to save the generated sitemap from the root folder
+const sitemapPath = path.resolve(__dirname, '..', 'public', 'sitemap-images.xml');
 
-  // Use absolute path with path.resolve to avoid any relative path issues
-  const sitemapPath = path.resolve(__dirname, 'public/sitemap-images.xml');
-  console.log('Writing sitemap to:', sitemapPath); // Verify path
+// Debugging - Check the resolved sitemap path
+console.log('Sitemap Path:', sitemapPath);
 
-  // Write the sitemap to the public directory
-  fs.writeFileSync(sitemapPath, sitemap, 'utf8');
-  console.log('✅ Image sitemap created successfully!');
-};
+// Function to generate the image sitemap
+function generateImageSitemap() {
+  // Ensure the public directory exists
+  const publicDir = path.dirname(sitemapPath);
+  if (!fs.existsSync(publicDir)) {
+    console.log('Public directory does not exist. Creating it...');
+    fs.mkdirSync(publicDir, { recursive: true }); // Create the directory if it doesn't exist
+  }
 
-// Call the function to generate the sitemap
+  const imageUrls = imageData.map((image) => {
+    const imageUrl = `https://www.samueldekorte.com/images/${image.image}`;
+    return `
+      <url>
+        <loc>https://www.samueldekorte.com/images/${image.image}</loc>
+        <image:image>
+          <image:loc>${imageUrl}</image:loc>
+          <image:title>${image.name}</image:title>
+          <image:caption>${image.description}</image:caption>
+          <image:license>${image.source}</image:license>
+          <image:date>${image.date}</image:date>
+        </image:image>
+      </url>`;
+  });
+
+  const xmlContent = `<?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+          xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    ${imageUrls.join('')}
+  </urlset>`;
+
+  // Write the XML to the public directory
+  fs.writeFileSync(sitemapPath, xmlContent, 'utf8');
+  console.log('Image sitemap generated successfully!');
+}
+
+// Run the function to generate the sitemap
 generateImageSitemap();
