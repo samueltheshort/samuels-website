@@ -47,3 +47,4 @@ export const imageData = [
   },  
   // Add more images here as needed
 ];
+module.exports = { imageData };
