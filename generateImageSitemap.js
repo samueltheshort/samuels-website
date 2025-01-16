@@ -25,8 +25,6 @@ function generateImageSitemap() {
           <image:loc>${imageUrl}</image:loc>
           <image:title>${image.name}</image:title>
           <image:caption>${image.description}</image:caption>
-          <image:source>${image.source}</image:source>
-          <image:date>${image.date}</image:date>
         </image:image>
       </url>`;
   });
