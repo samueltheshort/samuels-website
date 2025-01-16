@@ -1,0 +1,2 @@
+declare const i18nApi: import("@reduxjs/toolkit/query").Api<import("@reduxjs/toolkit/query").BaseQueryFn<string | import("@strapi/admin/strapi-admin").QueryArguments, unknown, import("@strapi/admin/strapi-admin").BaseQueryError, {}, {}>, import("@reduxjs/toolkit/dist/query/endpointDefinitions").UpdateDefinitions<{}, "Locale", never>, "adminApi", "Locale", typeof import("@reduxjs/toolkit/query").coreModuleName | typeof import("@reduxjs/toolkit/dist/query/react").reactHooksModuleName>;
+export { i18nApi };

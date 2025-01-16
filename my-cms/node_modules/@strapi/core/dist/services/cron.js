@@ -1,0 +1,67 @@
+"use strict";
+const nodeSchedule = require("node-schedule");
+const fp = require("lodash/fp");
+const createCronService = () => {
+  let jobsSpecs = [];
+  let running = false;
+  return {
+    add(tasks = {}) {
+      for (const taskExpression of Object.keys(tasks)) {
+        const taskValue = tasks[taskExpression];
+        let fn;
+        let options;
+        let taskName;
+        if (fp.isFunction(taskValue)) {
+          taskName = null;
+          fn = taskValue.bind(tasks);
+          options = taskExpression;
+        } else if (fp.isFunction(taskValue.task)) {
+          taskName = taskExpression;
+          fn = taskValue.task.bind(taskValue);
+          options = taskValue.options;
+        } else {
+          throw new Error(
+            `Could not schedule a cron job for "${taskExpression}": no function found.`
+          );
+        }
+        const fnWithStrapi = (...args) => fn({ strapi }, ...args);
+        const job = new nodeSchedule.Job(fnWithStrapi);
+        jobsSpecs.push({ job, options, name: taskName });
+        if (running) {
+          job.schedule(options);
+        }
+      }
+      return this;
+    },
+    remove(name) {
+      if (!name) throw new Error("You must provide a name to remove a cron job.");
+      const matchingJobsSpecs = jobsSpecs.filter(({ name: jobSpecName }, index) => {
+        if (jobSpecName === name) {
+          jobsSpecs.splice(index, 1);
+          return true;
+        }
+        return false;
+      });
+      matchingJobsSpecs.forEach(({ job }) => job.cancel());
+      return this;
+    },
+    start() {
+      jobsSpecs.forEach(({ job, options }) => job.schedule(options));
+      running = true;
+      return this;
+    },
+    stop() {
+      jobsSpecs.forEach(({ job }) => job.cancel());
+      running = false;
+      return this;
+    },
+    destroy() {
+      this.stop();
+      jobsSpecs = [];
+      return this;
+    },
+    jobs: jobsSpecs
+  };
+};
+module.exports = createCronService;
+//# sourceMappingURL=cron.js.map

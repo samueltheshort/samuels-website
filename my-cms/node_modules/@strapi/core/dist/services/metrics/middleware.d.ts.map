@@ -1,0 +1,1 @@
+{"version":3,"file":"middleware.d.ts","sourceRoot":"","sources":["../../../src/services/metrics/middleware.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,IAAI,EAAE,MAAM,eAAe,CAAC;AAC1C,OAAO,KAAK,EAAE,MAAM,EAAE,MAAM,UAAU,CAAC;AAOvC,QAAA,MAAM,gBAAgB,kBAAmB;IAAE,SAAS,EAAE,MAAM,CAAA;CAAE,2BA8B7D,CAAC;AAEF,eAAe,gBAAgB,CAAC"}

@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && node generateImageSitemap.js",
-    "start": "next start",
-    "lint": "next lint",
-    "postbuild": "next-sitemap && node -e \"require('./generateImageSitemap.js')\""
+  "dev": "next dev",
+  "build": "next build && node generateImageSitemap.js",
+  "start": "next start",
+  "lint": "next lint",
+  "postbuild": "next-sitemap && node -e \"require('./generateImageSitemap.js')\""
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {

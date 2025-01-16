@@ -1,0 +1,13 @@
+import type { Core } from '@strapi/types';
+export type Config = {
+    enabled?: boolean;
+    origin: string | string[] | ((ctx: any) => string | string[]);
+    expose?: string | string[];
+    maxAge?: number;
+    credentials?: boolean;
+    methods?: string | string[];
+    headers?: string | string[];
+    keepHeadersOnError?: boolean;
+};
+export declare const cors: Core.MiddlewareFactory<Config>;
+//# sourceMappingURL=cors.d.ts.map
