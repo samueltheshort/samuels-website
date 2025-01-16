@@ -61,6 +61,16 @@ export const imageData = [
     date: '1945',
   },
   {
+    id: 29,
+
+    name: 'Soldiers of the 218th Quartermaster Battalion are fueling jerricans.',
+    description: 'Soldiers of the 218th Quartermaster Battalion are fueling jerrycans. These cans were used to fuel the advance of the Ninth Army during Operation Flashpoint. (Wegberg, Germany)',
+    image: '218th-quartermaster-battalion-01.jpg',
+    category: 'Quartermaster',
+    source: 'United States Army Heritage and Education Center.',
+    date: '23 March 1945',
+  },
+  {
     id: 30,
     name: 'An armed halftrack of the 827th Engineers Aviation Battalion.',
     description: 'Derived from original caption: Although the main job for the members of the 827th Engineers, is to construct an airport they still have to keep in trim for fighting. L to R: Private James Bryand, Sergeant Will L. Scott, Private First Class Dan Smith, and Corporal Woodrow George. This image also appeared in the Jackson Advocate of 4 September 1943, which alludes to an invasion of Germany. However, in September 1943, the Normandy landings were far in the future.',
