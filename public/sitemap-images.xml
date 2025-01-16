@@ -1,1 +1,75 @@
-test
+<?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+          xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+      
+      <url>
+        <loc>https://www.samueldekorte.com/images/578th-field-artillery-battalion-01.jpg</loc>
+        <image:image>
+          <image:loc>https://www.samueldekorte.com/images/578th-field-artillery-battalion-01.jpg</image:loc>
+          <image:title>A shell is being loaded into an 8-inch howitzer.</image:title>
+          <image:caption>A shell is being loaded into an 8-inch gun of Battery C, 578th Field Artillery Battalion near Bleialf, Germany.</image:caption>
+          <image:source>Author collection</image:source>
+          <image:date>9 February 1945</image:date>
+        </image:image>
+      </url>  
+      <url>
+        <loc>https://www.samueldekorte.com/images/614th-tank-destroyer-battalion-01.jpg</loc>
+        <image:image>
+          <image:loc>https://www.samueldekorte.com/images/614th-tank-destroyer-battalion-01.jpg</image:loc>
+          <image:title>The 614th Tank Destroyer Battalion</image:title>
+          <image:caption>A three-inch M5 gun with the crew of the 614th Tank Destroyer Battalion.</image:caption>
+          <image:source>United States Army Heritage and Education Center.</image:source>
+          <image:date>1945</image:date>
+        </image:image>
+      </url>  
+      <url>
+        <loc>https://www.samueldekorte.com/images/614th-tank-destroyer-battalion-02.jpg</loc>
+        <image:image>
+          <image:loc>https://www.samueldekorte.com/images/614th-tank-destroyer-battalion-02.jpg</image:loc>
+          <image:title>The 614th Tank Destroyer Battalion</image:title>
+          <image:caption>An officer and two enlisted men of the 614th Tank Destroyer Battalion.</image:caption>
+          <image:source>United States Army Heritage and Education Center.</image:source>
+          <image:date>1945</image:date>
+        </image:image>
+      </url>  
+      <url>
+        <loc>https://www.samueldekorte.com/images/614th-tank-destroyer-battalion-03.jpg</loc>
+        <image:image>
+          <image:loc>https://www.samueldekorte.com/images/614th-tank-destroyer-battalion-03.jpg</image:loc>
+          <image:title>A soldier of the 614th Tank Destroyer Battalion</image:title>
+          <image:caption>A soldier of the 614th Tank Destroyer Battalion poses with a round for the M3 anti-tank gun.</image:caption>
+          <image:source>United States Army Heritage and Education Center.</image:source>
+          <image:date>1945</image:date>
+        </image:image>
+      </url>  
+      <url>
+        <loc>https://www.samueldekorte.com/images/614th-tank-destroyer-battalion-04.jpg</loc>
+        <image:image>
+          <image:loc>https://www.samueldekorte.com/images/614th-tank-destroyer-battalion-04.jpg</image:loc>
+          <image:title>Charlie Rattler of the 614th Tank Destroyer Battalion</image:title>
+          <image:caption>Charlie Rattler, Third Platoon, Company C, the 614th Tank Destroyer Battalion sits on the ground with a bazooka.</image:caption>
+          <image:source>United States Army Heritage and Education Center.</image:source>
+          <image:date>1945</image:date>
+        </image:image>
+      </url>  
+      <url>
+        <loc>https://www.samueldekorte.com/images/614th-tank-destroyer-battalion-05.jpg</loc>
+        <image:image>
+          <image:loc>https://www.samueldekorte.com/images/614th-tank-destroyer-battalion-05.jpg</image:loc>
+          <image:title>Charlie Rattler of the 614th Tank Destroyer Battalion is smoking a cigarette</image:title>
+          <image:caption>Charlie Rattler, Third Platoon, Company C, the 614th Tank Destroyer Battalion is smoking a cigarette. This photograph was published in a 1945.</image:caption>
+          <image:source>United States Army Heritage and Education Center.</image:source>
+          <image:date>1945</image:date>
+        </image:image>
+      </url>  
+      <url>
+        <loc>https://www.samueldekorte.com/images/827th-engineers-aviation-battalion-01.jpg</loc>
+        <image:image>
+          <image:loc>https://www.samueldekorte.com/images/827th-engineers-aviation-battalion-01.jpg</image:loc>
+          <image:title>An armed halftrack of the 827th Engineers Aviation Battalion.</image:title>
+          <image:caption>Derived from original caption: Although the main job for the members of the 827th Engineers, is to construct an airport they still have to keep in trim for fighting. L to R: Private James Bryand, Sergeant Will L. Scott, Private First Class Dan Smith, and Corporal Woodrow George. This image also appeared in the Jackson Advocate of 4 September 1943, which alludes to an invasion of Germany. However, in September 1943, the Normandy landings were far in the future.</image:caption>
+          <image:source>Ike Skelton Combined Arms Research Library: SC 174587.</image:source>
+          <image:date>1943</image:date>
+        </image:image>
+      </url>
+  </urlset>

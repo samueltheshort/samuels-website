@@ -1,13 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 
+// Import imageData from the imageData.js file
 const { imageData } = require('./imageData');
 
-// Define the location to save the generated sitemap from the root folder
-const sitemapPath = path.resolve(__dirname, '..', 'public', 'sitemap-images.xml');
-
-// Debugging - Check the resolved sitemap path
-console.log('Sitemap Path:', sitemapPath);
+// This ensures the sitemap is written in the 'public' folder within the same project directory.
+const sitemapPath = path.resolve(__dirname, 'public', 'sitemap-images.xml');
 
 // Function to generate the image sitemap
 function generateImageSitemap() {
@@ -20,14 +18,14 @@ function generateImageSitemap() {
 
   const imageUrls = imageData.map((image) => {
     const imageUrl = `https://www.samueldekorte.com/images/${image.image}`;
-    return `
+    return `  
       <url>
-        <loc>https://www.samueldekorte.com/images/${image.image}</loc>
+        <loc>${imageUrl}</loc>
         <image:image>
           <image:loc>${imageUrl}</image:loc>
           <image:title>${image.name}</image:title>
           <image:caption>${image.description}</image:caption>
-          <image:license>${image.source}</image:license>
+          <image:source>${image.source}</image:source>
           <image:date>${image.date}</image:date>
         </image:image>
       </url>`;
@@ -39,9 +37,15 @@ function generateImageSitemap() {
     ${imageUrls.join('')}
   </urlset>`;
 
+  console.log('Generated XML content:', xmlContent); // Debugging line
+
   // Write the XML to the public directory
-  fs.writeFileSync(sitemapPath, xmlContent, 'utf8');
-  console.log('Image sitemap generated successfully!');
+  try {
+    // Write the sitemap XML content to the correct location
+    fs.writeFileSync(sitemapPath, xmlContent, 'utf8');    
+  } catch (error) {
+    console.error('Error writing file:', error);
+  }
 }
 
 // Run the function to generate the sitemap

@@ -47,6 +47,15 @@
     date: '1945',
   },
   {
+    id: 6,
+    name: 'Charlie Rattler of the 614th Tank Destroyer Battalion is smoking a cigarette',
+    description: 'Charlie Rattler, Third Platoon, Company C, the 614th Tank Destroyer Battalion is smoking a cigarette. This photograph was published in a 1945.',
+    image: '614th-tank-destroyer-battalion-05.jpg',
+    category: 'Tank Destroyers',
+    source: 'United States Army Heritage and Education Center.',
+    date: '1945',
+  },
+  {
     id: 30,
     name: 'An armed halftrack of the 827th Engineers Aviation Battalion.',
     description: 'Derived from original caption: Although the main job for the members of the 827th Engineers, is to construct an airport they still have to keep in trim for fighting. L to R: Private James Bryand, Sergeant Will L. Scott, Private First Class Dan Smith, and Corporal Woodrow George. This image also appeared in the Jackson Advocate of 4 September 1943, which alludes to an invasion of Germany. However, in September 1943, the Normandy landings were far in the future.',
