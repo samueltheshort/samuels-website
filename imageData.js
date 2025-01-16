@@ -56,6 +56,42 @@
     date: '1945',
   },
   {
+    id: 7,
+    name: 'Charlie Rattler of the 614th Tank Destroyer Battalion in a foxhole with another soldier',
+    description: 'Charlie Rattler, of Third Platoon, C Company, the 614th Tank Destroyer Battalion together with another soldier in a foxhole.',
+    image: '614th-tank-destroyer-battalion-06.jpg',
+    category: 'Tank Destroyers',
+    source: 'United States Army Heritage and Education Center.',
+    date: '1945',
+  },
+  {
+    id: 8,
+    name: 'A camouflaged three inch gun of the 614th Tank Destoyer Battalion',
+    description: 'A three inch M5 gun covered by camouflage netting.',
+    image: '614th-tank-destroyer-battalion-07.jpg',
+    category: 'Tank Destroyers',
+    source: 'United States Army Heritage and Education Center.',
+    date: '1945',
+  },
+  {
+    id: 9,
+    name: 'A three inch gun of the 614th Tank Destroyer Battalion during a firing exercise',
+    description: 'Members of the gun crew of a tank destroyer unit load their piece during practice firing, somewhere in England, before leaving for the real thing on the continent. Left to Right: Pfc. Aurbery Morris (Hobbsville, NC), Pfc. J. C. Heatem (Detroit, MI), Pfc. Robert B. Russell (Ashville, NC), 1st Lt. U.V. Watkins (Huntsville, TX), Pfc. Cebe Young (Ashville, NC), Pfc. James H. Mason (Williamston, NC). 614th Tank Destroyer Battalion, Burley, England.',
+    image: '614th-tank-destroyer-battalion-08.jpg',
+    category: 'Tank Destroyers',
+    source: 'United States Army Heritage and Education Center.',
+    date: '1945',
+  },
+  {
+    id: 10,
+    name: 'An officer and an enlisted man in front of a halftrack',
+    description: 'An officer and an enlisted man of the 614th Tank Destroyer Battalion stand in front of a halftrack.',
+    image: '614th-tank-destroyer-battalion-09.jpg',
+    category: 'Tank Destroyers',
+    source: 'United States Army Heritage and Education Center.',
+    date: '1945',
+  },
+  {
     id: 29,
 
     name: 'Soldiers of the 218th Quartermaster Battalion are fueling jerricans.',
@@ -74,4 +110,103 @@
     source: 'Ike Skelton Combined Arms Research Library: SC 174587.',
     date: '1943',
   },
+  {
+    id: 100, 
+    name: 'A retreat ceremony somewhere in the South Pacific Area.', 
+    description: '"Old Glory" is lowered in a retreat ceremony somewhere in the South Pacific Area by Corporal John O. Crittonden, a member of Company A, 903rd Air Base Security Battalion.', 
+    image: '903rd-airbase-security-battalion-01.jpg', 
+    category: '', 
+    source: 'National Archives and Records Administration: (SC 184656)', 
+    date: '29 June 1943'
+  },
+  {
+    id: 101, 
+    name: 'A message is speeded on its way by these men from a Headquarter Detachment of the 903rd Air Base Security Battalion.', 
+    description: 'A message is speeded on its way by these men from a Headquarter Detachment of the 903rd Air Base Security Battalion somewhere in the South Pacific Area. L-R: T/5 Carl D. Hale, Sgt. William L. Shepard and T/4 R.C. Collins.', 
+    image: '903rd-airbase-security-battalion-02.jpg', 
+    category: '', 
+    source: 'National Archives and Records Administration: (SC 164669)', 
+    date: 'undated'
+  },
+  {
+    id: 102, 
+    name: "It's chow time for the 903rd 903rd Air Base Security Battalion.", 
+    description: "It's chow time at the 903rd Air Base Security Battalion in the South Pacific Area.", 
+    image: '903rd-airbase-security-battalion-03.jpg', 
+    category: '', 
+    source: 'National Archives and Records Administration: (SC 184655)', 
+    date: '29 June 1943'
+  },
+  {
+    id: 103, 
+    name: 'Private Glenn Moore, Warren, Ohio, is vaccinated by by T/5 Henry Edwards, member of a Medical Detachment.', 
+    description: 'A "shot" is given to Private Glenn Moore, Warren, Ohio, by T/5 Henry Edwards, member of a Medical Detachment serving in the South Pacific Area. Waiting are Private Willie J. L. Dawson, Greenville, S.C., and Private Curtis Daniel Knox, Palmetto, Ga', 
+    image: '903rd-airbase-security-battalion-04.jpg', 
+    category: '', 
+    source: 'National Archives and Records Administration: (SC 184642)', 
+    date: '29 June 1943'
+  },
+  {
+    id: 104, 
+    name: 'Getting ready to turn in.', 
+    description: 'Getting ready to turn in. 1st Lt. Harry L. Curtis, Morgantown, N.C., gives a few pointers to Cpl. Alfred Summerville, Washington, D.C., on a sea-going barracks, as they prepare for an overseas journey. 350th Engineer Regiment aboard the S.S. Poelau Laut, Pier 41-S, San Francisco Port of Embarkation.', 
+    image: '350th-engineer-regiment-01.jpg', 
+    category: '', 
+    source: 'National Archives and Records Administration: (SC 171514)', 
+    date: '27 January, 1943.'
+  },
+  {
+    id: 105, 
+    name: 'Private Isaac Bartell, left, is instructed by S/Sgt. Thomas Blackstone.', 
+    description: 'Private Isaac Bartell, left, Detroit, Mich., gets last-minute instructions from S/Sgt. Thomas A. Blackstone, Leonardtown, Md., as they prepare to go overseas. Both are with the 350th Engineer Regiment, aboard the S.S. Poelau Laut, Pier 41-S, San Francisco Port of Embarkation.', 
+    image: '350th-engineer-regiment-02.jpg', 
+    category: '', 
+    source: 'National Archives and Records Administration: (SC 171515)', 
+    date: '27 January, 1943.'
+  },
+  {
+    id: 106, 
+    name: 'Private Robert A. Williams of Clarksdale.', 
+    description: 'Private Robert A. Williams of Clarksdale, Miss., as he contemplates sleeping in a hammock aboard the transport on which his unit embarked for overseas. Company D, 462nd Port Battalion, embarked at San Francisco Port of Embarkation.', 
+    image: '462nd-port-battalion-01.jpg', 
+    category: '', 
+    source: 'National Archives and Records Administration: (SC 171509)', 
+    date: '12 January 1943'
+  },
+  {
+    id: 107, 
+    name: 'Members of a Medical Detachment, 352nd Engineer Regiment, prepare for their overseas journey.', 
+    description: 'Members of a Medical Detachment stowing their duffels and testing their hammocks on the deck of the transport on which they embarked for overseas. Detachment of the 352nd Engineer Regiment, embarked at San Francisco Port of Embarkation.', 
+    image: '352nd-engineer-regiment-01.jpg', 
+    category: '', 
+    source: 'National Archives and Records Administration: (SC 171512)', 
+    date: '12 January 1943'
+  },
+  {
+    id: 108, 
+    name: 'The remaining tanks of the Byrne Task Force are serviced by their crews.', 
+    description: 'Before moving on to the next objective, the remaining tanks of the Byrne Task Force are serviced by their crews. Company B, 784th Tank Battalion, at Sevelen, Germany.', 
+    image: '784th-tank-battalion-01.jpg', 
+    category: 'Tanks', 
+    source: 'National Archives and Records Administration: (SC 336785)', 
+    date: '5 March 1945'
+  },
+  {
+    id: 109, 
+    name: 'Lieutenant Colonel Nolan Troxell teaches infantry warfare to a group of Black infantry volunteers.', 
+    description: 'Lt. Col. Nolan Troxell, 1609 Olive St., Little Rock, Arkansas, veteran combat officer explains the tactics of infantry warfare to a group of Black soldiers, all volunteers from service units.', 
+    image: 'infantry-volunteers-01.jpg', 
+    category: 'Infantry', 
+    source: 'National Archives and Records Administration: (SC 337400)', 
+    date: '28 February 1945'
+  },
+  {
+    id: 110, 
+    name: 'Private George E. Stevens during infantry training.', 
+    description: 'At the 47th Reinforcement Depot, Private George E. Stevens, Abbottsburg, North Carolina, undergoes some serious infantry training. 47th Reinforcement Depot. Noyon, France.', 
+    image: 'infantry-volunteers-02.jpg', 
+    category: 'Infantry', 
+    source: 'National Archives and Records Administration: (SC 337399)', 
+    date: '28 February 1945'
+  }, 
 ] };
