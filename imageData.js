@@ -1,5 +1,4 @@
-// imageData.js
-export const imageData = [
+const imageData = [
   {
     id: 1,
     name: 'A shell is being loaded into an 8-inch howitzer.',

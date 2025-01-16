@@ -1,7 +1,7 @@
 // generateImageSitemap.js
 const fs = require('fs');
 const path = require('path');
-const { imageData } = require('./imageData'); // Import image data from imageData.js
+const { imageData } = require('./imageData.js');
 
 // Define the website URL
 const websiteUrl = 'https://samueldekorte.com';
