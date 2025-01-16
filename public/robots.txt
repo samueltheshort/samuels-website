@@ -5,7 +5,7 @@ Allow: /
 # Host
 Host: https://samueldekorte.com
 
-# Sitemap Directives
+# Sitemaps
 Sitemap: https://samueldekorte.com/sitemap.xml
 Sitemap: https://samueldekorte.com/sitemap-0.xml
 Sitemap: https://samueldekorte.com/sitemap-images.xml
