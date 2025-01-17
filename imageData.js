@@ -365,7 +365,7 @@
     id: 39,
     name: 'Major General Edward M. Almond, Commanding General of the 92nd Infantry Division, inspects his troops.',
     description: 'Maj. Gen. Edward M. Almond, Commanding General of the 92nd Infantry Division in Italy, inspects his troops during a decoration ceremony.',
-    image: '  92nd-infantry-division-01.jpg',
+    image: '92nd-infantry-division-01.jpg',
     category: 'Infantry',
     source: 'National Archives and Records Administration (NAID: 535547)',
     date: 'March 1945',
