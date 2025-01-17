@@ -225,7 +225,7 @@ export const imageData = [
   {
     id: 24,
     name: 'A light tank with Black American trainees',
-    description: 'Pfc. Dewey McClain, Jacksonville, Fla., Pvt. Hulet MacHenry, Salina, Kan., and Pfc. Lester Baker, Alexandria, La. Armored School Det., Replacement & Training Command. (Naples area, Italy)',
+    description: 'Pfc. Dewey McClain, Jacksonville, Fla., Pvt. Hulet MacHenry, Salina, Kan., and Pfc. Lester Baker, Alexandria, La. Armored School Det., Replacement and Training Command. (Naples area, Italy)',
     image: '758th-tank-battalion-02.jpg',
     category: 'Tanks',
     source: 'National Archives and Records Administration: SC 364368',
