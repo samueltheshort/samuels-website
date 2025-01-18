@@ -1,0 +1,146 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+import warcrimes01 from '@/images/photos/war-crimes-01.jpg'
+import warcrimes02 from '@/images/photos/war-crimes-02.jpg'
+import bp76103 from '@/images/photos/bp76103.jpg'
+import tiktokexample01 from '@/images/photos/tiktok-example-01.jpg'
+import instagramexample01 from '@/images/photos/instagram-example-01.jpg'
+import kamikaze01 from '@/images/photos/kamikaze-01.jpg'
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2025-01-18',
+  title: 'The Fallacy of "Non-Political History" in Military History',
+  description:
+    "History is often categorized into neat compartments: political, military, economic, cultural, and so forth. However, when closely examined, you’ll notice that these boundaries don’t really exist and are rather fluid. A prime example is the misconception that military history can be studied independently of political history, a notion some historians or enthusiasts champion as 'non-political history'. This fallacy implies that an army, as a distinct entity, can be analyzed without reference to the state that created it, the political ideologies that shaped it, or the societal structures it upheld. Such an approach not only oversimplifies history but also risks misrepresenting it entirely.",
+}
+
+export default (props) => (
+  <>
+    {/* Head Section for SEO */}
+    <Head>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      <link rel="canonical" href="https://www.samueldekorte.com/articles/the-fallacy-of-non-political-history-in-military-history" />
+    </Head>
+
+    {/* Article Layout */}
+    <ArticleLayout meta={meta} {...props} />
+  </>
+)
+
+## The Fallacy of "Non-Political History" in Military History
+History is often categorized into neat compartments: political, military, economic, cultural, and so forth. However, when closely examined, you’ll notice that these boundaries don’t really exist and are rather fluid. A prime example is the misconception that military history can be studied independently of political history, a notion some historians or enthusiasts champion as "non-political history." This fallacy implies that an army, as a distinct entity, can be analyzed without reference to the state that created it, the political ideologies that shaped it, or the societal structures it upheld. Such an approach not only oversimplifies history but also risks misrepresenting it entirely.
+
+<div className="flex flex-col items-center space-y-6">
+  <div className="text-center">
+    <Image
+      src={tiktokexample01}
+      alt="An image of non-political history on Tiktok."
+      sizes="(min-width: 200px)"
+      className="rotate-0 bg-stone-100 object-cover dark:bg-stone-800"
+    />
+    <figcaption className="mt-2"><b>An example of the non-political history on Tiktok.</b></figcaption>
+  </div>
+</div>
+
+## World War II and Non-Political Military History 
+The claim of non-political military history is particularly contentious in the context of World War II, a conflict deeply intertwined with political ideologies, nation-states, and global power dynamics. The armies that fought in the war were not isolated machines operating in a vacuum; they were shaped by the states that fielded them. They reflected the political priorities, economic resources, and cultural values of their nations. 
+
+## Armies, priorities and policy
+The separation of military history from political history also risks ignoring warfare's moral and ethical dimensions. Armies do not merely execute battles; they enforce policies and maintain regimes. They withhold or engage in atrocities or liberations based on the political objectives of the states. For instance, the actions of military units during the Holocaust, the bombing campaigns on civilians during the Blitzkrieg, and the use of conscripted labor are inseparable from the political systems that sanctioned them. To study these armies without acknowledging their political contexts is to neglect the full scope of their impact on human history.
+Furthermore, the logistics, strategies, and outcomes of military campaigns are inherently tied to political decision-making. The resources allocated to an army, the objectives it pursues, and the alliances it forms are all products of political calculations. The Normandy invasion of 1944, hailed as a triumph of military strategy, was as much a result of political coordination among the Allies as it was a demonstration of tactical brilliance. Ignoring these political underpinnings diminishes our understanding of how and why such events unfolded.
+## Political History Reflected in Military History of World War II
+### The United States: Segregation in Society and the Army
+In 1940, in the US, 9.8% of the population was a Black American.[^1]  During World War II, the racial segregation of American society extended deeply into the structure of its military forces. The U.S. Army maintained racially segregated units, reflecting the broader Jim Crow laws prevalent in civilian life. African American soldiers were often relegated to support roles, such as logistics and labor battalions, rather than combat positions. Units like the [761st Tank Battalion](https://www.samueldekorte.com/articles/761st-tank-battalion) (the “Black Panthers”) and the Tuskegee Airmen broke barriers, but the fact that these units existed underlines the political realities of racism in America. The military’s segregation mirrored the United States’ failure to fully embrace the ideals of democracy at home, even as it fought for them abroad.
+
+<Image
+                src={bp76103}
+                alt="An image of the 761st Tank Battalion."
+                sizes="(min-width: 200px)"
+                className="rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"               
+              />
+              <figcaption align = "center"><b>A tank of the 761st Tank Battalion is crossing a bridge in 1944. National Archives and Records Administration (NAID: 175739015)</b></figcaption> 
+
+### The British Empire: Colonial Power and the Military
+Britain’s role in World War II was deeply intertwined with its position as a global colonial power. The war effort required significant contributions from the British Empire, mobilizing troops and resources from colonies across Asia, Africa, and the Caribbean. The British Indian Army, the largest volunteer force in history, was instrumental in campaigns like the Burma Campaign, where they halted Japanese advances into Southeast Asia. While these soldiers fought valiantly, they did so under the shadow of colonial oppression. Political movements, such as the Quit India Movement led by Mahatma Gandhi, highlighted the tensions between Britain’s democratic ideals and its imperial policies. These contradictions were starkly evident as Indian soldiers fought for freedoms abroad while being occupied at home. 
+Additionally, wartime decisions made to protect British interests often had devastating consequences for colonial populations. The Bengal Famine of 1943, exacerbated by British policies that prioritized military needs over civilian welfare, resulted in a significant civilian death toll, demonstrating the devastating intersection of political and military priorities during the war.
+
+### Japan: Militarism and State Ideology
+In Japan, the political ideology of imperialism and militarism shaped every aspect of the nation’s military strategy during World War II. The Japanese government promoted a strong sense of nationalism and racial identity. State-sponsored nationalism, promoted through education and propaganda, emphasized Japan’s unique cultural heritage and divine origins of the Emperor. The traditional warrior code of Bushido, stressing unwavering loyalty and honor, was twisted to justify extreme violence and dehumanize enemies. The government’s vision of the [Greater East Asia Co-Prosperity Sphere](https://www.britannica.com/topic/Greater-East-Asia-Co-prosperity-Sphere) sought to position Japan as the leader of Asia, justifying aggressive expansionism as liberation from Western colonialism. 
+The Imperial Japanese Army operated as an extension of the state’s imperial ideology, conducting campaigns across China, Southeast Asia, and the Pacific. Atrocities such as the Nanjing Massacre and the exploitation of forced labor, such as comfort women and the abuse of Allied POWs, reflected the dehumanizing political narrative that underpinned Japanese expansionism.
+Japan’s military strategy also embraced acts of extreme sacrifice, such as the deployment of kamikaze pilots, which were framed as ultimate acts of loyalty to the Emperor and nation. These strategies and actions demonstrated the seamless integration of state ideology and military objectives, with devastating consequences for both combatants and civilians in the occupied territories.
+
+<Image
+                src={kamikaze01}
+                alt="An image of kamikaze pilots."
+                sizes="(min-width: 200px)"
+                className="rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"               
+              />
+              <figcaption align = "center"><b>This photograph shows pilots of the 72nd Shinbu Squadron. Three of the people are 17 years old, while the other two are 18 and 19 years old. Left to right: front row Tsutomu Hayakawa, Yukio Araki, Takamasa Senda back row Kaname Takahashi, Mitsuyoshi Takahashi. At the age of 17, Yukio Araki is the youngest identified kamikaze pilot to die during World War II. (Public Domain)</b></figcaption> 
+
+### The Soviet Union: Ideology and the Red Army
+The Red Army of the Soviet Union was a product of Stalinist ideology. The Soviet state, founded on Marxist-Leninist principles, emphasized class struggle and proletarian unity. This political ethos shaped the military's organization and strategy. Officers were often chosen based on political loyalty rather than merit, a reflection of Stalin’s paranoia and the purges of the 1930s that decimated the Red Army's experienced leadership.
+During World War II, Soviet political goals were directly linked to military objectives. The defense of Moscow and Stalingrad became symbols of communist resilience, and propaganda glorified the Red Army as the defender of socialism. Political commissars were embedded in military units to ensure ideological conformity and loyalty, further blurring the lines between political and military roles. The Soviet military’s actions, such as the occupation of Eastern Europe, were inseparable from Stalin’s geopolitical goals, including the establishment of a communist sphere of influence after the war.
+
+### Nazi Germany: The Wehrmacht and the Third Reich
+In Nazi Germany, the Wehrmacht was not merely a military force but a tool of the totalitarian state. The Nazi regime's ideology of racial purity and territorial expansion—encapsulated in the concept of Lebensraum—shaped the goals and behavior of the German armed forces. The Wehrmacht was complicit in carrying out genocidal policies, including the Holocaust, where it provided logistical and operational support for the extermination of Jews and other groups.
+Nazi political doctrine permeated the military at every level. Soldiers swore an oath of [loyalty to Adolf Hitler](https://encyclopedia.ushmm.org/content/en/article/german-military-oaths) personally rather than to the state or constitution, cementing their role as instruments of the Führer’s will. Even the Blitzkrieg strategy, which emphasized rapid, overwhelming attacks, reflected the regime’s focus on aggressive conquest. The soldiers received [orders to execute captured commissars](https://encyclopedia.ushmm.org/content/en/article/commissar-order), which was more a political pursuit than a military one. The politicization of the military was also evident in the Waffen-SS, which operated as both an elite combat force and an ideological arm of the Nazi Party.
+
+<Image
+                src={warcrimes01}
+                alt="An historical image of Jewish people about to be executed during World War II"
+                sizes="(min-width: 200px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+                caption="An image of Jewish people about to be executed. It was used as an exhibit at the Nuremberg War Crimes Trial. Courtesy of National Archives and Records Administration (NAID: 348449233)."                
+              />
+              <figcaption align = "center"><b>An image of Jewish people about to be executed. It was used as an exhibit at the Nuremberg War Crimes Trial. Courtesy of National Archives and Records Administration (NAID: 348449233).</b></figcaption> 
+
+## Why the Non-Political History Fallacy Matters
+The fallacy of "non-political history," frequently seen in social media discussions, assumes that historical events, institutions, or entities—such as armies—can be studied independently of their political, cultural, or ideological contexts. This perspective often claims to focus "only on the facts," but they choose a specific set of facts to discuss, and then ignore other aspects. It also contributes to overlooking the deeper forces shaping those facts.
+In the case of World War II, treating the Wehrmacht as a purely military entity without its political and ideological ties to the Nazi regime is misleading and dangerous. The Wehrmacht was not an apolitical organization; it actively facilitated and carried out the policies of the Third Reich, including genocide and territorial expansion. Ignoring this connection creates a sanitized version of history, divorcing military actions from their political motivations and moral implications.
+This "apolitical" approach often leads to uncritical glorification of perceived military achievements while downplaying the atrocities associated with them. For instance, presenting the Wehrmacht as a purely professional force obscures its complicity in the Holocaust, the starvation of Soviet prisoners of war, and other war crimes. This perspective not only distorts historical truth but also risks normalizing or trivializing the ideological underpinnings of such actions.
+
+## Non-Political History On Social Media
+For viewers consuming history content on social media or elsewhere, this fallacy can perpetuate a shallow understanding of historical events. It doesn’t enrich the viewer’s perception of history but dumbs it down. It encourages a focus on tactics, technology, and battles while neglecting the human and societal costs of war. The implications are profound: history becomes entertainment devoid of ethical engagement, and the horrible acts of the past are diluted.
+
+This focus on the visually appealing images means that there’s a large preoccupation with aesthetics. For example, a soldier in the mud, an image of a burning tank, or someone displaying a weapon becomes the primary focus. It leaves out the historical context. The aesthetic qualities of the image are more important than basic information, such as who were these people? What were they fighting for? What were the consequences of their actions? The single image becomes an object, which is divorced from the complex historical past. This can lead to a dangerous romanticization of war, where the atrocities are obscured due to a focus on visual appeal.
+
+Furthermore, this visually driven approach to history creates a significant bias towards what is considered history. History is much more than photographs or preserved films. By only focusing on this, you leave out entire aspects of the historical past that weren't captured on camera, such as atrocities being committed, or the long-term social and economic consequences of massacres – these often lack visual documentation and are therefore neglected. This creates an incomplete and distorted picture of the past, focusing on the spectacular and easily visualized while ignoring the more nuanced or more important aspects of historical experience. The result is a history that is not only simplified but fundamentally skewed, prioritizing the visually compelling over the historically significant.
+
+By critically examining the political dimensions of history, we gain a richer and more responsible understanding of the past. World War II was not just a series of battles but a global conflict driven by clashing ideologies, political ambitions, and human struggles. Recognizing this complexity helps preserve the integrity of historical inquiry and ensures that history remains a tool for learning rather than myth-making.
+
+<div className="flex flex-col items-center space-y-6">
+  <div className="text-center">
+    <Image
+      src={instagramexample01}
+      alt="An image of non-political history on Instagram."
+      sizes="(min-width: 200px)"
+      className="rotate-0 bg-stone-100 object-cover dark:bg-stone-800"
+    />
+    <figcaption className="mt-2"><b>An example of the non-political history on Instagram.</b></figcaption>
+  </div>
+</div>
+
+<Image
+                src={warcrimes02}
+                alt="A German soldier points his rifle at a prisoner lying on the ground in the village Jajinci during World War II"
+                sizes="(min-width: 200px) 32rem, 20rem"
+                className="aspect-square rotate-0 rounded-2xl bg-stone-100 object-cover dark:bg-stone-800"
+                caption="A German soldier points his rifle at a prisoner lying on the ground in the village Jajinci. (United States Holocaust Memorial Museum: Photograph Number: 46704)."                
+              />
+              <figcaption align = "center"><b>A German soldier points his rifle at a prisoner lying on the ground in the village Jajinci. (United States Holocaust Memorial Museum: Photograph Number: 46704)."</b></figcaption> 
+
+## What Does This Mean For Society?
+The fallacy of "non-political history" has far-reaching consequences for both historical scholarship and societal understanding. It risks reducing history to a series of disconnected events, stripping away the ideological, cultural, and systemic forces that shape them. For example, viewing World War II solely through battles and military tactics omits the human cost, the political ideologies driving the conflict, and the moral lessons to be learned.
+In society, this can foster an uncritical nostalgia for power and militarism while neglecting critical issues like the role of ideology in governance or the importance of accountability for actions tied to political systems. When historical entities like the Wehrmacht are sanitized as apolitical, society risks normalizing complicity in injustices, forgetting the lessons of history, and perpetuating myths that fuel harmful ideologies.
+
+## Conclusion
+Thus, to separate military history from political history is a mistaken way of thinking about history. By examining the interdependence of armies and the states that created them during World War II, you gain a better understanding of history, and to do that, we must dispel the myth of non-political military history. Only by embracing this interconnectedness can we arrive at a more nuanced and comprehensive understanding of history.
+By acknowledging that military history and political history are connected, as well as the interconnectedness of events and their broader implications, it teaches us to critically evaluate sources, recognize biases, and approach historical narratives with a sense of responsibility. By acknowledging history’s political nature, we empower individuals and communities to learn from the past, resist oversimplified narratives, and build a more informed and equitable society.
+	
+[^1]:Borgna Brunner (eds.) Time Almanac 2006: With information please, 2005,  page 377. 
