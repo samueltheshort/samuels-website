@@ -101,7 +101,7 @@ export const imageData = [
     name: 'Several soldiers of the 777th Field Artillery Battalion in a dugout',
     description: 'Soldiers of a Field Artillery Battalion near Ubach, Germany, sit in dugout near their gun waiting for firing orders.',
     image: '777th-field-artillery-battalion-01.jpg',
-    category: 'Tank Destroyers',
+    category: 'Artillery',
     source: 'National Archives and Records Administration (NAID: 178140868).',
     date: '7 January 1945',
   },
@@ -279,7 +279,7 @@ export const imageData = [
   {
     id: 30,
     name: 'Soldiers of the 76th Coast Artillery Regiment asleep',
-    description: 'Half an hour after the colored soldiers of a regimental headquarters battery of the C.A.A. marched aboard the transport, many of them were bedded down in their close quarters and snoring. The line next the camera, from bunk up, consists of: Pvt. Harrison Wyatt, Atlanta, Ga.; Technician Clarence L. Williams, Columbus, Ga.; Pvt. Bennie Simmons, Goulds, Fla.; Pvt. Patrick Williams, Wells Ferry, Ala.; Sgt. Clommie Watkins, Jackson, Tenn.; Sgt. Abi Stephens, Montgomery, Ala. Next row: Pvt. Willie Brown, Fort Meyers, Fla.; Pvt. William K. Watkins, Linden, Ala.; Pvt. Flenard Van, Pursglove, W.Va, Corp. John G. Thomas, Chicago, Ill. 76th C.A.A. SS Mormacsea at Fort Mason, Calif. Sunday night.',
+    description: 'Half an hour after the Black soldiers of a regimental headquarters battery of the C.A.A. marched aboard the transport, many of them were bedded down in their close quarters and snoring. The line next the camera, from bunk up, consists of: Pvt. Harrison Wyatt, Atlanta, Ga.; Technician Clarence L. Williams, Columbus, Ga.; Pvt. Bennie Simmons, Goulds, Fla.; Pvt. Patrick Williams, Wells Ferry, Ala.; Sgt. Clommie Watkins, Jackson, Tenn.; Sgt. Abi Stephens, Montgomery, Ala. Next row: Pvt. Willie Brown, Fort Meyers, Fla.; Pvt. William K. Watkins, Linden, Ala.; Pvt. Flenard Van, Pursglove, W.Va, Corp. John G. Thomas, Chicago, Ill. 76th C.A.A. SS Mormacsea at Fort Mason, Calif. Sunday night.',
     image: '76th-coast-artillery-regiment-04.jpg',
     category: 'Artillery',
     source: 'United States Army Heritage and Education Center',
@@ -288,7 +288,7 @@ export const imageData = [
   {
     id: 31,
     name: 'Soldiers of the 76th Coast Artillery on board of the SS Mormacsea',
-    description: '"Down the hatch" Colored soldiers of a C.A.A. unit, few of whom ever were aboard a ship before, get acquinted with a new world aboard the transport as the line pauses on deck at the door of a hatch which leads below to the bunk tiers. A Port of Embarkation in U.S. 76th C.A.A. SS Mormacsea at Fort Mason, Calif.',
+    description: '"Down the hatch" Black soldiers of a C.A.A. unit, few of whom ever were aboard a ship before, get acquinted with a new world aboard the transport as the line pauses on deck at the door of a hatch which leads below to the bunk tiers. A Port of Embarkation in U.S. 76th C.A.A. SS Mormacsea at Fort Mason, Calif.',
     image: '76th-coast-artillery-regiment-05.jpg',
     category: 'Artillery',
     source: 'United States Army Heritage and Education Center',
