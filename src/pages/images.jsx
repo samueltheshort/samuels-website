@@ -295,7 +295,7 @@ export const imageData = [
     date: '9 August 1942',
   },
   {
-    id: 31,
+    id: 32,
     name: 'Soldiers of the 76th Coast Artillery are playing blackjack',
     description: 'Members of A C.A.A. regimental band, atop their bunk section in the hold of a transport, are playing a little blackjack before turning in. Aboard a transport from a Port of Embarkation in U.S. 76th C.A.A. SS Mormacsea at Fort Mason, Calif.',
     image: '76th-coast-artillery-regiment-06.jpg',
@@ -304,7 +304,7 @@ export const imageData = [
     date: '9 August 1942',
   },
   {
-    id: 32,
+    id: 33,
     name: 'Soldiers of the 76th or 77th Coast Artillery during a training exercise',
     description: 'C. D. nurse and defending medical troops pick up dead and wounded from the battle field, Ft. Moultrie, Charleston, S. C.',
     image: '76th-coast-artillery-regiment-07.jpg',
@@ -313,7 +313,7 @@ export const imageData = [
     date: '22 October 1941',
   },
   {
-    id: 33,
+    id: 34,
     name: 'Soldiers of the 76th or 77th Coast Artillery during a training exercise',
     description: 'Defending troops of Ft. Moultrie on the charge. C. D. Air raid exercises at Charleston, S. C.',
     image: '76th-coast-artillery-regiment-08.jpg',
@@ -322,7 +322,7 @@ export const imageData = [
     date: '22 October 1941',
   },
   {
-    id: 34,
+    id: 35,
     name: 'Soldiers of the 76th or 77th Coast Artillery during a training exercise',
     description: 'Soldiers at a charge after the parachutist have landed. C.D. Air raid exercises. Ft. Moultrie, Charleston, S. C.',
     image: '76th-coast-artillery-regiment-09.jpg',
@@ -331,7 +331,7 @@ export const imageData = [
     date: '22 October 1941',
   },
   {
-    id: 35,
+    id: 36,
     name: 'Soldiers of the 76th or 77th Coast Artillery Regiment during a training exercise',
     description: 'Defending troops capture the enemy during C. D. air raids, Ft. Moultrie, Charleston, S. C.',
     image: '76th-coast-artillery-regiment-10.jpg',
@@ -340,7 +340,7 @@ export const imageData = [
     date: '22 October 1941',
   },
   {
-    id: 36,
+    id: 37,
     name: 'Soldiers of the 76th Coast Artillery Regiment stand next to a large searchlight',
     description: 'Pvt. Robert Byrd, Henry Johnson, John Hamlin, Battery E, 76th CAC (AA) at searchlight during C. D. air raids exercises. Fort Moultrie, Charleston, S. C.',
     image: '76th-coast-artillery-regiment-11.jpg',
@@ -349,7 +349,7 @@ export const imageData = [
     date: '22 October 1941',
   },
   {
-    id: 37,
+    id: 38,
     name: 'Soldiers of Battery E the 76th Coast Artillery are lighting up the field during exercises',
     description: 'Searchlights lighting up first aid exercises on the field at Charleston, S. C., during the C. D. Air raid exercises.',
     image: '76th-coast-artillery-regiment-12.jpg',
@@ -358,7 +358,7 @@ export const imageData = [
     date: '22 October 1941',
   },
   {
-    id: 38,
+    id: 39,
     name: 'A 3-inch anti-aircraft gun of the 76th Coast Artillery Regiment',
     description: 'A 3-inch anti-aircraft gun manned by soldiers of the 76th Coast Artillery Regimenton the firing range at Myrtle Beach, South Carolina. This photograph was taken by Harry R Price, the regimental commander.',
     image: '76th-coast-artillery-regiment-13.jpg',
@@ -367,13 +367,22 @@ export const imageData = [
     date: 'Undated',
   },
   {
-    id: 39,
+    id: 40,
     name: 'Major General Edward M. Almond, Commanding General of the 92nd Infantry Division, inspects his troops.',
     description: 'Maj. Gen. Edward M. Almond, Commanding General of the 92nd Infantry Division in Italy, inspects his troops during a decoration ceremony.',
     image: '92nd-infantry-division-01.jpg',
     category: 'Infantry',
     source: 'National Archives and Records Administration (NAID: 535547)',
     date: 'March 1945',
+  },
+  {
+    id: 41,
+    name: 'General George S. Patton converses with General Omar Bradly during their tour of the liberated Ohrdruf camp. On the left side, behind the MP, is a Black American soldier.',
+    description: `Ohrdruf camp was liberated on 4 April 1945 by the 4th Armored Division and the 89th Infantry Division. It would be the first camp to be liberated by the U.S. Army. On 12 April 1945, Generals Dwight D. Eisenhower, George S. Patton and Omar visited the camp. Eisenhower later said about his visit: “I made the visit deliberately, in order to be in a position to give first-hand evidence of these things if ever, in the future, there develops a tendency to charge these allegations merely to 'propaganda'." He later requested that journalists and members of Congress visited the camp so that they too would be a witness to the horrors of what happened at these places. Among those witnesses were also Black American soldiers.`,
+    image: 'ohrdruf-concentration-camp-01.jpg',
+    category: '',
+    source: 'United States Holocaust Memorial Museum: 87662',
+    date: '12 April 1945',
   },
   {
     id: 50,
