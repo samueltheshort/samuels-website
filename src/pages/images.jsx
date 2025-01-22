@@ -188,15 +188,6 @@ export const imageData = [
   },
   {
     id: 21,
-    name: 'A 40-mm Bofors gun of the 452nd Anti Aircraft-Artillery Battalion',
-    description: 'A 40-mm Bofors gun of Battery A, 452nd Anti-Aircraft Artillery Battalion.',
-    image: '452nd-anti-aircraft-artillery-battalion-01.jpg',
-    category: 'Artillery',
-    source: 'National Archives and Records Administration (NAID: 531222)',
-    date: '9 November 1944',
-  },
-  {
-    id: 21,
     name: 'A howitzer of the 593rd Field Artillery Battalion',
     description: '1st section gun crew, Battery A, 593rd Field Artillery Battalion, 93rd Infantry Division, loads a 105mm howitzer and prepares to fire (Bougainville).',
     image: '593rd-field-artillery-battalion-01.jpg',
@@ -385,6 +376,15 @@ export const imageData = [
     date: '12 April 1945',
   },
   {
+    id: 42,
+    name: 'A 40-mm Bofors gun of the 452nd Anti Aircraft-Artillery Battalion',
+    description: 'A 40-mm Bofors gun of Battery A, 452nd Anti-Aircraft Artillery Battalion.',
+    image: '452nd-anti-aircraft-artillery-battalion-01.jpg',
+    category: 'Artillery',
+    source: 'National Archives and Records Administration (NAID: 531222)',
+    date: '9 November 1944',
+  },
+  {
     id: 50,
     name: 'Soldiers of the 218th Quartermaster Battalion are fueling jerricans.',
     description: 'Soldiers of the 218th Quartermaster Battalion are fueling jerrycans. These cans were used to fuel the advance of the Ninth Army during Operation Flashpoint. (Wegberg, Germany)',
@@ -503,7 +503,7 @@ export const imageData = [
   }, 
   {
     id: 111, 
-    name: 'Pvt. Felix Lawson and Pvt. Sammie Jenkins diga foxhole.', 
+    name: 'Pvt. Felix Lawson and Pvt. Sammie Jenkins dig a foxhole.', 
     description: 'Pvt. Felix Lawson, 534 West St., [illegible], Md., and Pvt. Sammie Jenkins, 1200 17th St. Tuscaloosa, Ala., demonstrate the proper method of digging a foxhole.',   
     image: 'infantry-volunteers-03.jpg', 
     category: 'Infantry', 
@@ -511,11 +511,74 @@ export const imageData = [
     date: '28 February 1945'
   }, 
   {
+    id: 112, 
+    name: 'Soldiers of the 92nd Infantry Division are drying themselves in a ruined house.', 
+    description: 'Pvt. Edward Imes, 1224 Rear Div. Ave., East St. Louis, IL.; T/5 William White, 246 South Johnson Ave., Pontiac, MI.; Pfc. James B. Glasby, 220 South Leffingwell Ave., St. Louis, MO.; and Pvt. Henry C. McKinney, 651 Reed St., Atlanta, GA. Viareggio Area, Italy.',   
+    image: '92nd-infantry-division-02.jpg', 
+    category: 'Infantry', 
+    source: 'National Archives and Records Administration: SC 364370', 
+    date: '14 December, 1944'
+  }, 
+  {
+    id: 400, 
+    name: 'The 22nd Special Naval Construction Battalion celebrates peace.', 
+    description: "Members of the 22nd Special Naval Construction Battalion cheering news of Japan's acceptance of peace terms. Note sign: War is over! Good-Bye Pacific. Hello USA. This photograph is taken at Naval Amphibious Base, Manus, Admiralty Islands,",   
+    image: '22nd-special-naval-contruction-battalion-01.jpg', 
+    category: 'Navy', 
+    source: 'Naval History and Heritage Command: 80-G-338470', 
+    date: '15 August 1945'
+  }, 
+  {
+    id: 401, 
+    name: "Steward's Mate Second Class James Lee Frazer reads the Bible", 
+    description: "Steward's Mate Second Class James Lee Frazer takes time to read a few chapters from his Bible, part of his daily devotional routine while serving on board an aircraft carrier. It's the night before his ship launched strikes on the Manila Bay area in support of the Lingayen Operation.",   
+    image: 'james-frazer-01.jpg', 
+    category: 'Navy', 
+    source: 'Naval History and Heritage Command: 80-G-305241', 
+    date: '9 January 1945'
+  }, 
+  {
+    id: 402, 
+    name: 'Mess attendants of the USS Copahee (ACV-12) man a 20mm machine gun', 
+    description: 'Mess Attendants manning a 20mm machine gun, in a gun tub beside the flight deck. The carrier, USS Copahee (ACV-12), was then en route from Alameda, California, to the southwest Pacific.',   
+    image: 'mess-attendants-20mm-01.jpg', 
+    category: 'Navy', 
+    source: 'Naval History and Heritage Command: 80-G-71586', 
+    date: '9 September 1942'
+  }, 
+  {
+    id: 403, 
+    name: 'Wardroom of the USS Cero (SS-225)', 
+    description: "Officers eating in the submarine's Wardroom, served by their Stewards, during Cero's shakedown period, circa July-August 1943, at the Groton, Connecticut, Submarine Base. Photographed by Charles Fenno Jacobs. Officers present are (from left to right): Lieutenant Commander David H. McClintock; Commander David C. White, Commanding Officer; Lieutenant Charles D. Nace.",   
+    image: 'uss-cero-01.jpg', 
+    category: 'Navy', 
+    source: 'Naval History and Heritage Command: 80-G-K-15541', 
+    date: 'July or August 1943'
+  }, 
+  {
+    id: 404, 
+    name: "Steward's Mates are playing cards", 
+    description: 'Black American stewards are passing the time with a card game in their berthing space on board an aircraft carrier, the evening before their ship launched strikes on Manila.',   
+    image: 'stewards-mates-01.jpg', 
+    category: 'Navy', 
+    source: 'Naval History and Heritage Command: 80-G-305242', 
+    date: 'November 1944.'
+  }, 
+  {
+    id: 405, 
+    name: "Miles King carries a loaded 20mm machine gun magazine", 
+    description: "Steward's Mate Second Class Miles Davis King carries a loaded magazine for a 20mm machine gun, as the escort carrier, USS Tulagi (CVE-72), steams through the Mediterranean Sea en route to the Invasion of Southern France.",   
+    image: 'miles-king-01.jpg', 
+    category: 'Navy', 
+    source: 'Naval History and Heritage Command: 80-G-417623', 
+    date: 'A few days prior to 15 August 1944.'
+  }, 
+  {
     id: 900, 
     name: 'Lawrence Johnson', 
     description: 'Lawrence Johnson served in the 614th Tank Destroyer Battalion during World War II and this photograph is included in the book "The 614th Tank Destroyer Battalion: Fighting on Both Fronts".', 
     image: 'lawrence-johnson-614th-tank-destroyer-1945.jpg', 
-    category: 'Portrait', 
+    category: 'Portrait',
     source: 'Lawrence Johnson family', 
     date: '1945'
   }, 
