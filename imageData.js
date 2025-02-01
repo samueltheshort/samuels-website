@@ -96,7 +96,7 @@
     name: 'Several soldiers of the 777th Field Artillery Battalion in a dugout',
     description: 'Soldiers of a Field Artillery Battalion near Ubach, Germany, sit in dugout near their gun waiting for firing orders.',
     image: '777th-field-artillery-battalion-01.jpg',
-    category: 'Tank Destroyers',
+    category: 'Artillery',
     source: 'National Archives and Records Administration (NAID: 178140868).',
     date: '7 January 1945',
   },
@@ -183,15 +183,6 @@
   },
   {
     id: 21,
-    name: 'A 40-mm Bofors gun of the 452nd Anti Aircraft-Artillery Battalion',
-    description: 'A 40-mm Bofors gun of Battery A, 452nd Anti-Aircraft Artillery Battalion.',
-    image: '452nd-anti-aircraft-artillery-battalion-01.jpg',
-    category: 'Artillery',
-    source: 'National Archives and Records Administration (NAID: 531222)',
-    date: '9 November 1944',
-  },
-  {
-    id: 21,
     name: 'A howitzer of the 593rd Field Artillery Battalion',
     description: '1st section gun crew, Battery A, 593rd Field Artillery Battalion, 93rd Infantry Division, loads a 105mm howitzer and prepares to fire (Bougainville).',
     image: '593rd-field-artillery-battalion-01.jpg',
@@ -274,7 +265,7 @@
   {
     id: 30,
     name: 'Soldiers of the 76th Coast Artillery Regiment asleep',
-    description: 'Half an hour after the colored soldiers of a regimental headquarters battery of the C.A.A. marched aboard the transport, many of them were bedded down in their close quarters and snoring. The line next the camera, from bunk up, consists of: Pvt. Harrison Wyatt, Atlanta, Ga.; Technician Clarence L. Williams, Columbus, Ga.; Pvt. Bennie Simmons, Goulds, Fla.; Pvt. Patrick Williams, Wells Ferry, Ala.; Sgt. Clommie Watkins, Jackson, Tenn.; Sgt. Abi Stephens, Montgomery, Ala. Next row: Pvt. Willie Brown, Fort Meyers, Fla.; Pvt. William K. Watkins, Linden, Ala.; Pvt. Flenard Van, Pursglove, W.Va, Corp. John G. Thomas, Chicago, Ill. 76th C.A.A. SS Mormacsea at Fort Mason, Calif. Sunday night.',
+    description: 'Half an hour after the Black soldiers of a regimental headquarters battery of the C.A.A. marched aboard the transport, many of them were bedded down in their close quarters and snoring. The line next the camera, from bunk up, consists of: Pvt. Harrison Wyatt, Atlanta, Ga.; Technician Clarence L. Williams, Columbus, Ga.; Pvt. Bennie Simmons, Goulds, Fla.; Pvt. Patrick Williams, Wells Ferry, Ala.; Sgt. Clommie Watkins, Jackson, Tenn.; Sgt. Abi Stephens, Montgomery, Ala. Next row: Pvt. Willie Brown, Fort Meyers, Fla.; Pvt. William K. Watkins, Linden, Ala.; Pvt. Flenard Van, Pursglove, W.Va, Corp. John G. Thomas, Chicago, Ill. 76th C.A.A. SS Mormacsea at Fort Mason, Calif. Sunday night.',
     image: '76th-coast-artillery-regiment-04.jpg',
     category: 'Artillery',
     source: 'United States Army Heritage and Education Center',
@@ -283,14 +274,14 @@
   {
     id: 31,
     name: 'Soldiers of the 76th Coast Artillery on board of the SS Mormacsea',
-    description: '"Down the hatch" Colored soldiers of a C.A.A. unit, few of whom ever were aboard a ship before, get acquinted with a new world aboard the transport as the line pauses on deck at the door of a hatch which leads below to the bunk tiers. A Port of Embarkation in U.S. 76th C.A.A. SS Mormacsea at Fort Mason, Calif.',
+    description: '"Down the hatch" Black soldiers of a C.A.A. unit, few of whom ever were aboard a ship before, get acquinted with a new world aboard the transport as the line pauses on deck at the door of a hatch which leads below to the bunk tiers. A Port of Embarkation in U.S. 76th C.A.A. SS Mormacsea at Fort Mason, Calif.',
     image: '76th-coast-artillery-regiment-05.jpg',
     category: 'Artillery',
     source: 'United States Army Heritage and Education Center',
     date: '9 August 1942',
   },
   {
-    id: 31,
+    id: 32,
     name: 'Soldiers of the 76th Coast Artillery are playing blackjack',
     description: 'Members of A C.A.A. regimental band, atop their bunk section in the hold of a transport, are playing a little blackjack before turning in. Aboard a transport from a Port of Embarkation in U.S. 76th C.A.A. SS Mormacsea at Fort Mason, Calif.',
     image: '76th-coast-artillery-regiment-06.jpg',
@@ -299,7 +290,7 @@
     date: '9 August 1942',
   },
   {
-    id: 32,
+    id: 33,
     name: 'Soldiers of the 76th or 77th Coast Artillery during a training exercise',
     description: 'C. D. nurse and defending medical troops pick up dead and wounded from the battle field, Ft. Moultrie, Charleston, S. C.',
     image: '76th-coast-artillery-regiment-07.jpg',
@@ -308,7 +299,7 @@
     date: '22 October 1941',
   },
   {
-    id: 33,
+    id: 34,
     name: 'Soldiers of the 76th or 77th Coast Artillery during a training exercise',
     description: 'Defending troops of Ft. Moultrie on the charge. C. D. Air raid exercises at Charleston, S. C.',
     image: '76th-coast-artillery-regiment-08.jpg',
@@ -317,7 +308,7 @@
     date: '22 October 1941',
   },
   {
-    id: 34,
+    id: 35,
     name: 'Soldiers of the 76th or 77th Coast Artillery during a training exercise',
     description: 'Soldiers at a charge after the parachutist have landed. C.D. Air raid exercises. Ft. Moultrie, Charleston, S. C.',
     image: '76th-coast-artillery-regiment-09.jpg',
@@ -326,7 +317,7 @@
     date: '22 October 1941',
   },
   {
-    id: 35,
+    id: 36,
     name: 'Soldiers of the 76th or 77th Coast Artillery Regiment during a training exercise',
     description: 'Defending troops capture the enemy during C. D. air raids, Ft. Moultrie, Charleston, S. C.',
     image: '76th-coast-artillery-regiment-10.jpg',
@@ -335,7 +326,7 @@
     date: '22 October 1941',
   },
   {
-    id: 36,
+    id: 37,
     name: 'Soldiers of the 76th Coast Artillery Regiment stand next to a large searchlight',
     description: 'Pvt. Robert Byrd, Henry Johnson, John Hamlin, Battery E, 76th CAC (AA) at searchlight during C. D. air raids exercises. Fort Moultrie, Charleston, S. C.',
     image: '76th-coast-artillery-regiment-11.jpg',
@@ -344,7 +335,7 @@
     date: '22 October 1941',
   },
   {
-    id: 37,
+    id: 38,
     name: 'Soldiers of Battery E the 76th Coast Artillery are lighting up the field during exercises',
     description: 'Searchlights lighting up first aid exercises on the field at Charleston, S. C., during the C. D. Air raid exercises.',
     image: '76th-coast-artillery-regiment-12.jpg',
@@ -353,7 +344,7 @@
     date: '22 October 1941',
   },
   {
-    id: 38,
+    id: 39,
     name: 'A 3-inch anti-aircraft gun of the 76th Coast Artillery Regiment',
     description: 'A 3-inch anti-aircraft gun manned by soldiers of the 76th Coast Artillery Regimenton the firing range at Myrtle Beach, South Carolina. This photograph was taken by Harry R Price, the regimental commander.',
     image: '76th-coast-artillery-regiment-13.jpg',
@@ -362,13 +353,49 @@
     date: 'Undated',
   },
   {
-    id: 39,
+    id: 40,
     name: 'Major General Edward M. Almond, Commanding General of the 92nd Infantry Division, inspects his troops.',
     description: 'Maj. Gen. Edward M. Almond, Commanding General of the 92nd Infantry Division in Italy, inspects his troops during a decoration ceremony.',
     image: '92nd-infantry-division-01.jpg',
     category: 'Infantry',
     source: 'National Archives and Records Administration (NAID: 535547)',
     date: 'March 1945',
+  },
+  {
+    id: 41,
+    name: 'General George S. Patton converses with General Omar Bradly during their tour of the liberated Ohrdruf camp. On the left side, behind the MP, is a Black American soldier.',
+    description: `Ohrdruf camp was liberated on 4 April 1945 by the 4th Armored Division and the 89th Infantry Division. It would be the first camp to be liberated by the U.S. Army. On 12 April 1945, Generals Dwight D. Eisenhower, George S. Patton and Omar visited the camp. Eisenhower later said about his visit: “I made the visit deliberately, in order to be in a position to give first-hand evidence of these things if ever, in the future, there develops a tendency to charge these allegations merely to 'propaganda'." He later requested that journalists and members of Congress visited the camp so that they too would be a witness to the horrors of what happened at these places. Among those witnesses were also Black American soldiers.`,
+    image: 'ohrdruf-concentration-camp-01.jpg',
+    category: '',
+    source: 'United States Holocaust Memorial Museum: 87662',
+    date: '12 April 1945',
+  },
+  {
+    id: 42,
+    name: 'A 40-mm Bofors gun of the 452nd Anti Aircraft-Artillery Battalion',
+    description: 'A 40-mm Bofors gun of Battery A, 452nd Anti-Aircraft Artillery Battalion.',
+    image: '452nd-anti-aircraft-artillery-battalion-01.jpg',
+    category: 'Artillery',
+    source: 'National Archives and Records Administration (NAID: 531222)',
+    date: '9 November 1944',
+  },
+  {
+    id: 43,
+    name: 'Technical sergeant Alfred Masters, the first Black American sworn into the United States Marine Corps.',
+    description: 'Alfred Masters was sworn in on 1 June 1942 at 00:01 hours and is the first Black American to serve in the United States Marine Corps.',
+    image: 'alfred-masters-01.jpg',
+    category: 'Marines',
+    source: 'Courtesy of Isabell Arch Masters Family',
+    date: '1944',
+  },
+  {
+    id: 44,
+    name: 'Howard Perry, the first Black American to arrive at Camp Lejeune, NC.',
+    description: 'Howard P. Perry, the first recruit to report for marine training at Montford Point, Camp Lejeune, NC, is often erroneously credited with being the first Black American enlisted marine. However, Perry enlisted on July 23, 1942. The first Black American sworn in as a marine was Alfred Masters.',
+    image: 'howard-perry-01.jpg',
+    category: 'Marines',
+    source: 'National Archives and Records Administration (NAID: 535870)',
+    date: '1942',
   },
   {
     id: 50,
@@ -489,7 +516,7 @@
   }, 
   {
     id: 111, 
-    name: 'Pvt. Felix Lawson and Pvt. Sammie Jenkins diga foxhole.', 
+    name: 'Pvt. Felix Lawson and Pvt. Sammie Jenkins dig a foxhole.', 
     description: 'Pvt. Felix Lawson, 534 West St., [illegible], Md., and Pvt. Sammie Jenkins, 1200 17th St. Tuscaloosa, Ala., demonstrate the proper method of digging a foxhole.',   
     image: 'infantry-volunteers-03.jpg', 
     category: 'Infantry', 
@@ -497,11 +524,74 @@
     date: '28 February 1945'
   }, 
   {
+    id: 112, 
+    name: 'Soldiers of the 92nd Infantry Division are drying themselves in a ruined house.', 
+    description: 'Pvt. Edward Imes, 1224 Rear Div. Ave., East St. Louis, IL.; T/5 William White, 246 South Johnson Ave., Pontiac, MI.; Pfc. James B. Glasby, 220 South Leffingwell Ave., St. Louis, MO.; and Pvt. Henry C. McKinney, 651 Reed St., Atlanta, GA. Viareggio Area, Italy.',   
+    image: '92nd-infantry-division-02.jpg', 
+    category: 'Infantry', 
+    source: 'National Archives and Records Administration: SC 364370', 
+    date: '14 December, 1944'
+  }, 
+  {
+    id: 400, 
+    name: 'The 22nd Special Naval Construction Battalion celebrates peace.', 
+    description: "Members of the 22nd Special Naval Construction Battalion cheering news of Japan's acceptance of peace terms. Note sign: War is over! Good-Bye Pacific. Hello USA. This photograph is taken at Naval Amphibious Base, Manus, Admiralty Islands,",   
+    image: '22nd-special-naval-contruction-battalion-01.jpg', 
+    category: 'Navy', 
+    source: 'Naval History and Heritage Command: 80-G-338470', 
+    date: '15 August 1945'
+  }, 
+  {
+    id: 401, 
+    name: "Steward's Mate Second Class James Lee Frazer reads the Bible", 
+    description: "Steward's Mate Second Class James Lee Frazer takes time to read a few chapters from his Bible, part of his daily devotional routine while serving on board an aircraft carrier. It's the night before his ship launched strikes on the Manila Bay area in support of the Lingayen Operation.",   
+    image: 'james-frazer-01.jpg', 
+    category: 'Navy', 
+    source: 'Naval History and Heritage Command: 80-G-305241', 
+    date: '9 January 1945'
+  }, 
+  {
+    id: 402, 
+    name: 'Mess attendants of the USS Copahee (ACV-12) man a 20mm machine gun', 
+    description: 'Mess Attendants manning a 20mm machine gun, in a gun tub beside the flight deck. The carrier, USS Copahee (ACV-12), was then en route from Alameda, California, to the southwest Pacific.',   
+    image: 'mess-attendants-20mm-01.jpg', 
+    category: 'Navy', 
+    source: 'Naval History and Heritage Command: 80-G-71586', 
+    date: '9 September 1942'
+  }, 
+  {
+    id: 403, 
+    name: 'Wardroom of the USS Cero (SS-225)', 
+    description: "Officers eating in the submarine's Wardroom, served by their Stewards, during Cero's shakedown period, circa July-August 1943, at the Groton, Connecticut, Submarine Base. Photographed by Charles Fenno Jacobs. Officers present are (from left to right): Lieutenant Commander David H. McClintock; Commander David C. White, Commanding Officer; Lieutenant Charles D. Nace.",   
+    image: 'uss-cero-01.jpg', 
+    category: 'Navy', 
+    source: 'Naval History and Heritage Command: 80-G-K-15541', 
+    date: 'July or August 1943'
+  }, 
+  {
+    id: 404, 
+    name: "Steward's Mates are playing cards", 
+    description: 'Black American stewards are passing the time with a card game in their berthing space on board an aircraft carrier, the evening before their ship launched strikes on Manila.',   
+    image: 'stewards-mates-01.jpg', 
+    category: 'Navy', 
+    source: 'Naval History and Heritage Command: 80-G-305242', 
+    date: 'November 1944.'
+  }, 
+  {
+    id: 405, 
+    name: "Miles King carries a loaded 20mm machine gun magazine", 
+    description: "Steward's Mate Second Class Miles Davis King carries a loaded magazine for a 20mm machine gun, as the escort carrier, USS Tulagi (CVE-72), steams through the Mediterranean Sea en route to the Invasion of Southern France.",   
+    image: 'miles-king-01.jpg', 
+    category: 'Navy', 
+    source: 'Naval History and Heritage Command: 80-G-417623', 
+    date: 'A few days prior to 15 August 1944.'
+  }, 
+  {
     id: 900, 
     name: 'Lawrence Johnson', 
     description: 'Lawrence Johnson served in the 614th Tank Destroyer Battalion during World War II and this photograph is included in the book "The 614th Tank Destroyer Battalion: Fighting on Both Fronts".', 
     image: 'lawrence-johnson-614th-tank-destroyer-1945.jpg', 
-    category: 'Portrait', 
+    category: 'Portrait',
     source: 'Lawrence Johnson family', 
     date: '1945'
   }, 
