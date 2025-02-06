@@ -1,0 +1,195 @@
+
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+
+import chatgptand614thtankdestroyerbattalion from '@/images/photos/chatgpt-and-614th-tank-destroyer-battalion-01.jpg'
+import chatgptand477thbombardmentgroup from '@/images/photos/chatgpt-and-the-477th-bombardment-group.jpg'
+import chatgptand92ndinfantrydivision from '@/images/photos/chatgpt-and-the-92nd-infantry-division.jpg'
+
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2025-02-06',
+  title: 'Artificial Intelligence and the Future of History.',
+  description:
+    'In recent news, artificial intelligence (AI) has been a major focus. Developments are rapidly following each other. Deep Research, OpenAI’s latest tool, is capable of writing papers and even including citations in the text.',
+}
+
+export default (props) => (
+  <>
+    {/* Head Section for SEO */}
+    <Head>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      <link rel="canonical" href="https://www.samueldekorte.com/articles/artificial-intelligence-and-the-future-of-history" />
+    </Head>
+
+    {/* Article Layout */}
+    <ArticleLayout meta={meta} {...props} />
+  </>
+)
+
+In recent news, artificial intelligence (AI) has been a major focus. Developments are rapidly following each other. Deep Research, OpenAI’s latest tool, is capable of writing papers and even including citations in the text. Ethan Mollick, an expert in the field, conducted a test and said of the results: “I cannot guarantee everything is correct (though I did not see any errors) but I would have been satisfied to see something like it from a beginning PhD student.”[^1]
+
+These citations appear to be legitimate and contribute to the overall understanding of the text. However, how will AI impact history? Is it true that with a few questions, you can have an entire essay? How will historians do their work if a few prompts might yield seemingly satisfactory results?
+
+## The Benefits of AI in History
+
+AI might be beneficial for history and assist historians in doing groundwork or legwork for their research. For example, large amounts of data can be ingested, or different sources can be analyzed in a short amount of time. This has the benefit of making large-scale history easier to do while removing some of the tedious tasks that otherwise need to be conducted.
+
+Think about all the research that can be made digitally accessible. In the Netherlands, an experiment indicated that [152,000 pages could be digitized per week](https://nos.nl/artikel/2463992-archief-collaborateurs-wo-ii-straks-openbaar-bijna-alles-ligt-gevoelig). The handwriting could be interpreted by AI and thus make research much easier.
+
+It can even be pushed further, allowing texts to be restored and deciphered where humans struggle with the contents. For example, Ithaca, a neural network developed by Yannis Assael and Thea Sommerschield, can be used to [reconstruct missing portions of inscriptions and attribute dates and locations to a text](https://www.technologyreview.com/2023/04/11/1071104/ai-helping-historians-analyze-past/).
+
+### Scaling Up Historical Research
+AI also offers opportunities for scaling historical research to levels previously unimaginable. For example, in his book *The Virtuous Wehrmacht: Crafting the Myth of the German Soldier on The Eastern Front, 1941-1944*, Dr. Harrisville analyzed a core sample of 2,018 letters written by thirty Wehrmacht soldiers from 1941 to 1944.[^2] With AI, researchers could potentially examine not just thirty, but hundreds, thousands, or even tens of thousands of soldiers' letters, provided sufficient computing power. 
+
+This expanded capacity would allow historians to uncover patterns and narratives on a scale that was once unfeasible. While AI presents exciting possibilities for history, it also comes with inherent risks that require careful consideration.
+
+## Making History More Accessible with AI
+
+Another option for making history more accessible is by having AI generate captions for undigitized images. There are countless historical photos that are not yet accessible online or are difficult to locate due to sparse or nonexistent captions and tags. AI could provide a simple description of the visual representation of these images, offering a starting point for historians who can then refine and verify the information. 
+
+Rather than having to create captions and tags from scratch, AI can generate a template for historians to review and edit, streamlining the process. This approach enables historians to focus on validation and refinement rather than starting entirely from scratch.
+
+### Putting AI to the Test
+
+To see how effective AI might be in this context, I tested ChatGPT 4.0 with an image of the 614th Tank Destroyer Battalion. Without adding any context, I prompted the AI to describe the image. 
+
+ <div className="text-center">
+    <Image
+      src={chatgptand614thtankdestroyerbattalion}
+      alt="This image shows a soldier, likely from the mid-20th century, standing confidently in a wintry or early spring landscape. He is dressed in a military uniform complete with a helmet and boots, holding a bazooka (a type of shoulder-fired anti-tank weapon) over one shoulder. The soldier is casually smoking a cigarette, exuding a calm and composed demeanor despite the weaponry and the surroundings, which appear stark and cold, with bare trees and frost or snow on the ground. The scene conveys a mix of professionalism and nonchalance, characteristic of soldiers during wartime.
+
+Let me know if you'd like to refine this description or analyze further details!"
+      sizes="(min-width: 200px)"
+      className="rotate-0 bg-stone-100 object-cover dark:bg-stone-800 mx-auto"
+    />
+    <figcaption className="mt-2"><b>(ChatGPT when asked about a historical image)</b></figcaption>
+  </div> 
+
+While the results weren’t perfect, they provided a helpful starting point. The AI writes:
+>This image shows a soldier, likely from the mid-20th century, standing confidently in a wintry or early spring landscape. He is dressed in a military uniform complete with a helmet and boots, holding a bazooka (a type of shoulder-fired anti-tank weapon) over one shoulder. The soldier is casually smoking a cigarette, exuding a calm and composed demeanor despite the weaponry and the surroundings, which appear stark and cold, with bare trees and frost or snow on the ground. The scene conveys a mix of professionalism and nonchalance, characteristic of soldiers during wartime. Let me know if you'd like to refine this description or analyze further details!  
+
+ChatGPT 4o seemed particularly interested in details such as the bazooka and the cigarette in the image. I also asked it to generate a list of tags for the image:
+
+>### Tags
+>- Soldier  
+>- Bazooka  
+>- World War II  
+>- Korean War  
+>- African-American history  
+>- Military photography  
+>- Winter landscape  
+>- Wartime resilience  
+>- 20th-century military equipment  
+>- Historical documentation  
+
+Although some tags weren’t entirely accurate, others like “Soldier,” “Bazooka,” “World War II,” “African-American history,” and “Military photography” would be useful in an archival setting. These tags could make it significantly easier to group images together and create digital collections. For instance, if someone needed an image of a bazooka or Black American soldiers, they could quickly locate relevant content.
+
+### Combining AI with Archival Knowledge
+
+The image in question portrays Charlie Rattler, who served in Third Platoon, Company C, of the 614th Tank Destroyer Battalion. While AI couldn’t independently know this level of detail, combining AI-generated descriptions with archival knowledge allows for the creation of more comprehensive captions. This collaboration between human expertise and AI capabilities makes it possible to improve access to historical records, facilitating research and digital archiving. See the result below, which AI generated after input from me. 
+
+>## Revised Caption and Tags
+>### Title
+>**"Charlie Rattler of the 614th Tank Destroyer Battalion"**
+>### Description
+>This photograph depicts Charlie Rattler, a soldier from Third Platoon, Company C, of the 614th Tank Destroyer Battalion. Standing in a wintry field during World War II, Rattler holds a bazooka—a key weapon in neutralizing enemy tanks—slung over his shoulder while casually smoking a cigarette. His confident posture and composed demeanor reflect the courage and professionalism of his unit. The 614th, a segregated African-American tank destroyer battalion, earned distinction for its heroic actions in the European Theater, including a Distinguished Unit Citation. This image is a testament to the contributions of African-American soldiers during the war and their resilience in the face of systemic challenges.
+>### Tags
+>- Charlie Rattler  
+>- 614th Tank Destroyer Battalion  
+>- Third Platoon, Company C  
+>- African-American soldiers  
+>- World War II  
+>- Segregated units  
+>- Tank destroyer battalions  
+>- Military history  
+>- Heroism  
+>- Winter landscape  
+
+These results are much more useful and depending on how the archive works, these captions can be used almost immediately. 
+
+### The Role of AI in Historical Research
+This caption and tag refinement highlights how AI can help historians by generating foundational descriptions, leaving historians to focus on verifying historical accuracy and adding contextual depth. The ability to streamline the captioning and tagging of archival materials can enhance the accessibility of historical records, making searches for specific objects or themes in archives significantly easier. This benefits historians, history content creators, and history enthusiasts worldwide. However, there are still some things to consider.
+
+## The Dangers of AI in History
+
+When dealing with detailed subject matter, like for example Black American soldiers during World War II, it's important to have accurate information. Generic information, might not work. I noted this before as well in an [article where I asked ChatGPT about the 614th Tank Destroyer Battalion](https://www.samueldekorte.com/articles/chatgpt-and-614th-td) For example, I have asked OpenAI's ChatGPT reasoning model o3, for a summary of the 477th Bombardment Group. You can see the result below. 
+ <div className="text-center">
+    <Image
+      src={chatgptand477thbombardmentgroup}
+      alt="Piecing together. I'm gathering info on the 477th Bombardment Group. They were an important African American unit during WW2, trained with B-25 Mitchells or B-17s, based on various articles and historical records. Clarifying the unit's role. The 477th Bombardment Group was a segregated unit in the USAAF during WW2, active in the European Theater, and was inactivated in 1944. Tracing its path. I'm recalling the 477th Bombardment Group's assignments with the 20th Bombardment Wing or the 19th Air Division. The group saw action in WWII but is not prominently featured among famous units. Highlighting key roles. The 477th Bombardment Group, active during WWII, specialized in medium bomber operations, particularly with B-24 Liberators, and made significant contributions to disrupting enemy supply lines and supporting ground operations. Highlighting strategic missions. I’m focusing on the 477th Bombardment Group's strategic bombing missions in challenging conditions, emphasizing their operational efficiency and contribution to the Allied war effort. The 477th Bombardment Group was a United States Army Air Forces unit active during World War II. Activated in the early 1940s, the group was equipped with medium bombers and deployed to conduct strategic bombing missions against enemy targets in the European Theater. Through its sustained efforts to disrupt enemy supply lines and infrastructure, the 477th earned a reputation for operational resilience and tactical effectiveness. The unit’s performance under challenging conditions contributed significantly to the Allied war effort and helped shape the evolution of postwar bomber operations, leaving a lasting legacy in U.S. military aviation history."
+      sizes="(min-width: 200px)"
+      className="rotate-0 bg-stone-100 object-cover dark:bg-stone-800 mx-auto"
+    />
+    <figcaption className="mt-2"><b>(ChatGPT when asked about the 477th Bombardment Group)</b></figcaption>
+  </div> 
+
+The AI is reasoning and then writes as an answer: 
+>The 477th Bombardment Group was a United States Army Air Forces unit active during World War II. Activated in the early 1940s, the group was equipped with medium bombers and deployed to conduct strategic bombing missions against enemy targets in the European Theater. Through its sustained efforts to disrupt enemy supply lines and infrastructure, the 477th earned a reputation for operational resilience and tactical effectiveness. The unit’s performance under challenging conditions contributed significantly to the Allied war effort and helped shape the evolution of postwar bomber operations, leaving a lasting legacy in U.S. military aviation history.
+
+The result is a blend of historical facts and fabrication. Yes, the unit was part of the United States Army Air Force and it was active during World War II. However, this unit, which is considered part of the Tuskegee Airmen, was never deployed in combat. They weren't deployed in Europe and they didn't bomb a single enemy target. The rest that comes after it is incorrect as well. Even in the reasoning, which you can see in the image, there are errors. As such, when doing detailed historical work, it seems that the historian is still important and must be kept in the loop. That brings me to the next problem.
+
+### Not All Sources Are Equal
+As a historian, you need to make critical choices about the reliability of sources for your research. This distinction is essential, as not all sources are created equal. For instance, an AI might cite Franz Kurowski as a source for an article on the Waffen-SS or the Wehrmacht. However, historians know that Kurowski’s works are not trustworthy. One example is his book on the German tanker Kurt Knispel: Franz Kurowski, *Kurt Knispel. Der erfolgreichste Panzerschütze und Panzerkommandant des 2. Weltkrieges* (2007).  
+
+Kurowski uses Alfred Rubbel, the battalion’s aide-de-camp and Knispel’s superior officer, as a key source. However, Rubbel himself has claimed that the events described are fabrications. Rubbel stated:  
+>The book is a botched piece of work not worth being printed. My comrades who are still alive all refused to buy it. The reason why Kurowski persistently makes me a ‘key witness’ is probably because he is rather economical with the truth.[^3]
+
+This example demonstrates the importance of skepticism and scrutiny when dealing with sources. A historian must be aware of the reliability of their materials and be prepared to dismiss questionable works.
+
+### The Risks of Disinformation
+AI poses a significant risk when it comes to spreading disinformation. Not only can it fabricate false information, but it can also present it with the veneer of legitimacy, making it appear as if it is based on rigorous research. This could perpetuate harmful myths, such as the "Clean Wehrmacht" narrative, making them harder to dislodge from public discourse.  
+
+The potential for disinformation extends beyond historical research. In political campaigns, AI-generated fake reports could fabricate “evidence” to legitimize false claims or support extreme proposals. These tactics could deepen societal divides and reinforce online echo chambers, eroding the concept of a shared reality. To combat these risks, it is crucial to implement stricter oversight, robust fact-checking mechanisms, and digital literacy initiatives to help people recognize and resist manipulation.
+
+## The Human Factor in History
+
+### The Responsibility of the Historian
+While AI offers tools to enhance historical research, it does not remove human agency. Historians are still responsible for ensuring the validity and authenticity of the claims in their work. AI might generate quotes or summaries, but it is up to the historian to verify these and ensure they align with the text's purpose.
+
+Historians interact with the entirety of the human past, meaning their work often has an emotional and ethical dimension. For instance, in the Netherlands, an index of names from the *Centraal Archief Bijzondere Rechtspleging (CABR)*—records of individuals investigated for collaboration during World War II—was published.[^4] This index included both guilty collaborators and those later cleared of charges. Families of suspected collaborators didn't appreciate the renewed interest in the past, while families of victims feared that it would open new wounds. This highlights the human impact of historical research, a dimension that AI cannot replicate.
+
+### The Historian’s Judgment
+As the historian E. H. Carr wrote in *What is History?*:  
+>The facts speak only when the historian calls on them: it is he who decides to which facts to give the floor, and in what order or context.[^5]
+
+The selection of facts is integral to historical research. A good historian must be aware of their personal biases and the context of their work. This emotional and ethical weight is something only humans can navigate, ensuring that history remains a discipline rooted in humanity.
+
+ <div className="text-center">
+    <Image
+      src={chatgptand92ndinfantrydivision}
+      alt="an image of a Black American soldier from the 92nd Infantry Division during World War II shaking hands with a futuristic robot. The soldier is on the left and the robot is on the right. The image on the left presents the historical past. The image on the right presents the future.  Make it seem as if they are reaching across time."
+      sizes="(min-width: 200px)"
+      className="rotate-0 bg-stone-100 object-cover dark:bg-stone-800 mx-auto"
+    />
+    <figcaption className="mt-2"><b>(Is this the future of history and AI? This is an artificially created image with the prompt: Create an image of a Black American soldier from the 92nd Infantry Division during World War II shaking hands with a futuristic robot. The soldier is on the left and the robot is on the right. The image on the left presents the historical past. The image on the right presents the future.  Make it seem as if they are reaching across time.)</b></figcaption>
+  </div> 
+
+The prompt:
+>Create an image of a Black American soldier from the 92nd Infantry Division during World War II shaking hands with a futuristic robot. The soldier is on the left and the robot is on the right. The image on the left presents the historical past. The image on the right presents the future.  Make it seem as if they are reaching across time. 
+
+## The Future of AI and History
+
+AI will transform society in ways we cannot yet fully predict. It will impact how we work, how we spend our free time, and how we engage with the world. While it is remarkable to see machines process and analyze information, it is vital to keep humans in the loop to ensure accountability and preserve ethical standards. 
+
+The two examples, one of the 614th Tank Destroyer Battalion and the 477th Bombardment Group, have shown that as human you still add value in history. However, in time, these units will become common knowledge. This means that we will have to keep pushing against the boundaries of what's historically known.  
+
+And who knows what the future holds? Perhaps the skills of historians will become even more valuable in a world increasingly reliant on AI. That would be a future worth working toward.
+
+[^1]: Ethan Mollick, “The End of Search, The Beginning of Research: The First Narrow Agents Are Here” [link](https://www.oneusefulthing.org/p/the-end-of-search-the-beginning-of) (Version 3 February 2025).
+[^2]: Dr. Harrisville, in his book The Virtuous Wehrmacht: Crafting the Myth of the German Soldier on The Eastern Front, 1941-1944 (2021) 14.
+[^3]: Roman Töppel, “The War, One Great Adventure: The Writer and 'Historian' Franz Kurowski,” 10 (Translated by Katharina Straub).  
+[^4]: NOS, “Oorlogsarchief Toch Vanaf Begin Komend Jaar Toegankelijk in Beperkte Vorm,” [link](https://nos.nl/artikel/2548955-oorlogsarchief-toch-vanaf-begin-komend-jaar-toegankelijk-in-beperkte-vorm).  
+[^5]: Edward H. Carr, *What is History?* (1990), 11.
+
+## Sources
+- Roman Töppel, “The War, One Great Adventure: The Writer and 'Historian' Franz Kurowski” (Translated by Katharina Straub).
+- Edward H. Carr, *What is History?* (1990).
+- Dr. Harrisville, *The Virtuous Wehrmacht: Crafting the Myth of the German Soldier on The Eastern Front, 1941-1944* (2021).
+- Ethan Mollick, “The End of Search, The Beginning of Research: The First Narrow Agents Are Here” [link](https://www.oneusefulthing.org/p/the-end-of-search-the-beginning-of) (Version 3 February 2025).
