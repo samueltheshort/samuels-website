@@ -872,24 +872,6 @@ export const imageData = [
     date: '15 April 1944'
   },
   {
-    id: 456,
-    name: 'En route to Hill 165, members of the 93rd Division struggle through clinging mud along the East-West trail on an island in the South Pacific.',
-    description: 'These are the first Black infantry troops to be used in combat in this theater. First Battalion, 25th Combat Team, 93rd Infantry Division.',
-    image: '93rd-infantry-division-03.jpg',
-    category: 'Infantry',
-    source: 'National Archives and Records Administration: SC 196151',
-    date: '15 April 1944'
-  },
-  {
-    id: 457,
-    name: 'Capt. Garland N. Adamson, Chicago, Ill., is unit surgeon of an outfit near Nancy, France.',
-    description: '761st Tank Battalion.',
-    image: '761st-tank-battalion-07.jpg',
-    category: 'Tanks',
-    source: 'National Archives and Records Administration: SC 196102-S',
-    date: '5 November 1944'
-  },
-  {
     id: 458,
     name: '2nd Lt. Joe E. Johnson, New York City, is a maintenance officer of a Motor Transport unit awaiting action near Nancy, France.',
     description: '761st Tank Battalion.',
