@@ -235,7 +235,7 @@ export const imageData = [
     id: 26,
     name: 'Battery B, 49th Coast Artillery, section 2, fires at Japanese positions on Bougainville',
     description: 'This 155mm rifle, operated by Black troops, is firing at Jap positions on Bougainville. The soldier at left prepares to sponge the breech.',
-    image: '49th-coast-artillery-regiment-01.jpg',
+    image: '49th-coast-artillery-03.jpg',
     category: 'Artillery',
     source: 'Courtesy of the United States Army Heritage and Education Center',
     date: '16 April 1944',
@@ -595,7 +595,7 @@ export const imageData = [
     id: 406,
     name: 'Major General John C.H. Lee and Brig. General Benjamin O. Davis inspect Services of Supply troops somewhere in England.',
     description: 'Bristol, England. Company C, 398th Port Battalion.',
-    image: '398th-port-battalion.jpg',
+    image: '398th-port-battalion-04.jpg',
     category: 'Quartermaster',
     source: 'National Archives and Records Administration: SC 151563',
     date: '2 October 1942'
