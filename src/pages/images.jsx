@@ -605,7 +605,7 @@ export const imageData = [
     name: 'Brig. Gen. Benjamin Davis is making a personnel inspection of Black troops somewhere in England.',
     description: 'The prescribed way of wearing your identification tags, dog tags, is as important as making your bed in the army. Bristol, England. 398th Port Battalion.',
     image: '398th-port-battalion-03.jpg',
-    category: 'Signal Corps',
+    category: '',
     source: 'National Archives and Records Administration: SC 151566',
     date: '2 October 1942'
   },
@@ -732,7 +732,7 @@ export const imageData = [
     name: 'Brig. Gen. Benjamin O. Davis and Maj. Gen. John C.H. Lee inspect Black troops.',
     description: 'The inspection happened in Bristol, England.',
     image: 'benjamin-o-davis-sr-01.jpg',
-    category: 'Signal Corps',
+    category: '',
     source: 'National Archives and Records Administration: SC 151569',
     date: '2 October 1942'
   },
