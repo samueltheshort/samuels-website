@@ -592,6 +592,132 @@ export const imageData = [
     date: 'A few days prior to 15 August 1944.'
   }, 
   {
+    id: 408,
+    name: "It's chow time at an Air Base Security Bn. in the South Pacific Area.",
+    description: '903rd Air Base Security Battalion.',
+    image: '903rd-air-base-security-battalion-04.jpg',
+    category: 'Signal Corps',
+    source: 'National Archives and Records Administration: SC 184655',
+    date: '29 June 1943'
+  },
+  {
+    id: 412,
+    name: 'Pvt. Robert A. Williams of Clarksdale, Miss., as he contemplates sleeping in a hammock aboard the transport on which his unit embarked for overseas.',
+    description: 'Company D, 462nd Port Battalion, embarked at San Francisco Port of Embarkation.',
+    image: 'SC_171509.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 171509',
+    date: '12 January 1943'
+  },
+  {
+    id: 418,
+    name: 'GI chorus entertains U.S. troops at large HQ in Belgium on Christmas Eve.',
+    description: 'The chorus under the supervision of Chaplain William A. Smith, of Sioux Falls, S.Dak., and lead by Cpl. John Wesley Mann, New York City, sang Black American spirituals and Christmas carols for over an hour. 390th Engineer Regiment Chorus, Namur, Belgium.',
+    image: '390th-engineer-regiment-01.jpg',
+    category: 'Engineer',
+    source: 'National Archives and Records Administration: SC 364371',
+    date: '24 December 1944'
+  },
+  {
+    id: 419,
+    name: 'Three bakers at a depot, somewhere in England, test a fresh pan of loaves as they come out of the oven.',
+    description: 'Left to right: Pfc. James Brown, 419 Sullivan St., Greensville, Ky., T/Sgt., James McClattie, Route #1, Box 28, Evans, Ga., and Tec 5 Ben J. Carpenter, Boyston, Ga. General Depot G-50, Taunton, England.',
+    image: 'baking-bread-01.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 364372',
+    date: '19 November 1944'
+  },
+  {
+    id: 421,
+    name: 'Part of audience enjoying all-soldier entertainment near VII headquarters in Germany, sponsored by Quartermaster troops.',
+    description: '999th Quartermaster Salvage Company, VII Corps.',
+    image: '999th-quartermaster-salvage-company-01.jpg',
+    category: 'Quartermaster',
+    source: 'National Archives and Records Administration: SC 364374',
+    date: '7 December 1944'
+  },
+  {
+    id: 422,
+    name: 'Four of the more than 200 service troops in France who volunteered for combat service, many of them accepting reductions in grade from Sgt. and Cpl. to qualify for the new assignment.',
+    description: 'In the doorway of the train taking them to an infantry training center are: Pvt. John Hightower, Hartford, Conn.; Pfc. James Brock, Philadelphia, Pa.; Pfc. Herbert E. West, Philadelphia, Pa.; and Pvt. Lenzy Walker, San Antonio, Texas.',
+    image: 'infantry-volunteers-04.jpg',
+    category: 'Infantry',
+    source: 'National Archives and Records Administration: SC 364375',
+    date: '25 February 1945'
+  },
+  {
+    id: 423,
+    name: 'The post chapel has large crowd of Black troops in afternoon of Bishop Gregg sermon.',
+    description: '',
+    image: 'black-chapel-01.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 364367',
+    date: '22 December 1943'
+  },
+  {
+    id: 424,
+    name: 'Personnel of the Postal Unit of a depot in England sort packages and mail.',
+    description: 'Left to right: Pfc. Wilbur L. Grimillion, 4202 S. Michigan Ave., Chicago, Ill., 1st Lt. Ernest J. Harris, 1118 Embury Ave., Neptune, N.J., and Cpl. William J. Cooper, 1349 Christian St., Philadelphia, Pa. 511th Army Postal Unit, General Depot G-50, Taunton, England.',
+    image: 'postal-unit-01.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 364373',
+    date: '19 November 1944'
+  },
+  {
+    id: 425,
+    name: 'S/Sgt. Jacobs E. White, RT 4 Sumter, S.C., pulls his rank on his twin brother, Cpl. Benjamin S. White, by getting him to police up the area at Camp Atlanta near Chalons, France.',
+    description: 'Both men are with 3118th 3118th Engineer Fire Fighting Platoon awaiting redeployment to the States.',
+    image: '3118th-engineer-fire-fighting-platoon-01.jpg',
+    category: 'Engineer',
+    source: 'National Archives and Records Administration: SC 364379',
+    date: '26 July 1945'
+  },
+  {
+    id: 426,
+    name: 'Cpl. David Shanks, gunner; and Sgt. Harold Edwards, on elevation of #3 90mm AA gun position of Btry. D, 742nd AA Bn.',
+    description: 'Espiritu Santo, New Hebrides.',
+    image: '742nd-anti-aircraft-artillery-battalion-01.jpg',
+    category: 'Artillery',
+    source: 'National Archives and Records Administration: SC 364568',
+    date: '17 April 1944'
+  },
+  {
+    id: 427,
+    name: 'Before attack: armored infantry dug-in in a field prior to attacking Nassig, Germany.',
+    description: 'Tanks that will support the attack protect infantrymen from surprise enemy thrust. Company D, 66th Armored Infantry Battalion, 43rd Tank Battalion, 12th Armored Division. Nassig, Germany.',
+    image: '12th-armored-division-01.jpg',
+    category: 'Tanks',
+    source: 'National Archives and Records Administration: SC 364383',
+    date: '1 April 1945'
+  },
+  {
+    id: 430,
+    name: 'Loading a 155mm M1 rifle of Btry B, 49th Coast Artillery, Section 2, Black troops operating.',
+    description: 'Location not specified.',
+    image: '49th-coast-artillery-battalion-01.jpg',
+    category: 'Artillery',
+    source: 'National Archives and Records Administration: SC 364569',
+    date: '16 April 1944'
+  },
+  {
+    id: 431,
+    name: 'Members of the 49th Coast Artillery, (Colored) firing 155mm howitzer at night on Bougainville.',
+    description: '49th Coastal Artillery.',
+    image: '49th-coast-artillery-battalion-04.jpg',
+    category: 'Artillery',
+    source: 'National Archives and Records Administration: SC 364572',
+    date: ''
+  },
+  {
+    id: 432,
+    name: 'Sgt. John C. Clark, Lorman, Miss., and S/Sgt. Ford M. Shaw, Tuscon, Arizo., (l-r) clean their rifles in bivouac area alongside the (illegible) Trail, Bogainville.',
+    description: 'They are members of Co. E, 25th Combat Team, 93rd Infantry Division (colored). This is the first time that Black ground troops have been used in this theater in combat. 93rd Infantry Division.',
+    image: '93rd-infantry-division-01.jpg',
+    category: 'Infantry',
+    source: 'National Archives and Records Administration: SC 364565',
+    date: '4 April 1944'
+  },
+  {
     id: 900, 
     name: 'Lawrence Johnson', 
     description: 'Lawrence Johnson served in the 614th Tank Destroyer Battalion during World War II and this photograph is included in the book "The 614th Tank Destroyer Battalion: Fighting on Both Fronts".', 
