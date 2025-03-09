@@ -440,7 +440,7 @@ export const imageData = [
   },
   {
     id: 102, 
-    name: "It's chow time for the 903rd 903rd Air Base Security Battalion.", 
+    name: "It's chow time for the 903rd Air Base Security Battalion.", 
     description: "It's chow time at the 903rd Air Base Security Battalion in the South Pacific Area.", 
     image: '903rd-airbase-security-battalion-03.jpg', 
     category: '', 
@@ -592,24 +592,6 @@ export const imageData = [
     date: 'A few days prior to 15 August 1944.'
   }, 
   {
-    id: 408,
-    name: "It's chow time at an Air Base Security Battalion. in the South Pacific Area.",
-    description: '903rd Air Base Security Battalion.',
-    image: '903rd-air-base-security-battalion-04.jpg',
-    category: '',
-    source: 'National Archives and Records Administration: SC 184655',
-    date: '29 June 1943'
-  },
-  {
-    id: 412,
-    name: 'Pvt. Robert A. Williams of Clarksdale, Miss., as he contemplates sleeping in a hammock aboard the transport on which his unit embarked for overseas.',
-    description: 'Company D, 462nd Port Battalion, embarked at San Francisco Port of Embarkation.',
-    image: 'SC_171509.jpg',
-    category: '',
-    source: 'National Archives and Records Administration: SC 171509',
-    date: '12 January 1943'
-  },
-  {
     id: 418,
     name: 'GI chorus entertains U.S. troops at large HQ in Belgium on Christmas Eve.',
     description: 'The chorus under the supervision of Chaplain William A. Smith, of Sioux Falls, S.Dak., and lead by Cpl. John Wesley Mann, New York City, sang Black American spirituals and Christmas carols for over an hour. 390th Engineer Regiment Chorus, Namur, Belgium.',
@@ -727,8 +709,17 @@ export const imageData = [
     date: '3 August 1945'
   },
   {
+    id: 435,
+    name: 'Brig. Gen. Benjamin O. Davis and Maj. Gen. John C.H. Lee inspect Black troops.',
+    description: 'The inspection happened in Bristol, England.',
+    image: 'benjamin-o-davis-sr-01.jpg',
+    category: 'Signal Corps',
+    source: 'National Archives and Records Administration: SC 151569',
+    date: '2 October 1942'
+  },
+  {
     id: 436,
-    name: '92nd. Div. offensive. Men of 370th Inf. Regt. dismounted from the tanks used to carry them to vicinity of Cinquale Canal, move away from tanks.',
+    name: '92nd. Division offensive. Men of 370th Inf. Regt. dismounted from the tanks used to carry them to vicinity of Cinquale Canal, move away from tanks.',
     description: '370th Infantry Regiment, 92nd Infantry Division.',
     image: '92nd-infantry-division-03.jpg',
     category: 'Infantry',
@@ -753,6 +744,8 @@ export const imageData = [
     source: 'National Archives and Records Administration: SC 151567',
     date: '2 October 1942'
   },
+  
+
   {
     id: 900, 
     name: 'Lawrence Johnson', 
