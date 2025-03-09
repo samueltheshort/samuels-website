@@ -81,7 +81,7 @@ export const imageData = [
   {
     id: 9,
     name: 'A three inch gun of the 614th Tank Destroyer Battalion during a firing exercise',
-    description: 'Members of the gun crew of a tank destroyer unit load their piece during practice firing, somewhere in England, before leaving for the real thing on the continent. Left to Right: Pfc. Aurbery Morris (Hobbsville, NC), Pfc. J. C. Heatem (Detroit, MI), Pfc. Robert B. Russell (Ashville, NC), 1st Lt. U.V. Watkins (Huntsville, TX), Pfc. Cebe Young (Ashville, NC), Pfc. James H. Mason (Williamston, NC). 614th Tank Destroyer Battalion, Burley, England.',
+    description: 'Members of the gun crew of a tank destroyer unit load their piece during practice firing, somewhere in England, before leaving for the real thing on the continent. Left to Right: Private First Class Aurbery Morris (Hobbsville, NC), Private First Class J. C. Heatem (Detroit, MI), Private First Class Robert B. Russell (Ashville, NC), 1st Lt. U.V. Watkins (Huntsville, TX), Private First Class Cebe Young (Ashville, NC), Private First Class James H. Mason (Williamston, NC). 614th Tank Destroyer Battalion, Burley, England.',
     image: '614th-tank-destroyer-battalion-08.jpg',
     category: 'Tank Destroyers',
     source: 'United States Army Heritage and Education Center.',
@@ -162,7 +162,7 @@ export const imageData = [
   {
     id: 18,
     name: 'The arrival of the 6888th Central Postal Directory Battalion in Scotland',
-    description: 'As a Scottish piper instructs Pfc. Edith Gaskill, Arlington, Va., in the art of playing bagpipes, Private Marie McKinney, Washington, D.C., examines his kilt. The Wacs are members of the first Black all-Wac postal unit to arrive in the European theater of operations. The unit will handle the Army Postal Directory Service for the entire theater. U.S. Army port, Greenock, Scotland.',
+    description: 'As a Scottish piper instructs Private First Class Edith Gaskill, Arlington, Va., in the art of playing bagpipes, Private Marie McKinney, Washington, D.C., examines his kilt. The Wacs are members of the first Black all-Wac postal unit to arrive in the European theater of operations. The unit will handle the Army Postal Directory Service for the entire theater. U.S. Army port, Greenock, Scotland.',
     image: '6888th-central-postal-directory-battalion-03.jpg',
     category: 'WAC',
     source: 'National Archives and Records Administration (NAID: 175539147)',
@@ -216,7 +216,7 @@ export const imageData = [
   {
     id: 24,
     name: 'A light tank with Black American trainees',
-    description: 'Pfc. Dewey McClain, Jacksonville, Fla., Private Hulet MacHenry, Salina, Kan., and Pfc. Lester Baker, Alexandria, La. Armored School Det., Replacement and Training Command. (Naples area, Italy)',
+    description: 'Private First Class Dewey McClain, Jacksonville, Fla., Private Hulet MacHenry, Salina, Kan., and Private First Class Lester Baker, Alexandria, La. Armored School Det., Replacement and Training Command. (Naples area, Italy)',
     image: '758th-tank-battalion-02.jpg',
     category: 'Tanks',
     source: 'National Archives and Records Administration: SC 364368',
@@ -360,7 +360,7 @@ export const imageData = [
   {
     id: 40,
     name: 'Major General Edward M. Almond, Commanding General of the 92nd Infantry Division, inspects his troops.',
-    description: 'Maj. Gen. Edward M. Almond, Commanding General of the 92nd Infantry Division in Italy, inspects his troops during a decoration ceremony.',
+    description: 'Maj. General Edward M. Almond, Commanding General of the 92nd Infantry Division in Italy, inspects his troops during a decoration ceremony.',
     image: '92nd-infantry-division-01.jpg',
     category: 'Infantry',
     source: 'National Archives and Records Administration (NAID: 535547)',
@@ -531,7 +531,7 @@ export const imageData = [
   {
     id: 112, 
     name: 'Soldiers of the 92nd Infantry Division are drying themselves in a ruined house.', 
-    description: 'Private Edward Imes, 1224 Rear Div. Ave., East St. Louis, IL.; T/5 William White, 246 South Johnson Ave., Pontiac, MI.; Pfc. James B. Glasby, 220 South Leffingwell Ave., St. Louis, MO.; and Private Henry C. McKinney, 651 Reed St., Atlanta, GA. Viareggio Area, Italy.',   
+    description: 'Private Edward Imes, 1224 Rear Div. Ave., East St. Louis, IL.; T/5 William White, 246 South Johnson Ave., Pontiac, MI.; Private First Class James B. Glasby, 220 South Leffingwell Ave., St. Louis, MO.; and Private Henry C. McKinney, 651 Reed St., Atlanta, GA. Viareggio Area, Italy.',   
     image: '92nd-infantry-division-02.jpg', 
     category: 'Infantry', 
     source: 'National Archives and Records Administration: SC 364370', 
@@ -602,7 +602,7 @@ export const imageData = [
   },
   {
     id: 407,
-    name: 'Brig. Gen. Benjamin Davis is making a personnel inspection of Black troops somewhere in England.',
+    name: 'Brig. General Benjamin Davis is making a personnel inspection of Black troops somewhere in England.',
     description: 'The prescribed way of wearing your identification tags, dog tags, is as important as making your bed in the army. Bristol, England. 398th Port Battalion.',
     image: '398th-port-battalion-03.jpg',
     category: '',
@@ -622,7 +622,7 @@ export const imageData = [
   {
     id: 419,
     name: 'Three bakers at a depot, somewhere in England, test a fresh pan of loaves as they come out of the oven.',
-    description: 'Left to right: Pfc. James Brown, 419 Sullivan St., Greensville, Ky., T/Sgt., James McClattie, Route #1, Box 28, Evans, Ga., and Tec 5 Ben J. Carpenter, Boyston, Ga. General Depot G-50, Taunton, England.',
+    description: 'Left to right: Private First Class James Brown, 419 Sullivan St., Greensville, Ky., T/Sgt., James McClattie, Route #1, Box 28, Evans, Ga., and Tec 5 Ben J. Carpenter, Boyston, Ga. General Depot G-50, Taunton, England.',
     image: 'baking-bread-01.jpg',
     category: '',
     source: 'National Archives and Records Administration: SC 364372',
@@ -640,7 +640,7 @@ export const imageData = [
   {
     id: 422,
     name: 'Four of the more than 200 service troops in France who volunteered for combat service, many of them accepting reductions in grade from Sgt. and Corporal to qualify for the new assignment.',
-    description: 'In the doorway of the train taking them to an infantry training center are: Private John Hightower, Hartford, Conn.; Pfc. James Brock, Philadelphia, Pa.; Pfc. Herbert E. West, Philadelphia, Pa.; and Private Lenzy Walker, San Antonio, Texas.',
+    description: 'In the doorway of the train taking them to an infantry training center are: Private John Hightower, Hartford, Conn.; Private First Class James Brock, Philadelphia, Pa.; Private First Class Herbert E. West, Philadelphia, Pa.; and Private Lenzy Walker, San Antonio, Texas.',
     image: 'infantry-volunteers-04.jpg',
     category: 'Infantry',
     source: 'National Archives and Records Administration: SC 364375',
@@ -658,7 +658,7 @@ export const imageData = [
   {
     id: 424,
     name: 'Personnel of the Postal Unit of a depot in England sort packages and mail.',
-    description: 'Left to right: Pfc. Wilbur L. Grimillion, 4202 S. Michigan Ave., Chicago, Ill., 1st Lt. Ernest J. Harris, 1118 Embury Ave., Neptune, N.J., and Corporal William J. Cooper, 1349 Christian St., Philadelphia, Pa. 511th Army Postal Unit, General Depot G-50, Taunton, England.',
+    description: 'Left to right: Private First Class Wilbur L. Grimillion, 4202 S. Michigan Ave., Chicago, Ill., 1st Lt. Ernest J. Harris, 1118 Embury Ave., Neptune, N.J., and Corporal William J. Cooper, 1349 Christian St., Philadelphia, Pa. 511th Army Postal Unit, General Depot G-50, Taunton, England.',
     image: 'postal-unit-01.jpg',
     category: '',
     source: 'National Archives and Records Administration: SC 364373',
@@ -729,7 +729,7 @@ export const imageData = [
   },
   {
     id: 435,
-    name: 'Brig. Gen. Benjamin O. Davis and Maj. Gen. John C.H. Lee inspect Black troops.',
+    name: 'Brig. General Benjamin O. Davis and Maj. General John C.H. Lee inspect Black troops.',
     description: 'The inspection happened in Bristol, England.',
     image: 'benjamin-o-davis-sr-01.jpg',
     category: '',
@@ -756,7 +756,7 @@ export const imageData = [
   },
   {
     id: 440,
-    name: 'Major Gen. John C.H. Lee and Brig. General Benj. O. Davis inspect troops somewhere in England.',
+    name: 'Major General John C.H. Lee and Brig. General Benj. O. Davis inspect troops somewhere in England.',
     description: 'Company C, 398th Port Bn., Bristol, England.',
     image: '398th-port-battalion-04.jpg',
     category: '',
@@ -774,7 +774,7 @@ export const imageData = [
   },
   {
     id: 444,
-    name: 'Brig. Gen. Benjamin O. Davis, left, and Maj. Gen. John C.H. Lee inspect troops during a tour of Black soldiers somewhere in England.',
+    name: 'Brig. General Benjamin O. Davis, left, and Maj. General John C.H. Lee inspect troops during a tour of Black soldiers somewhere in England.',
     description: 'Bristol, England.',
     image: 'benjamin-o-davis-sr-02.jpg',
     category: '',
@@ -783,7 +783,7 @@ export const imageData = [
   },
   {
     id: 445,
-    name: 'During an inspection tour of Black troops of the Services of Supply somewhere in England, Brigadier Gen. Benjamin O. Davis examines a rifle of one of the men.',
+    name: 'During an inspection tour of Black troops of the Services of Supply somewhere in England, Brigadier General Benjamin O. Davis examines a rifle of one of the men.',
     description: 'Bristol, England.',
     image: 'benjamin-o-davis-sr-03.jpg',
     category: '',
@@ -792,7 +792,7 @@ export const imageData = [
   },
   {
     id: 446,
-    name: 'Brig. Gen. Benjamin O. Davis explains mechanics of a rifle to a Black trooper.',
+    name: 'Brig. General Benjamin O. Davis explains mechanics of a rifle to a Black trooper.',
     description: 'Company B, 244th Quartermaster Battalion, Bristol, England.',
     image: '244th-quartermaster-battalion-01.jpg',
     category: 'Quartermaster',
@@ -810,7 +810,7 @@ export const imageData = [
   },
   {
     id: 449,
-    name: 'Brig. Gen. Benjamin O. Davis is greatly satisfied with the skill of the individual soldier during a close inspection of Black troops in England.',
+    name: 'Brig. General Benjamin O. Davis is greatly satisfied with the skill of the individual soldier during a close inspection of Black troops in England.',
     description: 'Company C, 398th Port Battalion., Services of Supply. Bristol, England.',
     image: '398th-port-battalion-05.jpg',
     category: '',
@@ -837,7 +837,7 @@ export const imageData = [
   },
   {
     id: 452,
-    name: 'Brig. Gen. Benjamin O. Davis during inspection of quarters of Black troops in England.',
+    name: 'Brig. General Benjamin O. Davis during inspection of quarters of Black troops in England.',
     description: 'Bristol, England. Company B, 244th Quartermaster Battalion.',
     image: '244th-quartermaster-battalion-02.jpg',
     category: 'Quartermaster',
@@ -847,9 +847,9 @@ export const imageData = [
   {
     id: 453,
     name: 'Members of a Port Battalion unload boxes of turkeys from liberty ships to trucks for transportation to all the fighting fronts for "Turkey Day" dinner.',
-    description: '(L to R) Private Fred Johnson, Ft. Worth, Texas, and Pfc. Willie Seals, Dallas, Texas. E.T.O.',
+    description: '(L to R) Private Fred Johnson, Ft. Worth, Texas, and Private First Class Willie Seals, Dallas, Texas. E.T.O.',
     image: 'SC_196205-S.jpg',
-    category: 'Signal Corps',
+    category: '',
     source: 'National Archives and Records Administration: SC 196205-S',
     date: '5 November 1944'
   },
@@ -903,16 +903,16 @@ export const imageData = [
     name: 'Field officers of a Motor Transport unit await action near Nancy, France.',
     description: 'Left to right: Capt. Ivan H. Harrison, Detroit, Mich., Capt. Irvin McHenry, Leavenworth, Kan., and 2nd Lt. James C. Lightfoot, Washington D.C.',
     image: '761st-tank-battalion-09.jpg',
-    category: 'Signal Corps',
+    category: '',
     source: 'National Archives and Records Administration: SC 196103-S',
     date: '5 November 1944'
   },
   {
     id: 460,
-    name: "A newly captured crossroad carries east and west bound traffic as Lt. Gen. George S. Patton's Third Army smashes towards the Rhine.",
+    name: "A newly captured crossroad carries east and west bound traffic as Lt. General George S. Patton's Third Army smashes towards the Rhine.",
     description: '',
     image: 'third-army-01.jpg',
-    category: 'Signal Corps',
+    category: '',
     source: 'National Archives and Records Administration: SC 197158',
     date: '23 November 1944'
   },
@@ -930,7 +930,7 @@ export const imageData = [
     name: '"Tropical Boogie-Woogie" performed by Private Albert Wright in a recreation hall in the South Pacific Area.',
     description: 'The men are members of an Air Base Security Battalion.',
     image: '903rd-air-base-security-battalion-09.jpg',
-    category: 'Signal Corps',
+    category: '',
     source: 'National Archives and Records Administration: SC 184657',
     date: '29 June 1943'
   },
@@ -963,7 +963,7 @@ export const imageData = [
   },
   {
     id: 466,
-    name: '"Young Kid Usher" spars with Pfc. John D. Henry in a friendly boxing match.',
+    name: '"Young Kid Usher" spars with Private First Class John D. Henry in a friendly boxing match.',
     description: 'The referee is Sgt. Murphy Guldry, Los Angeles, Calif., who formerly was Usher\'s trainer and manager. This scene is at an Air Base Security Battalion in the South Pacific Area.',
     image: '903rd-air-base-security-battalion-07.jpg',
     category: '',
@@ -975,7 +975,7 @@ export const imageData = [
     name: "The body of a dead Black soldier bears mute testimony to the force of the German drive down the Serchio Valley.",
     description: "The dead soldier contrasts sharply with the tranquility of the Apennine winter scenery about him. Barga, Italy.",
     image: "serchio-valley-01.jpg",
-    category: "Signal Corps",
+    category: "",
     source: "National Archives and Records Administration: SC 198949",
     date: "31 December 1944"
   },
@@ -1188,7 +1188,7 @@ export const imageData = [
   },
   {
     id: 492,
-    name: 'Pfc. Albert Buhlig and Pfc. Pedro Hernandez direct traffic through the streets of Cherbourg, France.',
+    name: 'Private First Class Albert Buhlig and Private First Class Pedro Hernandez direct traffic through the streets of Cherbourg, France.',
     description: '',
     image: 'cherbourg-traffic-control-01.jpg',
     category: '',
@@ -1209,7 +1209,7 @@ export const imageData = [
     name: 'First Black troops arrive by train to their assigned post of duty in Cherbourg, France.',
     description: 'This troop train is being unloaded, bringing the first Black troops to their assigned post of duty by train.',
     image: 'black-troops-cherbourg-01.jpg',
-    category: 'Signal Corps',
+    category: '',
     source: 'National Archives and Records Administration: SC 191905-S',
     date: '31 July 1944'
   },
