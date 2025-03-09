@@ -593,10 +593,10 @@ export const imageData = [
   }, 
   {
     id: 408,
-    name: "It's chow time at an Air Base Security Bn. in the South Pacific Area.",
+    name: "It's chow time at an Air Base Security Battalion. in the South Pacific Area.",
     description: '903rd Air Base Security Battalion.',
     image: '903rd-air-base-security-battalion-04.jpg',
-    category: 'Signal Corps',
+    category: '',
     source: 'National Archives and Records Administration: SC 184655',
     date: '29 June 1943'
   },
@@ -674,7 +674,7 @@ export const imageData = [
   },
   {
     id: 426,
-    name: 'Cpl. David Shanks, gunner; and Sgt. Harold Edwards, on elevation of #3 90mm AA gun position of Btry. D, 742nd AA Bn.',
+    name: 'Cpl. David Shanks, gunner; and Sgt. Harold Edwards, on elevation of #3 90mm AA gun position of Btry. D, 742nd AA Battalion.',
     description: 'Espiritu Santo, New Hebrides.',
     image: '742nd-anti-aircraft-artillery-battalion-01.jpg',
     category: 'Artillery',
@@ -716,6 +716,42 @@ export const imageData = [
     category: 'Infantry',
     source: 'National Archives and Records Administration: SC 364565',
     date: '4 April 1944'
+  },
+  {
+    id: 434,
+    name: 'Before taking off on a pass, Cpl. Clarence Carter, 1808 Bainbridge St. Philadelphia, Pa., with 411th Port Company, gives his shoes a good shine.',
+    description: 'Le Havre Port of Embarkation, 411th Port Company.',
+    image: '411th-port-company-01.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 364378',
+    date: '3 August 1945'
+  },
+  {
+    id: 436,
+    name: '92nd. Div. offensive. Men of 370th Inf. Regt. dismounted from the tanks used to carry them to vicinity of Cinquale Canal, move away from tanks.',
+    description: '370th Infantry Regiment, 92nd Infantry Division.',
+    image: '92nd-infantry-division-03.jpg',
+    category: 'Infantry',
+    source: 'National Archives and Records Administration: SC 364369',
+    date: '8 February 1945'
+  },
+  {
+    id: 439,
+    name: 'Major General John C.H. Lee during an inspection tour of Black troops somewhere in England.',
+    description: 'The 398th Port Battalion, Services of Supply, Bristol, England.',
+    image: '398th-port-battalion-02.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 151564',
+    date: '2 October 1942'
+  },
+  {
+    id: 440,
+    name: 'Major Gen. John C.H. Lee and Brig. General Benj. O. Davis inspect troops somewhere in England.',
+    description: 'Company C, 398th Port Bn., Bristol, England.',
+    image: '398th-port-battalion-04.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 151567',
+    date: '2 October 1942'
   },
   {
     id: 900, 
