@@ -162,7 +162,7 @@ export const imageData = [
   {
     id: 18,
     name: 'The arrival of the 6888th Central Postal Directory Battalion in Scotland',
-    description: 'As a Scottish piper instructs Pfc. Edith Gaskill, Arlington, Va., in the art of playing bagpipes, Pvt. Marie McKinney, Washington, D.C., examines his kilt. The Wacs are members of the first Black all-Wac postal unit to arrive in the European theater of operations. The unit will handle the Army Postal Directory Service for the entire theater. U.S. Army port, Greenock, Scotland.',
+    description: 'As a Scottish piper instructs Pfc. Edith Gaskill, Arlington, Va., in the art of playing bagpipes, Private Marie McKinney, Washington, D.C., examines his kilt. The Wacs are members of the first Black all-Wac postal unit to arrive in the European theater of operations. The unit will handle the Army Postal Directory Service for the entire theater. U.S. Army port, Greenock, Scotland.',
     image: '6888th-central-postal-directory-battalion-03.jpg',
     category: 'WAC',
     source: 'National Archives and Records Administration (NAID: 175539147)',
@@ -216,7 +216,7 @@ export const imageData = [
   {
     id: 24,
     name: 'A light tank with Black American trainees',
-    description: 'Pfc. Dewey McClain, Jacksonville, Fla., Pvt. Hulet MacHenry, Salina, Kan., and Pfc. Lester Baker, Alexandria, La. Armored School Det., Replacement and Training Command. (Naples area, Italy)',
+    description: 'Pfc. Dewey McClain, Jacksonville, Fla., Private Hulet MacHenry, Salina, Kan., and Pfc. Lester Baker, Alexandria, La. Armored School Det., Replacement and Training Command. (Naples area, Italy)',
     image: '758th-tank-battalion-02.jpg',
     category: 'Tanks',
     source: 'National Archives and Records Administration: SC 364368',
@@ -270,7 +270,7 @@ export const imageData = [
   {
     id: 30,
     name: 'Soldiers of the 76th Coast Artillery Regiment asleep',
-    description: 'Half an hour after the Black soldiers of a regimental headquarters battery of the C.A.A. marched aboard the transport, many of them were bedded down in their close quarters and snoring. The line next the camera, from bunk up, consists of: Pvt. Harrison Wyatt, Atlanta, Ga.; Technician Clarence L. Williams, Columbus, Ga.; Pvt. Bennie Simmons, Goulds, Fla.; Pvt. Patrick Williams, Wells Ferry, Ala.; Sgt. Clommie Watkins, Jackson, Tenn.; Sgt. Abi Stephens, Montgomery, Ala. Next row: Pvt. Willie Brown, Fort Meyers, Fla.; Pvt. William K. Watkins, Linden, Ala.; Pvt. Flenard Van, Pursglove, W.Va, Corp. John G. Thomas, Chicago, Ill. 76th C.A.A. SS Mormacsea at Fort Mason, Calif. Sunday night.',
+    description: 'Half an hour after the Black soldiers of a regimental headquarters battery of the C.A.A. marched aboard the transport, many of them were bedded down in their close quarters and snoring. The line next the camera, from bunk up, consists of: Private Harrison Wyatt, Atlanta, Ga.; Technician Clarence L. Williams, Columbus, Ga.; Private Bennie Simmons, Goulds, Fla.; Private Patrick Williams, Wells Ferry, Ala.; Sgt. Clommie Watkins, Jackson, Tenn.; Sgt. Abi Stephens, Montgomery, Ala. Next row: Private Willie Brown, Fort Meyers, Fla.; Private William K. Watkins, Linden, Ala.; Private Flenard Van, Pursglove, W.Va, Corp. John G. Thomas, Chicago, Ill. 76th C.A.A. SS Mormacsea at Fort Mason, Calif. Sunday night.',
     image: '76th-coast-artillery-regiment-04.jpg',
     category: 'Artillery',
     source: 'United States Army Heritage and Education Center',
@@ -333,7 +333,7 @@ export const imageData = [
   {
     id: 37,
     name: 'Soldiers of the 76th Coast Artillery Regiment stand next to a large searchlight',
-    description: 'Pvt. Robert Byrd, Henry Johnson, John Hamlin, Battery E, 76th CAC (AA) at searchlight during C. D. air raids exercises. Fort Moultrie, Charleston, S. C.',
+    description: 'Private Robert Byrd, Henry Johnson, John Hamlin, Battery E, 76th CAC (AA) at searchlight during C. D. air raids exercises. Fort Moultrie, Charleston, S. C.',
     image: '76th-coast-artillery-regiment-11.jpg',
     category: 'Artillery',
     source: 'United States Army Heritage and Education Center',
@@ -459,7 +459,7 @@ export const imageData = [
   {
     id: 104, 
     name: 'Getting ready to turn in.', 
-    description: 'Getting ready to turn in. 1st Lt. Harry L. Curtis, Morgantown, N.C., gives a few pointers to Cpl. Alfred Summerville, Washington, D.C., on a sea-going barracks, as they prepare for an overseas journey. 350th Engineer Regiment aboard the S.S. Poelau Laut, Pier 41-S, San Francisco Port of Embarkation.', 
+    description: 'Getting ready to turn in. 1st Lt. Harry L. Curtis, Morgantown, N.C., gives a few pointers to Corporal Alfred Summerville, Washington, D.C., on a sea-going barracks, as they prepare for an overseas journey. 350th Engineer Regiment aboard the S.S. Poelau Laut, Pier 41-S, San Francisco Port of Embarkation.', 
     image: '350th-engineer-regiment-01.jpg', 
     category: '', 
     source: 'National Archives and Records Administration: SC 171514', 
@@ -521,8 +521,8 @@ export const imageData = [
   }, 
   {
     id: 111, 
-    name: 'Pvt. Felix Lawson and Pvt. Sammie Jenkins dig a foxhole.', 
-    description: 'Pvt. Felix Lawson, 534 West St., [illegible], Md., and Pvt. Sammie Jenkins, 1200 17th St. Tuscaloosa, Ala., demonstrate the proper method of digging a foxhole.',   
+    name: 'Private Felix Lawson and Private Sammie Jenkins dig a foxhole.', 
+    description: 'Private Felix Lawson, 534 West St., [illegible], Md., and Private Sammie Jenkins, 1200 17th St. Tuscaloosa, Ala., demonstrate the proper method of digging a foxhole.',   
     image: 'infantry-volunteers-03.jpg', 
     category: 'Infantry', 
     source: 'National Archives and Records Administration: SC 337398', 
@@ -531,7 +531,7 @@ export const imageData = [
   {
     id: 112, 
     name: 'Soldiers of the 92nd Infantry Division are drying themselves in a ruined house.', 
-    description: 'Pvt. Edward Imes, 1224 Rear Div. Ave., East St. Louis, IL.; T/5 William White, 246 South Johnson Ave., Pontiac, MI.; Pfc. James B. Glasby, 220 South Leffingwell Ave., St. Louis, MO.; and Pvt. Henry C. McKinney, 651 Reed St., Atlanta, GA. Viareggio Area, Italy.',   
+    description: 'Private Edward Imes, 1224 Rear Div. Ave., East St. Louis, IL.; T/5 William White, 246 South Johnson Ave., Pontiac, MI.; Pfc. James B. Glasby, 220 South Leffingwell Ave., St. Louis, MO.; and Private Henry C. McKinney, 651 Reed St., Atlanta, GA. Viareggio Area, Italy.',   
     image: '92nd-infantry-division-02.jpg', 
     category: 'Infantry', 
     source: 'National Archives and Records Administration: SC 364370', 
@@ -613,7 +613,7 @@ export const imageData = [
   {
     id: 418,
     name: 'GI chorus entertains U.S. troops at large HQ in Belgium on Christmas Eve.',
-    description: 'The chorus under the supervision of Chaplain William A. Smith, of Sioux Falls, S.Dak., and lead by Cpl. John Wesley Mann, New York City, sang Black American spirituals and Christmas carols for over an hour. 390th Engineer Regiment Chorus, Namur, Belgium.',
+    description: 'The chorus under the supervision of Chaplain William A. Smith, of Sioux Falls, S.Dak., and lead by Corporal John Wesley Mann, New York City, sang Black American spirituals and Christmas carols for over an hour. 390th Engineer Regiment Chorus, Namur, Belgium.',
     image: '390th-engineer-regiment-01.jpg',
     category: 'Engineer',
     source: 'National Archives and Records Administration: SC 364371',
@@ -639,8 +639,8 @@ export const imageData = [
   },
   {
     id: 422,
-    name: 'Four of the more than 200 service troops in France who volunteered for combat service, many of them accepting reductions in grade from Sgt. and Cpl. to qualify for the new assignment.',
-    description: 'In the doorway of the train taking them to an infantry training center are: Pvt. John Hightower, Hartford, Conn.; Pfc. James Brock, Philadelphia, Pa.; Pfc. Herbert E. West, Philadelphia, Pa.; and Pvt. Lenzy Walker, San Antonio, Texas.',
+    name: 'Four of the more than 200 service troops in France who volunteered for combat service, many of them accepting reductions in grade from Sgt. and Corporal to qualify for the new assignment.',
+    description: 'In the doorway of the train taking them to an infantry training center are: Private John Hightower, Hartford, Conn.; Pfc. James Brock, Philadelphia, Pa.; Pfc. Herbert E. West, Philadelphia, Pa.; and Private Lenzy Walker, San Antonio, Texas.',
     image: 'infantry-volunteers-04.jpg',
     category: 'Infantry',
     source: 'National Archives and Records Administration: SC 364375',
@@ -658,7 +658,7 @@ export const imageData = [
   {
     id: 424,
     name: 'Personnel of the Postal Unit of a depot in England sort packages and mail.',
-    description: 'Left to right: Pfc. Wilbur L. Grimillion, 4202 S. Michigan Ave., Chicago, Ill., 1st Lt. Ernest J. Harris, 1118 Embury Ave., Neptune, N.J., and Cpl. William J. Cooper, 1349 Christian St., Philadelphia, Pa. 511th Army Postal Unit, General Depot G-50, Taunton, England.',
+    description: 'Left to right: Pfc. Wilbur L. Grimillion, 4202 S. Michigan Ave., Chicago, Ill., 1st Lt. Ernest J. Harris, 1118 Embury Ave., Neptune, N.J., and Corporal William J. Cooper, 1349 Christian St., Philadelphia, Pa. 511th Army Postal Unit, General Depot G-50, Taunton, England.',
     image: 'postal-unit-01.jpg',
     category: '',
     source: 'National Archives and Records Administration: SC 364373',
@@ -666,7 +666,7 @@ export const imageData = [
   },
   {
     id: 425,
-    name: 'S/Sgt. Jacobs E. White, RT 4 Sumter, S.C., pulls his rank on his twin brother, Cpl. Benjamin S. White, by getting him to police up the area at Camp Atlanta near Chalons, France.',
+    name: 'S/Sgt. Jacobs E. White, RT 4 Sumter, S.C., pulls his rank on his twin brother, Corporal Benjamin S. White, by getting him to police up the area at Camp Atlanta near Chalons, France.',
     description: 'Both men are with 3118th 3118th Engineer Fire Fighting Platoon awaiting redeployment to the States.',
     image: '3118th-engineer-fire-fighting-platoon-01.jpg',
     category: 'Engineer',
@@ -675,7 +675,7 @@ export const imageData = [
   },
   {
     id: 426,
-    name: 'Cpl. David Shanks, gunner; and Sgt. Harold Edwards, on elevation of #3 90mm AA gun position of Btry. D, 742nd AA Battalion.',
+    name: 'Corporal David Shanks, gunner; and Sgt. Harold Edwards, on elevation of #3 90mm AA gun position of Btry. D, 742nd AA Battalion.',
     description: 'Espiritu Santo, New Hebrides.',
     image: '742nd-anti-aircraft-artillery-battalion-01.jpg',
     category: 'Artillery',
@@ -720,7 +720,7 @@ export const imageData = [
   },
   {
     id: 434,
-    name: 'Before taking off on a pass, Cpl. Clarence Carter, 1808 Bainbridge St. Philadelphia, Pa., with 411th Port Company, gives his shoes a good shine.',
+    name: 'Before taking off on a pass, Corporal Clarence Carter, 1808 Bainbridge St. Philadelphia, Pa., with 411th Port Company, gives his shoes a good shine.',
     description: 'Le Havre Port of Embarkation, 411th Port Company.',
     image: '411th-port-company-01.jpg',
     category: '',
@@ -763,7 +763,465 @@ export const imageData = [
     source: 'National Archives and Records Administration: SC 151567',
     date: '2 October 1942'
   },
-  
+   {
+    id: 441,
+    name: 'At the newly opened Red Cross club in Cherbourg, Corporal Charles C. Murphyel gets his share of Yankee doughnuts and coffee.',
+    description: 'Girls are French Red Cross volunteers.',
+    image: 'red-cross-club-cherbourg-01.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 329721',
+    date: '29 July 1944'
+  },
+  {
+    id: 444,
+    name: 'Brig. Gen. Benjamin O. Davis, left, and Maj. Gen. John C.H. Lee inspect troops during a tour of Black soldiers somewhere in England.',
+    description: 'Bristol, England.',
+    image: 'benjamin-o-davis-sr-02.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 151573',
+    date: '2 October 1944'
+  },
+  {
+    id: 445,
+    name: 'During an inspection tour of Black troops of the Services of Supply somewhere in England, Brigadier Gen. Benjamin O. Davis examines a rifle of one of the men.',
+    description: 'Bristol, England.',
+    image: 'benjamin-o-davis-sr-03.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 151574',
+    date: '2 October 1942'
+  },
+  {
+    id: 446,
+    name: 'Brig. Gen. Benjamin O. Davis explains mechanics of a rifle to a Black trooper.',
+    description: 'Company B, 244th Quartermaster Battalion, Bristol, England.',
+    image: '244th-quartermaster-battalion-01.jpg',
+    category: 'Quartermaster',
+    source: 'National Archives and Records Administration: SC 151577',
+    date: '2 October 1942'
+  },
+  {
+    id: 448,
+    name: 'WOJO Clarence I. Godbold, Yonkers, N.Y., is personnel officer of a Motor Transport unit near Nancy, France.',
+    description: '761st Tank Battalion.',
+    image: '761st-tank-battalion-03.jpg',
+    category: 'Tanks',
+    source: 'National Archives and Records Administration: SC 196101-S',
+    date: '5 November 1944'
+  },
+  {
+    id: 449,
+    name: 'Brig. Gen. Benjamin O. Davis is greatly satisfied with the skill of the individual soldier during a close inspection of Black troops in England.',
+    description: 'Company C, 398th Port Battalion., Services of Supply. Bristol, England.',
+    image: '398th-port-battalion-05.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 151575',
+    date: '8 October 1942'
+  },
+  {
+    id: 450,
+    name: 'The .50 cal. machine gun and crew of the 90th Coastal Artillery are temporarily stationed at Oujda, North Africa.',
+    description: 'This stationing occurred near U.S. Fifth Army headquarters upon the request of the Sultan of Morocco for his protection during his visit there.',
+    image: '90th-coast-artillery-01.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 329821',
+    date: '25 June 1943'
+  },
+  {
+    id: 451,
+    name: 'Members of the 2nd Bn., 25th Combat Team, 93rd Div., wade across the Laruma River carrying mortar shells to the other side.',
+    description: '93rd Infantry Division.',
+    image: '93rd-infantry-division-02.jpg',
+    category: 'Infantry',
+    source: 'National Archives and Records Administration: SC 196150',
+    date: '4 April 1944'
+  },
+  {
+    id: 452,
+    name: 'Brig. Gen. Benjamin O. Davis during inspection of quarters of Black troops in England.',
+    description: 'Bristol, England. Company B, 244th Quartermaster Battalion.',
+    image: '244th-quartermaster-battalion-02.jpg',
+    category: 'Quartermaster',
+    source: 'National Archives and Records Administration: SC 151578',
+    date: '2 October 1942'
+  },
+  {
+    id: 453,
+    name: 'Members of a Port Battalion unload boxes of turkeys from liberty ships to trucks for transportation to all the fighting fronts for "Turkey Day" dinner.',
+    description: '(L to R) Private Fred Johnson, Ft. Worth, Texas, and Pfc. Willie Seals, Dallas, Texas. E.T.O.',
+    image: 'SC_196205-S.jpg',
+    category: 'Signal Corps',
+    source: 'National Archives and Records Administration: SC 196205-S',
+    date: '5 November 1944'
+  },
+  {
+    id: 454,
+    name: 'Capt. Garland N. Adamson, Chicago, Ill., is unit surgeon of an outfit near Nancy, France.',
+    description: '761st Tank Battalion.',
+    image: '761st-tank-battalion-07.jpg',
+    category: 'Tanks',
+    source: 'National Archives and Records Administration: SC 196102-S',
+    date: '5 November 1944'
+  },
+  {
+    id: 455,
+    name: 'En route to Hill 165, members of the 93rd Division struggle through clinging mud along the East-West trail on an island in the South Pacific.',
+    description: 'These are the first Black infantry troops to be used in combat in this theater. First Battalion, 25th Combat Team, 93rd Infantry Division.',
+    image: '93rd-infantry-division-03.jpg',
+    category: 'Infantry',
+    source: 'National Archives and Records Administration: SC 196151',
+    date: '15 April 1944'
+  },
+  {
+    id: 456,
+    name: 'En route to Hill 165, members of the 93rd Division struggle through clinging mud along the East-West trail on an island in the South Pacific.',
+    description: 'These are the first Black infantry troops to be used in combat in this theater. First Battalion, 25th Combat Team, 93rd Infantry Division.',
+    image: '93rd-infantry-division-03.jpg',
+    category: 'Infantry',
+    source: 'National Archives and Records Administration: SC 196151',
+    date: '15 April 1944'
+  },
+  {
+    id: 457,
+    name: 'Capt. Garland N. Adamson, Chicago, Ill., is unit surgeon of an outfit near Nancy, France.',
+    description: '761st Tank Battalion.',
+    image: '761st-tank-battalion-07.jpg',
+    category: 'Tanks',
+    source: 'National Archives and Records Administration: SC 196102-S',
+    date: '5 November 1944'
+  },
+  {
+    id: 458,
+    name: '2nd Lt. Joe E. Johnson, New York City, is a maintenance officer of a Motor Transport unit awaiting action near Nancy, France.',
+    description: '761st Tank Battalion.',
+    image: '761st-tank-battalion-08.jpg',
+    category: 'Tanks',
+    source: 'National Archives and Records Administration: SC 196104-S',
+    date: '5 November 1944'
+  },
+  {
+    id: 459,
+    name: 'Field officers of a Motor Transport unit await action near Nancy, France.',
+    description: 'Left to right: Capt. Ivan H. Harrison, Detroit, Mich., Capt. Irvin McHenry, Leavenworth, Kan., and 2nd Lt. James C. Lightfoot, Washington D.C.',
+    image: '761st-tank-battalion-09.jpg',
+    category: 'Signal Corps',
+    source: 'National Archives and Records Administration: SC 196103-S',
+    date: '5 November 1944'
+  },
+  {
+    id: 460,
+    name: "A newly captured crossroad carries east and west bound traffic as Lt. Gen. George S. Patton's Third Army smashes towards the Rhine.",
+    description: '',
+    image: 'third-army-01.jpg',
+    category: 'Signal Corps',
+    source: 'National Archives and Records Administration: SC 197158',
+    date: '23 November 1944'
+  },
+  {
+    id: 461,
+    name: 'An outdoor class in airplane identification is held by Capt. Seymour Tucker of an Air Base Security Battalion.',
+    description: 'He is using a chart pinned to a tree to demonstrate. This event occurred somewhere in the South Pacific Area.',
+    image: '903rd-air-base-security-battalion-08.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 184658',
+    date: '29 June 1943'
+  },
+  {
+    id: 462,
+    name: '"Tropical Boogie-Woogie" performed by Private Albert Wright in a recreation hall in the South Pacific Area.',
+    description: 'The men are members of an Air Base Security Battalion.',
+    image: '903rd-air-base-security-battalion-09.jpg',
+    category: 'Signal Corps',
+    source: 'National Archives and Records Administration: SC 184657',
+    date: '29 June 1943'
+  },
+  {
+    id: 463,
+    name: "One of the strangest methods of merchandise delivery yet to be devised is that of parachuting eggs to earth for the use of American soldiers in the jungles of Burma.",
+    description: "Corporal Fred E. Kennon, Chester, S.C., is packing eggs for dropping by a parachute. More than 200 eggs are packed in each basket using rice husks to absorb shock.",
+    image: "quartermaster-01.jpg",
+    category: "Quartermaster",
+    source: "National Archives and Records Administration: SC 184776-S",
+    date: "1944"
+  },
+  {
+    id: 464,
+    name: 'Sgt. Walter Rothschild of Birmingham, Ala., gets a "G.I." haircut while a Fijian native awaits his turn.',
+    description: 'The barber is Corporal Ollie Strong, Harperville, Miss. Both soldiers are from an Air Base Security Battalion somewhere in the South Pacific Area.',
+    image: '903rd-air-base-security-battalion-05.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 184651',
+    date: '29 June 1943'
+  },
+  {
+    id: 465,
+    name: 'A good dinner is in store for a company of an Air Base Security Battalion in the South Pacific Area, judging by the smile of Sgt. Walter Rothschild.',
+    description: '',
+    image: '903rd-air-base-security-battalion-06.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 184650',
+    date: '29 June 1943'
+  },
+  {
+    id: 466,
+    name: '"Young Kid Usher" spars with Pfc. John D. Henry in a friendly boxing match.',
+    description: 'The referee is Sgt. Murphy Guldry, Los Angeles, Calif., who formerly was Usher\'s trainer and manager. This scene is at an Air Base Security Battalion in the South Pacific Area.',
+    image: '903rd-air-base-security-battalion-07.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 184654',
+    date: '29 June 1943'
+  },
+  {
+    id: 467,
+    name: "The body of a dead Black soldier bears mute testimony to the force of the German drive down the Serchio Valley.",
+    description: "The dead soldier contrasts sharply with the tranquility of the Apennine winter scenery about him. Barga, Italy.",
+    image: "serchio-valley-01.jpg",
+    category: "Signal Corps",
+    source: "National Archives and Records Administration: SC 198949",
+    date: "31 December 1944"
+  },
+  {
+    id: 468,
+    name: "Tanks of the 758th Light Tank Battalion fire in support as the Nisei regiment pushes on Mt. Belvedere.",
+    description: "",
+    image: "758th-tank-battalion-03.jpg",
+    category: "Tanks",
+    source: "National Archives and Records Administration: SC 329840",
+    date: "4 April 1945"
+  },
+  {
+    id: 469,
+    name: "Members of the 758th Light Tank Battalion fire their howitzer in support of infantry movements on the Fifth Army front.",
+    description: "",
+    image: "758th-tank-battalion-04.jpg",
+    category: "Tanks",
+    source: "National Archives and Records Administration: SC 329839",
+    date: "4 April 1945"
+  },
+  {
+    id: 470,
+    name: 'Heavily-laden American Black troops walk across the decks of British "Zed Lighters" to be carried ashore.',
+    description: 'They came on the French troop ship "Columbie" from the United States. Leghorn area, Italy.',
+    image: 'zed-lighters-leghorn-01.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 195583-S',
+    date: '6 October 1944'
+  },
+  {
+    id: 471,
+    name: 'Querceta jammed with armor as the 92nd Division takes the offensive.',
+    description: "These tanks were used to subdue some German positions on the hill mass to the right of Highway #1 north of Querceta.",
+    image: '92nd-infantry-division-04.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 201449',
+    date: '8 February 1945'
+  },
+  {
+    id: 472,
+    name: 'A convoy unloading men and supplies north of Agropoli, Italy.',
+    description: 'Salerno area, Italy.',
+    image: 'convoy-agropoli-01.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 180048',
+    date: '21 September 1943'
+  },
+  {
+    id: 473,
+    name: 'Black hospital - 335th Station Hospital, Tagap, Burma.',
+    description: "Playing an important part in the rehabilitation of patients is Red Cross worker Bernice Grice of Omaha, Nebraska. Miss Grice plans parties and card games and provides recreational facilities for patients that include motion pictures in the wards.",
+    image: '335th-station-hospital-01.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 201412',
+    date: 'January 1945'
+  },
+  {
+    id: 442,
+    name: 'T/4 Claude Mann, Chicago, ILL, is the driver of an M-4 tank attached to a motor transport unit, near Nacy, France.',
+    description: '761st Tank Battalion.',
+    image: '761st-tank-battalion-04.jpg',
+    category: 'Tanks',
+    source: 'National Archives and Records Administration: SC 196110-S',
+    date: '5 November 1944'
+  },
+  {
+    id: 452,
+    name: 'Sgt. Harvey Woodward, Howard, Ga., is a commander of an M-4 tank, somewhere in France.',
+    description: 'Nancy, France. 761st Tank Battalion.',
+    image: '761st-tank-battalion-10.jpg',
+    category: 'Tanks',
+    source: 'National Archives and Records Administration: SC 196108-S',
+    date: '5 November 1944'
+  },
+  {
+    id: 455,
+    name: 'Private Nathaniel Simmons, Beaford, S.C., is the assistant driver of an M-4 tank, somewhere in France. Nancy.',
+    description: '761st Tank Battalion.',
+    image: '761st-tank-battalion-11.jpg',
+    category: 'Tanks',
+    source: 'National Archives and Records Administration: SC 196109-S',
+    date: '5 November 1944'
+  },
+  {
+    id: 460,
+    name: 'Private L.C. Byrd, Tuscaloosa, Ala., is a commander in an M-4 tank of a Motor Transport unit near Nancy, France.',
+    description: '761st Tank Battalion.',
+    image: '761st-tank-battalion-06.jpg',
+    category: 'Tanks',
+    source: 'National Archives and Records Administration: SC 196107-S',
+    date: '5 November 1944'
+  },
+  {
+    id: 469,
+    name: 'Corporal Carlton Chapman, Pembroke, Va., is a machine gunner in an M4 tank attached to a Motor Transport unit near Nancy, France.',
+    description: '761st Tank Battalion.',
+    image: '761st-tank-battalion-05.jp',
+    category: 'Tanks',
+    source: 'National Archives and Records Administration: SC 196106-S',
+    date: ''
+  },
+  {
+    id: 480,
+    name: 'Capt. Cleetus C. Clemens conducts services at U.S. Military Cemetery No. 1 in Foy, Belgium.',
+    description: 'This service was held for men of the 3201st Quartermaster Service Company.',
+    image: '3201st-quartermaster-service-company-01.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 201455',
+    date: '26 February 1945'
+  },
+  {
+    id: 481,
+    name: 'U.S. casualties on the Third Army front are unloaded for burial at U.S. Military Cemetery in Foy, Belgium.',
+    description: '90th Infantry Division.',
+    image: 'foy-cemetery-burial-01.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 201456',
+    date: '26 February 1945'
+  },
+  {
+    id: 482,
+    name: 'American casualties are wrapped in mattress covers for burial at U.S. Military Cemetery No. 1 in Foy, Belgium.',
+    description: '',
+    image: 'foy-cemetery-burial-02.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 201457',
+    date: '26 February 1945'
+  },
+  {
+    id: 483,
+    name: 'A DUKW operated by men of a port battalion carries cargo from Cherbourg harbor to mainland France.',
+    description: '463rd Amphibious Truck Company.',
+    image: '463rd-amphibious-truck-company-01.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 193030',
+    date: '18 August 1944'
+  },
+  {
+    id: 484,
+    name: 'Private Alfred Roberts and Private Louis Peters transfer ammunition from a Liberty ship to the coast of France using a DUKW.',
+    description: 'These men have been operating with their company in this capacity since D-Day.',
+    image: '463rd-amphibious-truck-company-02.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 193031',
+    date: '18 August 1944'
+  },
+  {
+    id: 485,
+    name: "S/Sgt. William H. Holly and Sgt. Moses H. Mason repair a drive shaft housing using an improvised babbit mold.",
+    description: "These men have been working in France since D-Day plus one.",
+    image: "463rd-amphibious-truck-company-03.jpg",
+    category: "",
+    source: "National Archives and Records Administration: SC 193032",
+    date: ""
+  },
+  {
+    id: 486,
+    name: 'Sgt. Albert R. Jenkins, 1st Lt. Loren J. Pryor, and Sgt. Junius Meade straighten a propeller shaft of a DUKW.',
+    description: 'This work was performed on a machine improvised for this task when new propeller shafts were unavailable.',
+    image: '463rd-amphibious-truck-company-04.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 193033',
+    date: '18 August 1944'
+  },
+  {
+    id: 487,
+    name: 'S/Sgt. Sam Beal makes a wooden stud bearing for a DUKW.',
+    description: 'This stud, normally made of metal, was fashioned by Sgt. Beal and his maintenance team as a "make do" solution when replacements were unavailable.',
+    image: '463rd-amphibious-truck-company-05.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 193034',
+    date: '18 August 1944'
+  },
+  {
+    id: 488,
+    name: 'Corporal Oscar Adams and Corporal Floyd Carrio design an improvised rudder for DUKWs.',
+    description: 'Corporal Adams, a welder, and Corporal Carrio, a mechanic, worked together to create this rudder when replacements were unavailable on the beaches during D-Day and after.',
+    image: '463rd-amphibious-truck-company-06.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 193035',
+    date: ''
+  },
+  {
+    id: 489,
+    name: 'Corporal Edward W.P. Landrum takes time out to shave during a break in firing.',
+    description: 'His field artillery unit was engaged in firing on enemy barges trying to escape across the Seine River at Mantes-Gassicourt, France, 15 miles below Paris.',
+    image: '999th-field-artillery-battalion-02.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 193012-S',
+    date: '20 August 1944'
+  },
+  {
+    id: 490,
+    name: 'Another projectile from an 8-inch howitzer is fired to stop the German retreat across the Seine River.',
+    description: 'This occurred opposite the town of Mantes-Gassicourt, France, 15 miles below Paris.',
+    image: '999th-field-artillery-battalion-02.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 193015-S',
+    date: '20 August 1944'
+  },
+  {
+    id: 491,
+    name: 'Another present from "Harlem to Hitler" is presented on behalf of an artillery outfit firing at German escape barges across the River Seine.',
+    description: 'Montes-Gassicourt, France.',
+    image: '999th-field-artillery-battalion-04.jpg',
+    category: 'Artillery',
+    source: 'National Archives and Records Administration: SC 192991-S',
+    date: '20 August 1944'
+  },
+  {
+    id: 492,
+    name: 'Pfc. Albert Buhlig and Pfc. Pedro Hernandez direct traffic through the streets of Cherbourg, France.',
+    description: '',
+    image: 'cherbourg-traffic-control-01.jpg',
+    category: '',
+    source: 'National Archives and Records Administration: SC 191873',
+    date: '17 July 1944'
+  },
+  {
+    id: 493,
+    name: 'Black troops of a field artillery battery emplace a 155mm howitzer in France.',
+    description: 'They have been following the advance of the infantry and are now setting up this new position. Periers sector, along the river Seves. Battery A, 333rd Field Artillery Battalion, 90th Infantry Division.',
+    image: '333rd-field-artillery-battalion-01.jpg',
+    category: 'Artillery',
+    source: 'National Archives and Records Administration: SC 191890-S',
+    date: '28 July 1944'
+  },
+  {
+    id: 494,
+    name: 'First Black troops arrive by train to their assigned post of duty in Cherbourg, France.',
+    description: 'This troop train is being unloaded, bringing the first Black troops to their assigned post of duty by train.',
+    image: 'black-troops-cherbourg-01.jpg',
+    category: 'Signal Corps',
+    source: 'National Archives and Records Administration: SC 191905-S',
+    date: '31 July 1944'
+  },
+  {
+    id: 495,
+    name: 'Sgt. John B. Smith and Lt. Robert Back check records in front of showers for front line troops.',
+    description: 'Both are members of a Quartermaster fumigation and bath unit. St. Lo, France.',
+    image: 'quartermaster-fumigation-bath-unit-01.jpg',
+    category: 'Quartermaster',
+    source: 'National Archives and Records Administration: SC 192032',
+    date: '31 July 1944'
+  },
 
   {
     id: 900, 
