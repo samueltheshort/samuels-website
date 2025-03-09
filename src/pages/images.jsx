@@ -695,7 +695,7 @@ export const imageData = [
     id: 430,
     name: 'Loading a 155mm M1 rifle of Btry B, 49th Coast Artillery, Section 2, Black troops operating.',
     description: 'Location not specified.',
-    image: '49th-coast-artillery-battalion-01.jpg',
+    image: '49th-coast-artillery-01.jpg',
     category: 'Artillery',
     source: 'National Archives and Records Administration: SC 364569',
     date: '16 April 1944'
@@ -704,7 +704,7 @@ export const imageData = [
     id: 431,
     name: 'Members of the 49th Coast Artillery, (Colored) firing 155mm howitzer at night on Bougainville.',
     description: '49th Coastal Artillery.',
-    image: '49th-coast-artillery-battalion-04.jpg',
+    image: '49th-coast-artillery-02.jpg',
     category: 'Artillery',
     source: 'National Archives and Records Administration: SC 364572',
     date: ''
@@ -767,7 +767,7 @@ export const imageData = [
     id: 441,
     name: 'At the newly opened Red Cross club in Cherbourg, Corporal Charles C. Murphyel gets his share of Yankee doughnuts and coffee.',
     description: 'Girls are French Red Cross volunteers.',
-    image: 'red-cross-club-cherbourg-01.jpg',
+    image: 'red-cross-club-01.jpg',
     category: '',
     source: 'National Archives and Records Administration: SC 329721',
     date: '29 July 1944'
@@ -848,7 +848,7 @@ export const imageData = [
     id: 453,
     name: 'Members of a Port Battalion unload boxes of turkeys from liberty ships to trucks for transportation to all the fighting fronts for "Turkey Day" dinner.',
     description: '(L to R) Private Fred Johnson, Ft. Worth, Texas, and Private First Class Willie Seals, Dallas, Texas. E.T.O.',
-    image: 'SC_196205-S.jpg',
+    image: 'port-battalion-01.jpg',
     category: '',
     source: 'National Archives and Records Administration: SC 196205-S',
     date: '5 November 1944'
@@ -1073,7 +1073,7 @@ export const imageData = [
     id: 469,
     name: 'Corporal Carlton Chapman, Pembroke, Va., is a machine gunner in an M4 tank attached to a Motor Transport unit near Nancy, France.',
     description: '761st Tank Battalion.',
-    image: '761st-tank-battalion-05.jp',
+    image: '761st-tank-battalion-05.jpg',
     category: 'Tanks',
     source: 'National Archives and Records Administration: SC 196106-S',
     date: ''
@@ -1172,7 +1172,7 @@ export const imageData = [
     id: 490,
     name: 'Another projectile from an 8-inch howitzer is fired to stop the German retreat across the Seine River.',
     description: 'This occurred opposite the town of Mantes-Gassicourt, France, 15 miles below Paris.',
-    image: '999th-field-artillery-battalion-02.jpg',
+    image: '999th-field-artillery-battalion-03.jpg',
     category: '',
     source: 'National Archives and Records Administration: SC 193015-S',
     date: '20 August 1944'
