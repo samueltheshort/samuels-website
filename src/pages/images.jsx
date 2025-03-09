@@ -592,6 +592,25 @@ export const imageData = [
     date: 'A few days prior to 15 August 1944.'
   }, 
   {
+    id: 406,
+    name: 'Major General John C.H. Lee and Brig. General Benjamin O. Davis inspect Services of Supply troops somewhere in England.',
+    description: 'Bristol, England. Company C, 398th Port Battalion.',
+    image: '398th-port-battalion.jpg',
+    category: 'Quartermaster',
+    source: 'National Archives and Records Administration: SC 151563',
+    date: '2 October 1942'
+  },
+  {
+    id: 407,
+    name: 'Brig. Gen. Benjamin Davis is making a personnel inspection of Black troops somewhere in England.',
+    description: 'The prescribed way of wearing your identification tags, dog tags, is as important as making your bed in the army. Bristol, England. 398th Port Battalion.',
+    image: '398th-port-battalion-03.jpg',
+    category: 'Signal Corps',
+    source: 'National Archives and Records Administration: SC 151566',
+    date: '2 October 1942'
+  },
+
+  {
     id: 418,
     name: 'GI chorus entertains U.S. troops at large HQ in Belgium on Christmas Eve.',
     description: 'The chorus under the supervision of Chaplain William A. Smith, of Sioux Falls, S.Dak., and lead by Cpl. John Wesley Mann, New York City, sang Black American spirituals and Christmas carols for over an hour. 390th Engineer Regiment Chorus, Namur, Belgium.',
