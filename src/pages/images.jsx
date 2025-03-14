@@ -416,7 +416,7 @@ export const imageData = [
     name: 'An armed halftrack of the 827th Engineers Aviation Battalion.',
     description: 'Derived from original caption: Although the main job for the members of the 827th Engineers, is to construct an airport they still have to keep in trim for fighting. L to R: Private James Bryand, Sergeant Will L. Scott, Private First Class Dan Smith, and Corporal Woodrow George. This image also appeared in the Jackson Advocate of 4 September 1943, which alludes to an invasion of Germany. However, in September 1943, the Normandy landings were far in the future.',
     image: '827th-engineers-aviation-battalion-01.jpg',
-    category: 'Engineers',
+    category: 'Engineer',
     source: 'Ike Skelton Combined Arms Research Library: SC 174587.',
     date: '1943',
   },
@@ -537,6 +537,16 @@ export const imageData = [
     source: 'National Archives and Records Administration: SC 364370', 
     date: '14 December, 1944'
   }, 
+  {
+    id: 113, 
+    name: 'Soldiers with a thompson machine gun.', 
+    description: 'Although engaged almost fulltime on the construction of an air field these members of an aviation engineer battalion in England keep up to date with military duties. Sergeant Nathaniel Walker, Princeton, North Carolina (left) instructs Sergeant Howell J. Atkins, Fort Worth, Texas, in the use of a Thompson submachine gun. Note the drum magazine on the weapon.',   
+    image: 'thompson-01.jpg', 
+    category: 'Engineer', 
+    source: 'United States Army Heritage and Education Center', 
+    date: '29 June 1943'
+  }, 
+
   {
     id: 400, 
     name: 'The 22nd Special Naval Construction Battalion celebrates peace.', 
