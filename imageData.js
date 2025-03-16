@@ -655,7 +655,7 @@
     {
       id: 126,
       name: 'The post chapel has large crowd of Black troops in afternoon of Bishop Gregg sermon.',
-      description: 'Recreation',
+      description: '',
       image: 'black-chapel-01.jpg',
       category: '',
       source: 'National Archives and Records Administration: SC 364367',
@@ -918,7 +918,7 @@
       name: '"Tropical Boogie-Woogie" performed by Private Albert Wright in a recreation hall in the South Pacific Area.',
       description: 'The men are members of an Air Base Security Battalion.',
       image: '903rd-air-base-security-battalion-09.jpg',
-      category: 'Recreation',
+      category: 'recreation',
       source: 'National Archives and Records Administration: SC 184657',
       date: '29 June 1943'
     },
@@ -1238,14 +1238,23 @@
         source: 'National Archives and Records Administration: 175739033',
         date: '28 October 1944'
     },
-    {
-        id: 189,
-        name: '3454th Quartermaster Truck Company',
-        description: 'A Black soldier helps a Dutch girl get off a Truck. The girls are part of the Dutch population of Roermond, which was temporarily evacuated. ',
-        image: '3454th-quartermaster-truck-company.jpg',
-        category: 'Quartermaster',
-        source: 'Nationaal Archief: 900-2295',
-        date: 'March 1945'
-    },
+  {
+    id: 189,
+    name: '3454th Quartermaster Truck Company',
+    description: 'A Black soldier helps a Dutch girl get off a Truck. The girls are part of the Dutch population of Roermond, which was temporarily evacuated. ',
+    image: '3454th-quartermaster-truck-company.jpg',
+    category: 'Quartermaster',
+    source: 'Nationaal Archief: 900-2295',
+    date: 'March 1945'
+  },
+  {
+    id: 190,
+    name: '93rd Infantry Division soldiers purify their drinking water',
+    description: 'It\'s "time out" along the Numa-Numa Trail as these members of the 93rd Infantry Division purify water taken from the nearby Laruma River on Bougainville.  Left to right: Pfc. Johnny Holley, South Carolina; Pfc. William Jones, New Orleans, Louisiana; Sgt. Dalton Cook, Henderson, Texas; and Sgt. Raymond E. Rollins, Baltimore, Maryland. This is the first time that Black ground troops have been used in combat in South Pacific theater. Bougainville, Solomon Islands.',
+    image: '93rd-infantry-division-soldiers-purify-their-drinking-water.jpg',
+    category: 'Infantry',
+    source: 'National Archives: 178140814',
+    date: '1 May 1944'
+  },
 
 ] };

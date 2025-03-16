@@ -653,7 +653,7 @@ export const imageData = [
     {
       id: 126,
       name: 'The post chapel has large crowd of Black troops in afternoon of Bishop Gregg sermon.',
-      description: 'Recreation',
+      description: '',
       image: 'black-chapel-01.jpg',
       category: '',
       source: 'National Archives and Records Administration: SC 364367',
@@ -916,7 +916,7 @@ export const imageData = [
       name: '"Tropical Boogie-Woogie" performed by Private Albert Wright in a recreation hall in the South Pacific Area.',
       description: 'The men are members of an Air Base Security Battalion.',
       image: '903rd-air-base-security-battalion-09.jpg',
-      category: 'Recreation',
+      category: 'recreation',
       source: 'National Archives and Records Administration: SC 184657',
       date: '29 June 1943'
     },
@@ -1208,25 +1208,6 @@ export const imageData = [
       source: 'National Archives and Records Administration: SC 192032',
       date: '31 July 1944'
     },
-  
-    {
-      id: 200, 
-      name: 'Lawrence Johnson', 
-      description: 'Lawrence Johnson served in the 614th Tank Destroyer Battalion during World War II and this photograph is included in the book "The 614th Tank Destroyer Battalion: Fighting on Both Fronts".', 
-      image: 'lawrence-johnson-614th-tank-destroyer-1945.jpg', 
-      category: 'Portrait',
-      source: 'Lawrence Johnson family', 
-      date: '1945'
-    }, 
-    {
-      id: 201, 
-      name: 'Stafford Rimes', 
-      description: 'Stafford Rimes served in the 452nd Anti-Aircraft Artillery Battalion and he was killed in action on 21 November 1944. This photograph is included in the book "The 452nd Anti-Aircraft Artillery Battalion: Destroyers of the Luftwaffe and Jim Crow".', 
-      image: 'stafford-rimes-452nd-anti-aircraf-artillery.jpg', 
-      category: 'Portrait', 
-      source: 'Stafford Rimes family', 
-      date: 'Undated'
-    },
     {
         id: 188,
         name: '828th Amphibious Truck Company',
@@ -1245,6 +1226,43 @@ export const imageData = [
         source: 'Nationaal Archief: 900-2295',
         date: 'March 1945'
     },
+    {
+        id: 190,
+        name: '93rd Infantry Division soldiers purify their drinking water',
+        description: 'It\'s "time out" along the Numa-Numa Trail as these members of the 93rd Infantry Division purify water taken from the nearby Laruma River on Bougainville.  Left to right: Pfc. Johnny Holley, South Carolina; Pfc. William Jones, New Orleans, Louisiana; Sgt. Dalton Cook, Henderson, Texas; and Sgt. Raymond E. Rollins, Baltimore, Maryland. This is the first time that Black ground troops have been used in combat in South Pacific theater. Bougainville, Solomon Islands.',
+        image: '93rd-infantry-division-soldiers-purify-their-drinking-water.jpg',
+        category: 'Infantry',
+        source: 'National Archives: 178140814',
+        date: '1 May 1944'
+    },
+    {
+      id: 200, 
+      name: 'Lawrence Johnson', 
+      description: 'Lawrence Johnson served in the 614th Tank Destroyer Battalion during World War II and this photograph is included in the book "The 614th Tank Destroyer Battalion: Fighting on Both Fronts".', 
+      image: 'lawrence-johnson-614th-tank-destroyer-1945.jpg', 
+      category: 'Portrait',
+      source: 'Lawrence Johnson family', 
+      date: '1945'
+    }, 
+    {
+      id: 201, 
+      name: 'Stafford Rimes', 
+      description: 'Stafford Rimes served in the 452nd Anti-Aircraft Artillery Battalion and he was killed in action on 21 November 1944. This photograph is included in the book "The 452nd Anti-Aircraft Artillery Battalion: Destroyers of the Luftwaffe and Jim Crow".', 
+      image: 'stafford-rimes-452nd-anti-aircraf-artillery.jpg', 
+      category: 'Portrait', 
+      source: 'Stafford Rimes family', 
+      date: 'Undated'
+    },
+  {
+    id: 202,
+    name: '761st Tank Battalion',
+    description: 'Members of the 761st Tank Battalion, somewhere in England, make last minute adjustments before leaving to go into action on the continent. Front row (left to right): Sgt. Maxie Henry (Kansas City, MO); Pfc. Judge Favors (Tampa, FL); S/Sgt. Jack Gilbert (Chicago, IL); Pfc. Albert Fulwood (Huntingtown, WV); S/Sgt. John W. Bush (Cincinnati, OH). Rear (left to right): S/Sgt. Elmo Johnson (Topeka, KS); Pfc. Matthew L. Johnson (Homestead, GA); and Sgt. Arthur E. Ritchie (Chickasaw, OK). ',
+    image: '761st-tank-battalion-12.jpg',
+    category: 'Tanks',
+    source: 'National Archives and Records Administration: 175539105',
+    date: '1 May 1944'
+  },
+
 
 ];
 
