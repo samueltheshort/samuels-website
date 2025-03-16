@@ -1,6 +1,4 @@
-
-  // Auto-generated imageData file
-  module.exports = { imageData: [
+export const imageData = [
   
     {
       id: 1,
@@ -1248,4 +1246,6 @@
         date: 'March 1945'
     },
 
-] };
+];
+
+  export default imageData;

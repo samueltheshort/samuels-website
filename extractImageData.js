@@ -5,7 +5,7 @@ const path = require('path');
 const rootDir = path.resolve(__dirname);
 
 // Read the `images.jsx` file
-const galleryFilePath = path.resolve(rootDir, 'src', 'pages', 'images.jsx');
+const galleryFilePath = path.resolve(rootDir, 'src', 'data', 'imageData.js');
 const galleryFileContent = fs.readFileSync(galleryFilePath, 'utf-8');
 
 // Regular expression to match the imageData array inside the gallery file
