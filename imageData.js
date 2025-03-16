@@ -1210,7 +1210,33 @@
       source: 'National Archives and Records Administration: SC 192032',
       date: '31 July 1944'
     },
-  
+    {
+        id: 188,
+        name: '828th Amphibious Truck Company',
+        description: 'Soldiers of the 828th Amphibious Truck Company, move to the front in support of 7th Division near Julita, Leyte Island, Philippines.',
+        image: '828th-amphibious-truck-company.jpg',
+        category: 'Transportation',
+        source: 'National Archives and Records Administration: 175739033',
+        date: '28 October 1944'
+    },
+    {
+        id: 189,
+        name: '3454th Quartermaster Truck Company',
+        description: 'A Black soldier helps a Dutch girl get off a Truck. The girls are part of the Dutch population of Roermond, which was temporarily evacuated. ',
+        image: '3454th-quartermaster-truck-company.jpg',
+        category: 'Quartermaster',
+        source: 'Nationaal Archief: 900-2295',
+        date: 'March 1945'
+    },
+    {
+        id: 190,
+        name: '93rd Infantry Division soldiers purify their drinking water',
+        description: 'It\'s "time out" along the Numa-Numa Trail as these members of the 93rd Infantry Division purify water taken from the nearby Laruma River on Bougainville.  Left to right: Pfc. Johnny Holley, South Carolina; Pfc. William Jones, New Orleans, Louisiana; Sgt. Dalton Cook, Henderson, Texas; and Sgt. Raymond E. Rollins, Baltimore, Maryland. This is the first time that Black ground troops have been used in combat in South Pacific theater. Bougainville, Solomon Islands.',
+        image: '93rd-infantry-division-soldiers-purify-their-drinking-water.jpg',
+        category: 'Infantry',
+        source: 'National Archives: 178140814',
+        date: '1 May 1944'
+    },
     {
       id: 200, 
       name: 'Lawrence Johnson', 
@@ -1229,32 +1255,15 @@
       source: 'Stafford Rimes family', 
       date: 'Undated'
     },
-    {
-        id: 188,
-        name: '828th Amphibious Truck Company',
-        description: 'Soldiers of the 828th Amphibious Truck Company, move to the front in support of 7th Division near Julita, Leyte Island, Philippines.',
-        image: '828th-amphibious-truck-company.jpg',
-        category: 'Transportation',
-        source: 'National Archives and Records Administration: 175739033',
-        date: '28 October 1944'
-    },
   {
-    id: 189,
-    name: '3454th Quartermaster Truck Company',
-    description: 'A Black soldier helps a Dutch girl get off a Truck. The girls are part of the Dutch population of Roermond, which was temporarily evacuated. ',
-    image: '3454th-quartermaster-truck-company.jpg',
-    category: 'Quartermaster',
-    source: 'Nationaal Archief: 900-2295',
-    date: 'March 1945'
-  },
-  {
-    id: 190,
-    name: '93rd Infantry Division soldiers purify their drinking water',
-    description: 'It\'s "time out" along the Numa-Numa Trail as these members of the 93rd Infantry Division purify water taken from the nearby Laruma River on Bougainville.  Left to right: Pfc. Johnny Holley, South Carolina; Pfc. William Jones, New Orleans, Louisiana; Sgt. Dalton Cook, Henderson, Texas; and Sgt. Raymond E. Rollins, Baltimore, Maryland. This is the first time that Black ground troops have been used in combat in South Pacific theater. Bougainville, Solomon Islands.',
-    image: '93rd-infantry-division-soldiers-purify-their-drinking-water.jpg',
-    category: 'Infantry',
-    source: 'National Archives: 178140814',
+    id: 191,
+    name: '761st Tank Battalion',
+    description: 'Members of the 761st Tank Battalion, somewhere in England, make last minute adjustments before leaving to go into action on the continent. Front row (left to right): Sgt. Maxie Henry (Kansas City, MO); Pfc. Judge Favors (Tampa, FL); S/Sgt. Jack Gilbert (Chicago, IL); Pfc. Albert Fulwood (Huntingtown, WV); S/Sgt. John W. Bush (Cincinnati, OH). Rear (left to right): S/Sgt. Elmo Johnson (Topeka, KS); Pfc. Matthew L. Johnson (Homestead, GA); and Sgt. Arthur E. Ritchie (Chickasaw, OK). ',
+    image: '761st-tank-battalion-12.jpg',
+    category: 'Tanks',
+    source: 'National Archives and Records Administration: 175539105',
     date: '1 May 1944'
   },
+
 
 ] };

@@ -1254,7 +1254,7 @@ export const imageData = [
       date: 'Undated'
     },
   {
-    id: 202,
+    id: 191,
     name: '761st Tank Battalion',
     description: 'Members of the 761st Tank Battalion, somewhere in England, make last minute adjustments before leaving to go into action on the continent. Front row (left to right): Sgt. Maxie Henry (Kansas City, MO); Pfc. Judge Favors (Tampa, FL); S/Sgt. Jack Gilbert (Chicago, IL); Pfc. Albert Fulwood (Huntingtown, WV); S/Sgt. John W. Bush (Cincinnati, OH). Rear (left to right): S/Sgt. Elmo Johnson (Topeka, KS); Pfc. Matthew L. Johnson (Homestead, GA); and Sgt. Arthur E. Ritchie (Chickasaw, OK). ',
     image: '761st-tank-battalion-12.jpg',
