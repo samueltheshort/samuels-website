@@ -1263,7 +1263,6 @@ export const imageData = [
     date: '1 May 1944'
   },
 
-
 ];
 
   export default imageData;
