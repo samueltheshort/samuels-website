@@ -918,7 +918,7 @@
       name: '"Tropical Boogie-Woogie" performed by Private Albert Wright in a recreation hall in the South Pacific Area.',
       description: 'The men are members of an Air Base Security Battalion.',
       image: '903rd-air-base-security-battalion-09.jpg',
-      category: 'recreation',
+      category: 'Recreation',
       source: 'National Archives and Records Administration: SC 184657',
       date: '29 June 1943'
     },
@@ -1264,6 +1264,41 @@
     source: 'National Archives and Records Administration: 175539105',
     date: '1 May 1944'
   },
-
+  {
+    id: 192,
+    name: 'Quartermaster Corps soldiers are filling fuel cans',
+    description: 'Fuel cans are filled at the decanting point, part of the fuel pipe line in France, by members of the Quartermaster Corps. ',
+    image: 'quartermaster-corps-soldiers-are-filling-fuel-cans.jpg',
+    category: 'Quartermaster',
+    source: 'United States Army Heritage and Education Center',
+    date: '1944'
+  },
+  {
+    id: 293,
+    name: '3535th Quartermaster Truck Company',
+    description: 'A Black member of the 3535th Quartermaster Truck Company guides a 2-ton truck to the field grease pit where he stands. This pit was constructed by the 3535th Quartermaster Truck Company while they were on bivouac at Fort Benning, Georgia.',
+    image: '3535th-quartermaster-truck-company.jpg',
+    category: 'Quartermaster',
+    source: 'U.S. Army, VIRIN: 440706-A-D0439-010',
+    date: '6 July 1944'
+  },
+  {
+    id: 294,
+    name: 'Red Ball Convoy',
+    description: 'A convoy of the Red Ball Express near Alencon, France.',
+    image: 'red-ball-convoy.jpg',
+    category: 'Quartermaster',
+    source: 'United States Heritage and Education Center',
+    date: '1 September 1944'
+  },
+  {
+    id: 295,
+    name: 'Red Ball Express drivers having breakfast',
+    description: 'Drivers of the Red Ball Express are having breakfast near Alencon, France.',
+    image: 'red-ball-express-drivers-having-breakfast.jpg',
+    category: '',
+    source: 'United States Heritage and Education Center',
+    date: '1 September 1944'
+  },
 
 ] };

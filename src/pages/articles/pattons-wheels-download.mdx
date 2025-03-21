@@ -1,0 +1,66 @@
+
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+
+import redballdrivers from 'public/images/red-ball-express-drivers-having-breakfast.jpg'
+import redballconvoy from 'public/images/red-ball-convoy.jpg'
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2025-03-21',
+  title: 'Patton’s Wheels: The Unsung Heroes Behind the Third Army’s Swift Advance',
+  description:
+    'In the grand narrative of World War II, certain names dominate our collective memory: Eisenhower, MacArthur, and perhaps most dramatically, General George S. Patton. Patton’s Third Army blazed across Europe with unprecedented speed, earning him the nickname “Old Blood and Guts.” But behind this legendary advance was a crucial support system that made it all possible: the 514th Quartermaster Group. This unit is the subject of the book “Patton’s Wheels.”',
+}
+
+export default (props) => (
+  <>
+    {/* Head Section for SEO */}
+    <Head>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      <link rel="canonical" href="https://www.samueldekorte.com/articles/pattons-wheels-download" />
+    </Head>
+
+    {/* Article Layout */}
+    <ArticleLayout meta={meta} {...props} />
+  </>
+)
+
+# Patton’s Wheels: The Unsung Heroes Behind the Third Army’s Swift Advance
+In the grand narrative of World War II, certain names dominate our collective memory: Eisenhower, MacArthur, and perhaps most dramatically, General George S. Patton. Patton’s Third Army blazed across Europe with unprecedented speed, earning him the nickname “Old Blood and Guts.” But behind this legendary advance was a crucial support system that made it all possible: the 514th Quartermaster Group. This unit is the subject of the book “Patton’s Wheels.”
+[“Patton’s Wheels”](/sources) reveals how this quartermaster group became the lifeblood of the Third Army’s operations, managing the extraordinary feat of supplying a rapidly moving force across challenging terrain and hostile conditions.
+
+<div className="text-center">
+   <Image
+    src={redballconvoy}
+    alt="A convoy of the Red Ball Express in France."
+    sizes="(min-width: 200px)"
+    className="rotate-0 bg-stone-100 object-cover dark:bg-stone-800 mx-auto"
+   />
+  <figcaption className="mt-2"><b>(A convoy of the Red Ball Express in France. Courtesy of United States Army Heritage and Education Center.)</b></figcaption>
+</div> 
+
+## A Visual History Through Unique Photography
+One of the treasures of “Patton’s Wheels” is its collection of previously unpublished photographs documenting daily life in the 514th. These images provide a rare glimpse into the operations behind front lines—mechanics repairing vehicles, quartermasters managing massive supply depots, and soldiers navigating the complex logistics of moving an entire army across Europe.
+## Black American Contributions: A Story Long Overlooked
+Perhaps the most significant contribution of “Patton’s Wheels” is its spotlight on the substantial role played by Black American soldiers within the 514th Quartermaster Group. In the segregated military of World War II, Black American units were frequently assigned to service and support roles rather than combat positions. This book assists in giving long overdue recognition to these soldiers who, despite facing discrimination within their own army, performed important duties.
+
+<div className="text-center">
+   <Image
+    src={redballdrivers}
+    alt="Drivers of the Red Ball Express are having breakfast."
+    sizes="(min-width: 200px)"
+    className="rotate-0 bg-stone-100 object-cover dark:bg-stone-800 mx-auto"
+   />
+  <figcaption className="mt-2"><b>(Drivers of the Red Ball Express are having breakfast. Courtesy of United States Army Heritage and Education Center.)</b></figcaption>
+</div> 
+
+## A Legacy Reconsidered
+“Patton’s Wheels” offers a valuable reconsideration of what—and who—truly enables military success. While strategic brilliance and battlefield courage are rightfully celebrated, this book reminds us that the capacity to sustain an army in motion is equally vital to victory.
+For readers interested in military history, Black American contributions to World War II, or the often-overlooked aspects of logistics and supply, “Patton’s Wheels” provides an essential perspective on how the wheels of war truly turn. It credits the diverse group of Americans whose work and dedication helped secure victory in Europe and reminds us that military success depends as much on supply lines as front lines.
+Want to know more about this fascinating unit: the 514th Quartermaster Group? Head on over to [sources](/sources), where you can download it for free.
