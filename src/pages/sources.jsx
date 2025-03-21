@@ -40,6 +40,18 @@ export default function Sources() {
         </div>
         <div className="mt-8">
           <a
+            href="/pattons-wheels.pdf"
+            download="pattons-wheels.pdf"
+            className="text-blue-500 hover:underline"
+          >
+            Pattons Wheels. (PDF). 
+          </a>
+          <p className="text-sm text-gray-600">
+          This is a booklet featuring the history of the 514th Quartermaster Group, which serviced Patton's Third Army. In their own words: "This is the story of many of the unsung heroes in this war - it is the story of quartermaster trucks in the third united states army, the trucks that gave mobility to the most mobile army in the world."
+  </p>
+        </div>
+        <div className="mt-8">
+          <a
             href="/HelenDouglas.pdf"
             download="HelenDouglas.pdf"
             className="text-blue-500 hover:underline"
