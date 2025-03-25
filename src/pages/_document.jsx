@@ -1,4 +1,4 @@
-import { Head, Html, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from 'next/document'
 
 const modeScript = `
   let darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
@@ -39,7 +39,6 @@ export default function Document() {
   return (
     <Html className="h-full antialiased" lang="en">
       <Head>
-        <script dangerouslySetInnerHTML={{ __html: modeScript }} />
         <link
           rel="alternate"
           type="application/rss+xml"
@@ -54,6 +53,15 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap"
           rel="stylesheet"
         />
+
+        {/* Add MailerLite Universal Script */}
+        <script
+          async
+          src="https://assets.mailerlite.com/js/universal.js"
+          data-account="1402781"
+          type="text/javascript"
+        ></script>
+
       </Head>
       <body className="flex h-full flex-col bg-stone-50 font-['Source_Serif_Pro'] dark:bg-stone-900">
         <Main />

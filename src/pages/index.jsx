@@ -187,6 +187,20 @@ export default function Home({ articles }) {
           content="I'm Samuel de Korte. I'm a historian and I write about Black American soldiers during World War II."
         />
         <link rel="canonical" href="https://www.samueldekorte.com/" />
+        <script
+          id="mcjs"
+          dangerouslySetInnerHTML={{
+            __html: `
+              !function(c,h,i,m,p){
+                m=c.createElement(h),
+                p=c.getElementsByTagName(h)[0],
+                m.async=1,
+                m.src=i,
+                p.parentNode.insertBefore(m,p)
+              }(document,"script","https://chimpstatic.com/mcjs-connected/js/users/03a70de8dd4fb17f5424f1b2c/cd144dffd7f60456e064aad4c.js");
+            `,
+          }}
+        ></script>
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
