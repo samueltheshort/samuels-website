@@ -3,19 +3,64 @@ import React, { useEffect, useState } from 'react';
 
 export function Newsletter() {
   const [isClient, setIsClient] = useState(false);
+  const [formStatus, setFormStatus] = useState('idle'); // idle, submitting, success, error
 
   useEffect(() => {
     setIsClient(true);
-    
-    // This will ensure the MailerLite form is properly initialized
-    if (typeof window !== 'undefined' && window.ml_jQuery) {
-      // Re-initialize any MailerLite scripts
-      const script = document.createElement('script');
-      script.src = 'https://groot.mailerlite.com/js/w/webforms.min.js?v176e10baa5e7ed80d35ae235be3d5024';
-      script.async = true;
-      document.body.appendChild(script);
-    }
   }, []);
+
+  // Handle form submission via JavaScript
+  const handleFormSubmit = (e) => {
+    // For client-side only
+    if (!isClient) return;
+    
+    // Get the form element from the DOM after it's rendered
+    const form = document.querySelector('#newsletter-form');
+    if (!form) return;
+    
+    // Add an event listener for form submission
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+      setFormStatus('submitting');
+      
+      // Create a FormData object from the form
+      const formData = new FormData(form);
+      
+      // Submit the form data via fetch
+      fetch('https://assets.mailerlite.com/jsonp/1402781/forms/149595039718180275/subscribe', {
+        method: 'POST',
+        body: formData,
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          setFormStatus('success');
+          // Show MailerLite success message
+          const successElement = document.querySelector('.ml-form-successBody');
+          const formElement = document.querySelector('.ml-form-embedBodyDefault');
+          if (successElement && formElement) {
+            successElement.style.display = 'block';
+            formElement.style.display = 'none';
+          }
+        } else {
+          setFormStatus('error');
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        setFormStatus('error');
+      });
+    });
+    
+    // Cleanup
+    return () => {
+      if (form) {
+        form.removeEventListener('submit', handleFormSubmit);
+      }
+    };
+  };
+
+  useEffect(handleFormSubmit, [isClient]);
 
   if (!isClient) {
     // Return a placeholder with similar styling to avoid hydration issues
@@ -41,7 +86,7 @@ export function Newsletter() {
                       <h4 style="color: var(--tw-prose-headings, #1a1a1a); font-size: 1.25rem; margin-bottom: 0.5rem; font-weight: 600;" class="dark:text-stone-100">Newsletter</h4>
                       <p style="color: var(--tw-prose-body, #374151); margin-bottom: 1rem;" class="dark:text-stone-400">Subscribe to our newsletter for the latest updates and offers.</p>
                     </div>
-                    <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/1402781/forms/149595039718180275/subscribe" data-code="" method="post">
+                    <form id="newsletter-form" class="ml-block-form" action="https://assets.mailerlite.com/jsonp/1402781/forms/149595039718180275/subscribe" data-code="" method="post">
                       <div class="ml-form-formContent">
                         <div class="ml-form-fieldRow">
                           <div class="ml-field-group ml-field-name">
@@ -56,10 +101,8 @@ export function Newsletter() {
                       </div>
                       <input type="hidden" name="ml-submit" value="1">
                       <div class="ml-form-embedSubmit" style="margin-top: 1rem;">
-                        <button type="submit" class="primary" style="background-color: #ef4444; color: white; border: none; padding: 0.5rem 1rem; border-radius: 0.375rem; font-weight: 500; cursor: pointer; width: 100%;">Subscribe</button>
-                        <button disabled="disabled" style="display: none;" type="button" class="loading">
-                          <div class="ml-form-embedSubmitLoad"></div>
-                          <span class="sr-only">Loading...</span>
+                        <button type="submit" class="primary" style="background-color: #ef4444; color: white; border: none; padding: 0.5rem 1rem; border-radius: 0.375rem; font-weight: 500; cursor: pointer; width: 100%;">
+                          ${formStatus === 'submitting' ? 'Subscribing...' : 'Subscribe'}
                         </button>
                       </div>
                       <input type="hidden" name="anticsrf" value="true">
@@ -74,13 +117,6 @@ export function Newsletter() {
                 </div>
               </div>
             </div>
-            <script>
-              function ml_webform_success_23978422() {
-                var $ = ml_jQuery || jQuery;
-                $('.ml-subscribe-form-23978422 .row-success').show();
-                $('.ml-subscribe-form-23978422 .row-form').hide();
-              }
-            </script>
           `
         }} 
       />
