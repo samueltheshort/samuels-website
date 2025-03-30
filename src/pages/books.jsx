@@ -9,6 +9,7 @@ import covertragedy from '@/images/books/tragedy-and-betrayal.jpg'
 import coverexecutie from '@/images/books/executie.jpg'
 import coverwagevier from '@/images/books/Fighting-for-Napoleons-Army-in-Russia.jpg'
 import coverTuskegee from '@/images/books/Tuskegee-Airmen.jpg'
+import cover452nd from '@/images/books/452nd-antiaircraft-artillery-battalion.jpg'
 
 const books = [
   {
@@ -17,6 +18,13 @@ const books = [
       'The 614th Tank Destroyer Battalion was activated on 25 July 1942 at Camp Carson, USA and, like many other…',
     link: { href: 'https://amzn.to/3EPDUcU', label: 'amazon.com' },  
     image: cover614th,
+  },
+  {
+    name: 'The 452nd Anti Aircraft Artillery Battalion',
+    description:
+      'The 452nd Antiaircraft Artillery Battalion, staffed by Black soldiers, protected vital installations and shot down 68 enemy aircraft…',
+    link: { href: 'https://www.amazon.com/452nd-Anti-Aircraft-Artillery-Battalion-Destroyers/dp/B0DK654ZMR', label: 'amazon.com' },  
+    image: cover452nd,
   },
   {
     name: 'The Tuskegee Airmen',
