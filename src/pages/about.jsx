@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import clsx from 'clsx'
 import { useEffect, useState } from "react";
-
+import { Newsletter } from '@/components/Newsletter'
 import { Container } from '@/components/Container'
 import {
   TwitterIcon,
@@ -84,6 +84,8 @@ export default function About() {
               <p>
                 Of course, I'm always open to suggestions, feedback, and comments. If you're interested in writing a review or if you have a great idea for a book, reach out to me!
               </p>
+
+              <Newsletter />
             </div>
             </div>
           </div>

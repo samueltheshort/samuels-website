@@ -53,15 +53,17 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap"
           rel="stylesheet"
         />
-
-        {/* Add MailerLite Universal Script */}
-        <script
-          async
-          src="https://assets.mailerlite.com/js/universal.js"
-          data-account="1402781"
-          type="text/javascript"
-        ></script>
-
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+                .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+                n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+                (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+                ml('account', '1402781');
+              `
+            }}
+          />
       </Head>
       <body className="flex h-full flex-col bg-stone-50 font-['Source_Serif_Pro'] dark:bg-stone-900">
         <Main />
