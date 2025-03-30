@@ -80,7 +80,7 @@ export function Newsletter() {
               disabled={status === 'submitting'}
               className="bg-red-500 hover:bg-red-600 disabled:bg-red-300 text-white p-2 rounded"
             >
-              {status === 'submitting' ? 'Subscribing...' : 'Subscribed'}
+              {status === 'submitting' ? 'Subscribing...' : 'Subscribe'}
             </button>
             
             {status === 'error' && (
