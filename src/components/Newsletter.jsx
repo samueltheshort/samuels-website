@@ -1,125 +1,96 @@
 // components/Newsletter.jsx
-import React, { useEffect, useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 
 export function Newsletter() {
-  const [isClient, setIsClient] = useState(false);
-  const [formStatus, setFormStatus] = useState('idle'); // idle, submitting, success, error
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  // Handle form submission via JavaScript
-  const handleFormSubmit = (e) => {
-    // For client-side only
-    if (!isClient) return;
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [status, setStatus] = useState('idle'); // idle, submitting, success, error
+  const formRef = useRef(null);
+  
+  // Completely custom form that doesn't use MailerLite's HTML
+  const handleSubmit = async (e) => {
+    e.preventDefault(); // Prevent the default form submission
     
-    // Get the form element from the DOM after it's rendered
-    const form = document.querySelector('#newsletter-form');
-    if (!form) return;
+    if (status === 'submitting') return; // Prevent double submissions
     
-    // Add an event listener for form submission
-    form.addEventListener('submit', function(event) {
-      event.preventDefault();
-      setFormStatus('submitting');
-      
-      // Create a FormData object from the form
-      const formData = new FormData(form);
-      
-      // Submit the form data via fetch
-      fetch('https://assets.mailerlite.com/jsonp/1402781/forms/149595039718180275/subscribe', {
-        method: 'POST',
-        body: formData,
-      })
-      .then(response => response.json())
-      .then(data => {
-        if (data.success) {
-          setFormStatus('success');
-          // Show MailerLite success message
-          const successElement = document.querySelector('.ml-form-successBody');
-          const formElement = document.querySelector('.ml-form-embedBodyDefault');
-          if (successElement && formElement) {
-            successElement.style.display = 'block';
-            formElement.style.display = 'none';
-          }
-        } else {
-          setFormStatus('error');
+    setStatus('submitting');
+    
+    const formData = new FormData();
+    formData.append('fields[name]', name);
+    formData.append('fields[email]', email);
+    formData.append('ml-submit', '1');
+    formData.append('anticsrf', 'true');
+    
+    try {
+      // Use fetch API to submit the form data
+      const response = await fetch(
+        'https://assets.mailerlite.com/jsonp/1402781/forms/149595039718180275/subscribe',
+        {
+          method: 'POST',
+          body: formData,
+          // Important: set mode to 'cors' to allow handling the response
+          mode: 'cors',
         }
-      })
-      .catch(error => {
-        console.error('Error:', error);
-        setFormStatus('error');
-      });
-    });
-    
-    // Cleanup
-    return () => {
-      if (form) {
-        form.removeEventListener('submit', handleFormSubmit);
-      }
-    };
+      );
+      
+      setStatus('success');
+      setName('');
+      setEmail('');
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      setStatus('error');
+    }
   };
-
-  useEffect(handleFormSubmit, [isClient]);
-
-  if (!isClient) {
-    // Return a placeholder with similar styling to avoid hydration issues
-    return (
-      <div className="p-6 my-8 bg-stone-100 dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700">
-        <h3 className="text-xl font-semibold mb-2 text-stone-800 dark:text-stone-100">Stay Updated</h3>
-        <p className="mb-4 text-stone-600 dark:text-stone-400">Subscribe to our newsletter for the latest updates and offers.</p>
-        <div className="h-20"></div>
-      </div>
-    );
-  }
-
+  
   return (
     <div className="p-6 my-8 bg-stone-100 dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700">
-      <div 
-        dangerouslySetInnerHTML={{ 
-          __html: `
-            <div id="mlb2-23978422" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-23978422">
-              <div class="ml-form-align-center">
-                <div class="ml-form-embedWrapper embedForm">
-                  <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
-                    <div class="ml-form-embedContent">
-                      <h4 style="color: var(--tw-prose-headings, #1a1a1a); font-size: 1.25rem; margin-bottom: 0.5rem; font-weight: 600;" class="dark:text-stone-100">Newsletter</h4>
-                      <p style="color: var(--tw-prose-body, #374151); margin-bottom: 1rem;" class="dark:text-stone-400">Subscribe to our newsletter for the latest updates and offers.</p>
-                    </div>
-                    <form id="newsletter-form" class="ml-block-form" action="https://assets.mailerlite.com/jsonp/1402781/forms/149595039718180275/subscribe" data-code="" method="post">
-                      <div class="ml-form-formContent">
-                        <div class="ml-form-fieldRow">
-                          <div class="ml-field-group ml-field-name">
-                            <input aria-label="name" type="text" class="form-control" data-inputmask="" name="fields[name]" placeholder="Name" autocomplete="given-name" style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 0.5rem; border-radius: 0.375rem; width: 100%; margin-bottom: 0.75rem;">
-                          </div>
-                        </div>
-                        <div class="ml-form-fieldRow ml-last-item">
-                          <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
-                            <input aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email" style="background-color: #ffffff; border: 1px solid #e5e7eb; padding: 0.5rem; border-radius: 0.375rem; width: 100%;">
-                          </div>
-                        </div>
-                      </div>
-                      <input type="hidden" name="ml-submit" value="1">
-                      <div class="ml-form-embedSubmit" style="margin-top: 1rem;">
-                        <button type="submit" class="primary" style="background-color: #ef4444; color: white; border: none; padding: 0.5rem 1rem; border-radius: 0.375rem; font-weight: 500; cursor: pointer; width: 100%;">
-                          ${formStatus === 'submitting' ? 'Subscribing...' : 'Subscribe'}
-                        </button>
-                      </div>
-                      <input type="hidden" name="anticsrf" value="true">
-                    </form>
-                  </div>
-                  <div class="ml-form-successBody row-success" style="display: none">
-                    <div class="ml-form-successContent">
-                      <h4 style="color: var(--tw-prose-headings, #1a1a1a); font-size: 1.25rem; margin-bottom: 0.5rem; font-weight: 600;" class="dark:text-stone-100">Thank you!</h4>
-                      <p style="color: var(--tw-prose-body, #374151);" class="dark:text-stone-400">You have successfully signed up.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          `
-        }} 
-      />
+      {status === 'success' ? (
+        <div className="text-center">
+          <h4 className="text-xl font-semibold mb-2 text-stone-800 dark:text-stone-100">Thank you!</h4>
+          <p className="text-stone-600 dark:text-stone-400">You have successfully signed up.</p>
+        </div>
+      ) : (
+        <>
+          <h3 className="text-xl font-semibold mb-2 text-stone-800 dark:text-stone-100">Newsletter</h3>
+          <p className="mb-4 text-stone-600 dark:text-stone-400">Subscribe to my newsletter for the latest updates.</p>
+          
+          <form 
+            ref={formRef}
+            onSubmit={handleSubmit} 
+            className="flex flex-col space-y-3"
+          >
+            <input
+              type="text"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              placeholder="Name"
+              required
+              className="p-2 border border-stone-300 dark:border-stone-600 rounded bg-white dark:bg-stone-700 text-stone-800 dark:text-stone-100"
+            />
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="Email"
+              required
+              className="p-2 border border-stone-300 dark:border-stone-600 rounded bg-white dark:bg-stone-700 text-stone-800 dark:text-stone-100"
+            />
+            <button
+              type="submit"
+              disabled={status === 'submitting'}
+              className="bg-red-500 hover:bg-red-600 disabled:bg-red-300 text-white p-2 rounded"
+            >
+              {status === 'submitting' ? 'Subscribing...' : 'Subscribed'}
+            </button>
+            
+            {status === 'error' && (
+              <p className="text-red-500 text-sm">
+                There was an error. Please try again later.
+              </p>
+            )}
+          </form>
+        </>
+      )}
     </div>
   );
 }
