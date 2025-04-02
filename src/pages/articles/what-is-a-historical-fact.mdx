@@ -1,0 +1,107 @@
+
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+import Image from 'next/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import clsx from 'clsx'
+
+import pak75 from '@/images/photos/7,5_cm_Pak_41.jpg'
+import gunm5 from '@/images/614.jpg'
+
+
+export const meta = {
+  author: 'Samuel de Korte',
+  date: '2025-04-02',
+  title: 'What is a Historical Fact? The Simple or Complex Truth About Presenting History.',
+  description:
+    'When reading a history book, people are presented with history and historical facts. However, is there such a thing as a truly objective historical fact? At first glance, a sentence describing an artillery gun’s specifications seems purely factual. But upon closer inspection, even this simple statement is influenced by the societies, history, and cultures that created it. A historical fact is never just a historical fact, it’s a cultural construct that says something about the historical past. A cultural construct refers to the way in which societies shape and define concept. Let’s explore this concept by analyzing two seemingly straightforward statements about antitank guns from World War II!',
+}
+
+export default (props) => (
+  <>
+    {/* Head Section for SEO */}
+    <Head>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      <link rel="canonical" href="https://www.samueldekorte.com/articles/what-is-a-historical-fact" />
+    </Head>
+
+    {/* Article Layout */}
+    <ArticleLayout meta={meta} {...props} />
+  </>
+)
+
+
+# What’s a Historical Fact?
+When reading a history book, people are presented with history and historical facts. However, is there such a thing as a truly objective historical fact? At first glance, a sentence describing an artillery gun’s specifications seems purely factual. But upon closer inspection, even this simple statement is influenced by the societies, history, and cultures that created it. A historical fact is never just a historical fact, it’s a cultural construct that says something about the historical past. A cultural construct refers to the way in which societies shape and define concept. Earlier I wrote about how [non-political history](the-fallacy-of-non-political-history-in-military-history) doesn't exist and let’s explore historical facts by analyzing two seemingly straightforward statements about antitank guns from World War II!
+---
+
+## The Historical Facts
+Facts in history are presented as objective and verifiable. The following two sentences can be interpreted as historical facts: “The American 3-Inch Gun M5 fires a shell with a speed of 793 m/s (AP) and had a maximum firing range of 14.7 km.” and “The 7.5 cm Pak 40 had a muzzle velocity of 933 m/s (AP) and had a maximum firing range of 7,678 metres.” Both sentences describe an antitank weapon used during the Second World War and could appear in a book about antitank guns or in a book describing weapons used during the conflict. It might appear factual and scientific, but it has a cultural aspect as well.
+
+---
+
+## Deconstructing the American 3-Inch Gun M5
+
+  <div className="text-center">
+    <Image
+      src={gunm5}
+      alt="An image of soldiers of the 614th Tank Destroyer Battalion with a M5 anti-tank gun."
+      sizes="(min-width: 200px)"
+      className="rotate-0 bg-stone-100 object-cover dark:bg-stone-800 mx-auto"
+    />
+    <figcaption className="mt-2"><b>An image of Black American soldiers of the 614th Tank Destroyer Battalion with a M5 anti-tank gun.</b></figcaption>
+  </div>
+
+Let’s start with the 3-Inch Gun first: “The American 3-Inch Gun M5 fires a shell with a speed of 793 m/s (AP) and had a maximum firing range of 14.7 km.” This sentence is loaded with cultural influences. This is seen in the measurement systems used. The use of meters per second (m/s) and kilometers (km) reflects the metric system, which originated in France during the French Revolution. This system was later adopted internationally as the Système International d’Unités (SI). 
+However, the name of the gun “3-Inch Gun M5” designation showcases the persistent use of the imperial measurement system in the United States, a legacy of the British and their colonial influence on the USA. The inch, as a unit of measurement, has its roots in ancient civilizations but was standardized by the British after the USA became independent. As such, one gallon in the USA is roughly the same as 0.8 gallon in the UK, which equals around 3.7 liters. 
+Another cultural expression is in the use of comma’s or points to denote decimals. For example, the 14.7 km, which is done in the UK and in the USA, while other countries use a comma for that purpose. 
+As demonstrated with the sentence above, a fact is not just a historical fact, but it represents the culture that created it. In this case, it’s a combination of the metric system, the US measurement system, and the UK or US method of noting decimals.
+
+---
+
+## Analyzing the German 7.5 cm Pak 40
+  <div className="text-center">
+    <Image
+      src={pak75}
+      alt="An image of a 7.5 cm Pak 41."
+      sizes="(min-width: 200px)"
+      className="rotate-0 bg-stone-100 object-cover dark:bg-stone-800 mx-auto"
+    />
+    <figcaption className="mt-2"><b>An image of a 7.5 cm Pak 41.</b></figcaption>
+  </div>
+We can do the same for the other sentence: “The 7.5 cm Pak 40 had a muzzle velocity of 933 m/s (AP) and had a maximum firing range of 7,678 metres.” It’s again loaded with cultural expressions, which will be shown when closely examined. 
+The metric system is used, as seen by the use of centimeters in the gun’s designation, the meters used in the maximing firing distance and the muzzle velocity. The gun is named a “Pak”, which is is an abbreviation of the German word “Panzerabwehrkanone,” meaning anti-tank gun. This nomenclature is specific to German military culture of the time.
+The use of a comma in “7,678” to denote thousands is a cultural choice. Some countries use periods instead, while others use spaces. Lastly, and perhaps you glimpsed over it, but meters is spelled as “metres” with “-re” at the end instead of “-er”. This is commonly done in British English, and it’s another cultural expression in a seemingly factual sentence. 
+
+---
+
+## The Second as Time Measurement
+
+The second is defined as such by [Merriam-Webster Dictionary](https://www.merriam-webster.com/dictionary/second):
+
+> “a: the 60th part of a minute of angular measure.  
+> b: the 60th part of a minute of time : 1/86,400 part of the mean solar day.  
+> specifically: the base unit of time in the International System of Units that is equal to the duration of 9,192,631,770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the cesium-133 atom.”
+
+In both sentences, a second is used as a measurement of time, but there are many other ways of telling the time. In the past sun dials, hourglasses, casting shadows, or other methods were used. While using a hourglass would be ineffective in expressing the muzzle velocity of an antitank gun, it’s advances in sciences and the standardization of measurement units that allow us to read and interpret the sentence today. 
+---
+
+## The Arabic Numerals
+In both examples examined, Arabic numerals (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) are used. They are so common that people might overlook their cultural significance. However, this numeral system has a rich history that further illustrates how deeply cultural constructs are embedded in what people consider “historical facts.”
+What are called the “Arabic numerals” actually came out of India and arrived in Europe through Arabic speakers in Spain and North Africa. Before that, the Roman numerals (I, II, III, IV, V, VI, VII, VIII, IX, X) and other systems were used. Eventually, Europe used the Arabic numerals. These numerals spread through trade, exchange, and colonialism throughout the world. 
+Even the letters in which this is written, Latin, is an expression of culture, while there are many alternative possible, such as the Cyrillic alphabet, Devanagari, or Chinese characters. 
+
+---
+
+## The Cultural Nature of Historical Facts
+
+With these examples, it’s possible to demonstrate that historical facts are not purely objective truths but are shaped by the cultures that create and interpret them. The measurement systems, naming conventions, and even the way we represent numbers and letters are all products of specific cultural and historical contexts. 
+The metric system, for instance, was born out of the Enlightenment-era desire for rationality and universality. The imperial system, used by the British, evolved from diverse local standards. Even the choice to measure and quantify military equipment in such terms reflects cultural values. 
+Moreover, the very act of sharing or remembering these specific details about artillery pieces is a reflection of what a particular person or culture deems important to remember and study about its history. Other cultures might prioritize different aspects of historical events. 
+
+---
+
+## Conclusion
+In conclusion, beyond measurement systems, cultural perspectives also shape which events are recorded, how they are interpreted, and whose voices are included or excluded in historical narratives. The next time you read a historical fact, ask yourself: What cultural lens shaped this information? They are products of complex cultural systems, reflecting the values, history, and worldview of the societies that created them. This reinforces the idea that historical facts are never purely objective but are always presented through layers of cultural constructs. Acknowledging these influences doesn’t diminish history. It enriches our understanding of how the past is remembered and interpreted.

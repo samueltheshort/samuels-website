@@ -1298,6 +1298,15 @@ export const imageData = [
     source: 'United States Heritage and Education Center',
     date: '1 September 1944'
   },
+  {
+    id: 296,
+    name: 'Black Americans of the Women\'s Army Auxiliary Corps receive gasmask training.',
+    description: 'Caption on back: "Testing the gas mask for proper adjustment is a necessary part of the discipline taught all members of the Women\'s Army Auxiliary Corps as a protection against possible chemical attack. This company of Auxiliaries at the First WAAC Training Center at Fort Des Moines, Iowa is drilled in the duty of all members of the nation\'s Services to protect themselves in emergencies. In the testing, the hand is held over the air outlet to check whether or not the equipment is air-tight. ',
+    image: 'black-americans-of-the-womens-army-auxiliary-corps-receive-gasmask-training.jpg',
+    category: 'Training',
+    source: 'From The New York Public Library: Universal Unique Identifier (UUID): 93913a90-c645-012f-68e4-58d385a7bc34 ',
+    date: '24 February 1943'
+  },
 
 ];
 
