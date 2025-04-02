@@ -1307,6 +1307,15 @@ export const imageData = [
     source: 'From The New York Public Library: Universal Unique Identifier (UUID): 93913a90-c645-012f-68e4-58d385a7bc34 ',
     date: '24 February 1943'
   },
+  {
+    id: 297,
+    name: 'Personnel Truck and Trailer of the 3889 Gas Supply Company',
+    description: 'A view of a section Personnel Truck and Trailer with a 30 gallon dispenser of the 3889 Gas Supply Company. This image was taken in Devon, England.',
+    image: 'personnel-truck-and-trailer-of-the-3889-gas-supply-company.jpg',
+    category: 'Quartermaster',
+    source: 'United States Army Heritage and Education Center',
+    date: '20 January 1944'
+  },
 
 ];
 
